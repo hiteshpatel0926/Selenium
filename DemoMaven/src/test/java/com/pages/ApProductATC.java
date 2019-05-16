@@ -1,5 +1,7 @@
 package com.pages;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,7 +50,6 @@ public class ApProductATC {
 			String s1= successmessage.getText();
 			System.out.println(s1);
 			successmessage.getText().contains("Product successfully added to your shopping cart");
-			
 			pname.getText().contains("Faded Short Sleeve T-shirts");
 			pcolor.getText().contains("Orange");
 			qty.getText().contains("1");
