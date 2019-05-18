@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10033" started-at="2019-04-29T06:24:36Z" finished-at="2019-04-29T06:24:46Z">
+  <suite name="Suite" duration-ms="15936" started-at="2019-05-18T13:08:17Z" finished-at="2019-05-18T13:08:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10033" started-at="2019-04-29T06:24:36Z" finished-at="2019-04-29T06:24:46Z">
+    <test name="Test" duration-ms="15936" started-at="2019-05-18T13:08:17Z" finished-at="2019-05-18T13:08:33Z">
       <class name="TestNG.DemoTestNG">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="launchBrowser" is-config="true" duration-ms="9760" started-at="2019-04-29T06:24:36Z" finished-at="2019-04-29T06:24:46Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="launchBrowser" is-config="true" duration-ms="15537" started-at="2019-05-18T13:08:18Z" finished-at="2019-05-18T13:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="verifyHomepageTitle" duration-ms="21" started-at="2019-04-29T06:24:46Z" finished-at="2019-04-29T06:24:46Z">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="verifyHomepageTitle" duration-ms="23" started-at="2019-05-18T13:08:33Z" finished-at="2019-05-18T13:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="terminateBrowser" is-config="true" duration-ms="229" started-at="2019-04-29T06:24:46Z" finished-at="2019-04-29T06:24:46Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:TestNG.DemoTestNG@396a51ab]" name="terminateBrowser" is-config="true" duration-ms="356" started-at="2019-05-18T13:08:33Z" finished-at="2019-05-18T13:08:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
       </class> <!-- TestNG.DemoTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
