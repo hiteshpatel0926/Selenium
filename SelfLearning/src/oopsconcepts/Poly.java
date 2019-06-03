@@ -1,4 +1,4 @@
-package Oops;
+package oopsconcepts;
 
 public class Poly {
 
