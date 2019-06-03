@@ -1,6 +1,6 @@
 package oopsconcepts;
 
-public class S {
+public class ObjComp1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
