@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8" started-at="2019-06-06T04:28:05Z" finished-at="2019-06-06T04:28:05Z">
+  <suite name="Default suite" duration-ms="20741" started-at="2019-06-06T05:58:13Z" finished-at="2019-06-06T05:58:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8" started-at="2019-06-06T04:28:05Z" finished-at="2019-06-06T04:28:05Z">
+    <test name="Default test" duration-ms="20741" started-at="2019-06-06T05:58:13Z" finished-at="2019-06-06T05:58:34Z">
+      <class name="Tests.LoginTests">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Tests.LoginTests@add0edd]" name="initialize" is-config="true" duration-ms="5554" started-at="2019-06-06T05:58:08Z" finished-at="2019-06-06T05:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:Tests.LoginTests@add0edd]" name="setupTestData" is-config="true" duration-ms="593" started-at="2019-06-06T05:58:13Z" finished-at="2019-06-06T05:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Tests.LoginTests@add0edd]" name="Test1" duration-ms="20013" started-at="2019-06-06T05:58:14Z" description="LOGIN" finished-at="2019-06-06T05:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:Tests.LoginTests@add0edd]" name="TeardownTest" is-config="true" duration-ms="993" started-at="2019-06-06T05:58:34Z" finished-at="2019-06-06T05:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- Tests.LoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
