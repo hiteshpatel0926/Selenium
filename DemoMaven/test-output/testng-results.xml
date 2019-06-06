@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51686" started-at="2019-05-29T09:38:29Z" finished-at="2019-05-29T09:39:21Z">
+  <suite name="Default suite" duration-ms="86683" started-at="2019-06-05T11:20:47Z" finished-at="2019-06-05T11:22:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51686" started-at="2019-05-29T09:38:29Z" finished-at="2019-05-29T09:39:21Z">
+    <test name="Default test" duration-ms="86683" started-at="2019-06-05T11:20:47Z" finished-at="2019-06-05T11:22:13Z">
       <class name="com.tests.ScenarioTest2">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tests.ScenarioTest2@ae45eb6]" name="initialize" is-config="true" duration-ms="5811" started-at="2019-05-29T09:38:24Z" finished-at="2019-05-29T09:38:29Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.tests.ScenarioTest2@2ac273d3]" name="initialize" is-config="true" duration-ms="6582" started-at="2019-06-05T11:20:40Z" finished-at="2019-06-05T11:20:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Test2()[pri:1, instance:com.tests.ScenarioTest2@ae45eb6]" name="Test2" duration-ms="13711" started-at="2019-05-29T09:39:07Z" finished-at="2019-05-29T09:39:21Z">
+        <test-method status="PASS" signature="Test2()[pri:1, instance:com.tests.ScenarioTest2@2ac273d3]" name="Test2" duration-ms="9856" started-at="2019-06-05T11:22:04Z" finished-at="2019-06-05T11:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.tests.ScenarioTest2@ae45eb6]" name="TeardownTest" is-config="true" duration-ms="844" started-at="2019-05-29T09:39:21Z" finished-at="2019-05-29T09:39:22Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.tests.ScenarioTest2@2ac273d3]" name="TeardownTest" is-config="true" duration-ms="865" started-at="2019-06-05T11:22:13Z" finished-at="2019-06-05T11:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- com.tests.ScenarioTest2 -->
       <class name="com.tests.ScenarioTest1">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.tests.ScenarioTest1@59f99ea]" name="Test1" duration-ms="37941" started-at="2019-05-29T09:38:29Z" finished-at="2019-05-29T09:39:07Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.tests.ScenarioTest1@71423665]" name="Test1" duration-ms="76795" started-at="2019-06-05T11:20:47Z" finished-at="2019-06-05T11:22:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
