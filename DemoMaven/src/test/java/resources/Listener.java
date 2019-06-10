@@ -13,16 +13,18 @@ public class Listener implements ITestListener {
 	
 	TestBase tb=new TestBase();
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println(result.getName()+" Test Case Started");
 		
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		Log.info("Test Successful");
+		System.out.println(result.getName()+" Test Case Success");
 		
 	}
 
 	public void onTestFailure(ITestResult result) {
+		
+		System.out.println(result.getName()+" Test Case failed");
 		
 		try {
 			tb.getscreenshot();
