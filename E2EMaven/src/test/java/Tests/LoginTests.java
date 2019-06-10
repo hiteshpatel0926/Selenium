@@ -22,7 +22,7 @@ public class LoginTests extends BaseTest {
 		ExcelUtil.setExcelFileSheet("Sheet1");
 	}
 
-	@Test(priority = 0, description = "LOGIN")
+	@Test(priority = 0, description = "LOGIN") 
 	@Severity(SeverityLevel.BLOCKER)
 	@Description("Test Description: Login with Correct User Name & Password")
 	@Story("Valid username and password login test")

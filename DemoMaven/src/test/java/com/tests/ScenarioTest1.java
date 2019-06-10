@@ -16,6 +16,7 @@ public class ScenarioTest1 extends TestBase
 		driver.get("http://automationpractice.com/index.php");
 		ApDefaultHomePage signPage = PageFactory.initElements(driver, ApDefaultHomePage.class);
 		signPage.clickOnSingin();
+		getscreenshot();
 		log.info("Signin Button Click Successful");
 		
 		ApLoginPage loginpage = PageFactory.initElements(driver, ApLoginPage.class);

@@ -53,7 +53,10 @@ public class AutoSuggestiveDD {
 		} else {
 			System.out.println("Element  found");
 		}
-
+		
+		Thread.sleep(5000);
+		driver.close();
+		
 	}
 
 }
