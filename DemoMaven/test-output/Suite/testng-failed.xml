@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.Listener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.tests.ScenarioTest1">
-        <methods>
-          <include name="Test1"/>
-          <include name="TeardownTest"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.tests.ScenarioTest1 -->
       <class name="com.tests.ScenarioTest2">
         <methods>
+          <include name="Test3"/>
           <include name="TeardownTest"/>
-          <include name="Test2"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- com.tests.ScenarioTest2 -->

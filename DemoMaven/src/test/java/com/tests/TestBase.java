@@ -1,5 +1,6 @@
 package com.tests;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.sql.Timestamp;
@@ -13,12 +14,16 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 	public static WebDriver driver = null;
-
+	public WebDriverWait wait;
+	
+	public static final String testDataExcelFileName = "testdata.xlsx";
+	
 	@BeforeSuite
 
 	public void initialize() throws IOException {
@@ -42,7 +47,7 @@ public class TestBase {
 	}
 	
 	
-	public void getscreenshot() throws IOException {
+	public void getscreenshot(String result) throws IOException {
 		
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
@@ -53,10 +58,10 @@ public class TestBase {
 		Timestamp ts = new Timestamp(date.getTime());
 		SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyy_HHmmss");
 		String S1 = formatter.format(ts);
-		System.out.println(formatter.format(ts));
+		//System.out.println(formatter.format(ts));
 
 		StringJoiner sj1 = new StringJoiner("_");
-		String joined = sj1.add("screen print").add(S1).toString();
+		String joined = sj1.add(result).add(S1).toString();
 
 		StringJoiner sj2 = new StringJoiner(".");
 		String fname = sj2.add(joined).add("png").toString();
@@ -65,7 +70,7 @@ public class TestBase {
 		StringJoiner sj3 = new StringJoiner("\\");
 		String DestFile = sj3.add(flpath).add(fname).toString();
 
-		System.out.println(DestFile);
+		//System.out.println(DestFile);
 		FileUtils.copyFile(SrcFile, new File(DestFile));
 		
 	}

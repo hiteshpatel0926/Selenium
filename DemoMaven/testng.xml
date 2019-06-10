@@ -6,8 +6,11 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
+			<class name="com.tests.BasicExtentReport"/>
+			<class name="com.tests.LoginTests"/>
 			<class name="com.tests.ScenarioTest1" />
 			<class name="com.tests.ScenarioTest2" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

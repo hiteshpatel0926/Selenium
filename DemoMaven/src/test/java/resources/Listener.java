@@ -27,7 +27,7 @@ public class Listener implements ITestListener {
 		System.out.println(result.getName()+" Test Case failed");
 		
 		try {
-			tb.getscreenshot();
+			tb.getscreenshot(result.getName());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

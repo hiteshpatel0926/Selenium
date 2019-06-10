@@ -1,5 +1,7 @@
 package com.tests;
 
+import static org.testng.Assert.assertEquals;
+
 import org.apache.logging.log4j.*;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -10,13 +12,12 @@ public class ScenarioTest1 extends TestBase
 	
 	public static Logger log = LogManager.getLogger(ScenarioTest1.class.getName());	
 	
-	@Test (priority = 0)
+	@Test
 	 public void Test1() throws Exception
 	{
 		driver.get("http://automationpractice.com/index.php");
 		ApDefaultHomePage signPage = PageFactory.initElements(driver, ApDefaultHomePage.class);
 		signPage.clickOnSingin();
-		getscreenshot();
 		log.info("Signin Button Click Successful");
 		
 		ApLoginPage loginpage = PageFactory.initElements(driver, ApLoginPage.class);
@@ -45,7 +46,8 @@ public class ScenarioTest1 extends TestBase
 		ApProductATC AddToCart = PageFactory.initElements(driver, ApProductATC.class);
 		AddToCart.ATC();
 		log.info("Product Added to Cart Successful");
-		AddToCart.verification();
+		String st1=AddToCart.verification();
+		assertEquals(st1, "Product successfully added to your shopping cart");
 		log.info("Product verification Successful");
 		
 	}
