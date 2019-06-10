@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
 
-<Properties>
-        <Property name="basePath">C:\\Users\\hiteshpa\\git\\Selenium\\DemoMaven</Property>
-    </Properties>
-    
+	<Properties>
+		<Property name="basePath">C:\\Users\\hiteshpa\\git\\Selenium\\DemoMaven</Property>
+	</Properties>
+
 	<Appenders>
 		<RollingFile name="File" fileName="${basePath}/prints.log"
-			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+			filePattern="${basePath}/prints_%d{yyyy-MM-dd}.log">
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 			<SizeBasedTriggeringPolicy size="5000" />
@@ -17,6 +17,7 @@
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
 	</Appenders>
+
 	<Loggers>
 		<Logger name="com.tests.ScenarioTest1" level="trace"
 			additivity="false">

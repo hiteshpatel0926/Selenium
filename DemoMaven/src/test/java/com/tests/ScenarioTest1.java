@@ -46,8 +46,7 @@ public class ScenarioTest1 extends TestBase
 		ApProductATC AddToCart = PageFactory.initElements(driver, ApProductATC.class);
 		AddToCart.ATC();
 		log.info("Product Added to Cart Successful");
-		String st1=AddToCart.verification();
-		assertEquals(st1, "Product successfully added to your shopping cart");
+		AddToCart.verification();
 		log.info("Product verification Successful");
 		
 	}
