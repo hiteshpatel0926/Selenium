@@ -14,13 +14,12 @@ public class LoginTests extends TestBase {
 	@BeforeTest
 	public void setupTestData() throws Exception {
 		// Set Test Data Excel and Sheet
-		System.out.println("************Setup Test Level Data**********");
 		ExcelUtil.setExcelFileSheet("Sheet1");
 	}
 
 	@Test(priority = 0, description = "LOGIN") 
 	
-	public void Test1() throws Exception {
+	public void TestLogin() throws Exception {
 		driver.get("http://automationpractice.com/index.php");
 		ApDefaultHomePage signPage = PageFactory.initElements(driver, ApDefaultHomePage.class);
 		signPage.clickOnSingin();
@@ -36,7 +35,6 @@ public class LoginTests extends TestBase {
 		loginpage.setPassword(ExcelUtil.getCellData(1,2));
 		loginpage.clickOnLoginButton();
 		
-		driver.close();
 //		System.out.println(ExcelUtil.getCellData(1,1));
 //		System.out.println(ExcelUtil.getCellData(1,2));
 

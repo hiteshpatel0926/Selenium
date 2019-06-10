@@ -28,8 +28,7 @@ public class Google3rdResultTitle {
 		driver.close();
 		driver.switchTo().window(parentId);
 		// System.out.println(driver.getTitle());
-		driver.close();
-
+		
 	}
 
 }

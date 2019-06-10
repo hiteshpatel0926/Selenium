@@ -19,7 +19,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
  
-public class BasicExtentReport {
+public class BasicExtentReport extends TestBase{
 	
 	//builds a new report using the html template 
     ExtentHtmlReporter htmlReporter;
@@ -73,6 +73,7 @@ public class BasicExtentReport {
     @Test
     public void TC4() {
         test = extent.createTest("Test Case 4", "PASSED test case");
+        driver.get("https://www.google.com/");
         Assert.assertTrue(false);
     }
      

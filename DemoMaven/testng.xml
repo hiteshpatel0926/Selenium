@@ -2,15 +2,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="resources.Listener"/>
+		<listener class-name="resources.Listener" />
 	</listeners>
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="Test1">
 		<classes>
-			<class name="com.tests.BasicExtentReport"/>
-			<class name="com.tests.LoginTests"/>
+			<class name="com.tests.BasicExtentReport" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="com.tests.LoginTests" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test3">
+		<classes>
 			<class name="com.tests.ScenarioTest1" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Test4">
+		<classes>
 			<class name="com.tests.ScenarioTest2" />
-			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

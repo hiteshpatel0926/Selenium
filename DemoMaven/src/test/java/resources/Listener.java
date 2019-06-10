@@ -36,7 +36,7 @@ public class Listener implements ITestListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println(result.getName()+" Test Case Skipped");
 		
 	}
 

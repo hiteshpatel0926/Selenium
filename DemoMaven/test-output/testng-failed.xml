@@ -4,7 +4,22 @@
   <listeners>
     <listener class-name="resources.Listener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.tests.BasicExtentReport">
+        <methods>
+          <include name="TC4"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="TC5"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.BasicExtentReport -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test4(failed)">
     <classes>
       <class name="com.tests.ScenarioTest2">
         <methods>
@@ -14,5 +29,5 @@
         </methods>
       </class> <!-- com.tests.ScenarioTest2 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [Suite] -->
