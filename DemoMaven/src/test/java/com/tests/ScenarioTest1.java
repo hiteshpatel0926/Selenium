@@ -9,6 +9,7 @@ public class ScenarioTest1 extends TestBase
 {
 	
 	public static Logger log = LogManager.getLogger(ScenarioTest1.class.getName());	
+	
 	@Test (priority = 0)
 	 public void Test1() throws Exception
 	{
