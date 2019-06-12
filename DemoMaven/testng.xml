@@ -26,5 +26,11 @@
 		<classes>
 			<class name="com.tests.ScenarioTest2" />
 		</classes>
-	</test> <!-- Test -->
+	</test> 
+	<test thread-count="5" name="Test5">
+		<classes>
+			<class name="com.tests.SQLDBTest" />
+		</classes>
+	</test> 
+	<!-- Test -->
 </suite> <!-- Suite -->

@@ -31,4 +31,15 @@
       </class> <!-- com.tests.ScenarioTest2 -->
     </classes>
   </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="com.tests.SQLDBTest">
+        <methods>
+          <include name="DbConnectTest"/>
+          <include name="TeardownTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.SQLDBTest -->
+    </classes>
+  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->
