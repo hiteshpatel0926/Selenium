@@ -17,6 +17,21 @@ public class ReverseString {
 	
 		String R=makereverse(S,len);
 		
+		
+		String input = "Hello World...You are the BEST"; 
+		  
+        StringBuilder input1 = new StringBuilder(); 
+  
+        // append a string into StringBuilder input1 
+        input1.append(input); 
+  
+        // reverse StringBuilder input1 
+        input1 = input1.reverse(); 
+  
+        // print reversed String 
+        System.out.println(input1); 
+		
+		
 	}
 	
 	
