@@ -20,18 +20,6 @@
       </class> <!-- com.tests.BasicExtentReport -->
     </classes>
   </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test2(failed)">
-    <classes>
-      <class name="com.tests.LoginTests">
-        <methods>
-          <include name="TestLogin"/>
-          <include name="TeardownTest"/>
-          <include name="setupTestData"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.tests.LoginTests -->
-    </classes>
-  </test> <!-- Test2(failed) -->
   <test thread-count="5" name="Test4(failed)">
     <classes>
       <class name="com.tests.ScenarioTest2">

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 4 failed,  1 skipped,  5 passed</span>
+                    <span class="method-stats">10 methods, 3 failed,  1 skipped,  6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -113,11 +113,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.tests.ScenarioTest2" class="method navigator-link" hash-for-method="Test2">Test2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.tests.LoginTests" class="method navigator-link" hash-for-method="TestLogin">TestLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -166,6 +161,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.tests.ScenarioTest2" class="method navigator-link" hash-for-method="Test3">Test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tests.LoginTests" class="method navigator-link" hash-for-method="TestLogin">TestLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -271,28 +271,6 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.tests.LoginTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TestLogin">
-                  </a> <!-- TestLogin -->
-                  <span class="method-name">TestLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at Utils.excelutils.ExcelUtil.getCellData(ExcelUtil.java:86)
-	at com.tests.LoginTests.TestLogin(LoginTests.java:34)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(LOGIN)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -367,6 +345,23 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
                   <a name="Test1">
                   </a> <!-- Test1 -->
                   <span class="method-name">Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestLogin">
+                  </a> <!-- TestLogin -->
+                  <span class="method-name">TestLogin</span>
+                  <em>
+(LOGIN)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -463,39 +458,39 @@ data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test1')
 data.setCell(0, 2, 'com.tests.ScenarioTest1')
-data.setCell(0, 3, 52445);
+data.setCell(0, 3, 63852);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Test3')
+data.setCell(1, 1, 'Test2')
 data.setCell(1, 2, 'com.tests.ScenarioTest2')
-data.setCell(1, 3, 26149);
+data.setCell(1, 3, 44888);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TestLogin')
 data.setCell(2, 2, 'com.tests.LoginTests')
-data.setCell(2, 3, 17600);
+data.setCell(2, 3, 33273);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Test2')
+data.setCell(3, 1, 'Test3')
 data.setCell(3, 2, 'com.tests.ScenarioTest2')
-data.setCell(3, 3, 10610);
+data.setCell(3, 3, 25351);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'DbConnectTest')
-data.setCell(4, 2, 'com.tests.SQLDBTest')
-data.setCell(4, 3, 3923);
+data.setCell(4, 1, 'TC4')
+data.setCell(4, 2, 'com.tests.BasicExtentReport')
+data.setCell(4, 3, 10017);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'TC4')
-data.setCell(5, 2, 'com.tests.BasicExtentReport')
-data.setCell(5, 3, 3111);
+data.setCell(5, 1, 'DbConnectTest')
+data.setCell(5, 2, 'com.tests.SQLDBTest')
+data.setCell(5, 3, 4450);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'TC1')
 data.setCell(6, 2, 'com.tests.BasicExtentReport')
-data.setCell(6, 3, 51);
+data.setCell(6, 3, 56);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'TC3')
 data.setCell(7, 2, 'com.tests.BasicExtentReport')
-data.setCell(7, 3, 17);
+data.setCell(7, 3, 23);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'TC5')
 data.setCell(8, 2, 'com.tests.BasicExtentReport')
-data.setCell(8, 3, 13);
+data.setCell(8, 3, 11);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'TC2')
 data.setCell(9, 2, 'com.tests.BasicExtentReport')
@@ -504,7 +499,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -544,131 +539,129 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">startReport(null, null)</span>
-                <span class="method-start">8281 ms</span>
+                <span class="method-start">8085 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TC1</span>
-                <span class="method-start">8795 ms</span>
+                <span class="method-start">8616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC1 status=SUCCESS method=BasicExtentReport.TC1()[pri:0, instance:com.tests.BasicEx...)</span>
-                <span class="method-start">8856 ms</span>
+                <span class="method-start">8696 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">TC2</span>
-                <span class="method-start">8884 ms</span>
+                <span class="method-start">8728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC2 status=SUCCESS method=BasicExtentReport.TC2()[pri:0, instance:com.tests.BasicEx...)</span>
-                <span class="method-start">8898 ms</span>
+                <span class="method-start">8740 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">TC3</span>
-                <span class="method-start">8900 ms</span>
+                <span class="method-start">8743 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC3 status=SUCCESS method=BasicExtentReport.TC3()[pri:0, instance:com.tests.BasicEx...)</span>
-                <span class="method-start">8922 ms</span>
+                <span class="method-start">8772 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC4</span>
-                <span class="method-start">8924 ms</span>
+                <span class="method-start">8780 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC4 status=FAILURE method=BasicExtentReport.TC4()[pri:0, instance:com.tests.BasicEx...)</span>
-                <span class="method-start">12701 ms</span>
+                <span class="method-start">19569 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">TC5</span>
-                <span class="method-start">12715 ms</span>
+                <span class="method-start">19584 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=TC5 status=SKIP method=BasicExtentReport.TC5()[pri:0, instance:com.tests.BasicExten...)</span>
-                <span class="method-start">12739 ms</span>
+                <span class="method-start">19605 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12756 ms</span>
+                <span class="method-start">19627 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">14372 ms</span>
+                <span class="method-start">22062 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">15479 ms</span>
+                <span class="method-start">23318 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">setupTestData</span>
-                <span class="method-start">20387 ms</span>
+                <span class="method-start">28764 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">TestLogin</span>
-                <span class="method-start">20417 ms</span>
+                <span class="method-start">31537 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">38889 ms</span>
+                <span class="method-start">64840 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.ScenarioTest1</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">39910 ms</span>
+                <span class="method-start">65800 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Test1</span>
-                <span class="method-start">44389 ms</span>
+                <span class="method-start">70420 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">96839 ms</span>
+                <span class="method-start">134277 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.ScenarioTest2</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">97830 ms</span>
+                <span class="method-start">135200 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Test2</span>
-                <span class="method-start">102782 ms</span>
+                <span class="method-start">141008 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test3</span>
-                <span class="method-start">115142 ms</span>
+                <span class="method-start">186677 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">141336 ms</span>
+                <span class="method-start">212033 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tests.SQLDBTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">142780 ms</span>
+                <span class="method-start">213164 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">DbConnectTest</span>
-                <span class="method-start">149077 ms</span>
+                <span class="method-start">219453 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">153784 ms</span>
+                <span class="method-start">224497 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

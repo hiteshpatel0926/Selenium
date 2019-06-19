@@ -65,6 +65,10 @@ public class ExcelUtil {
         } else if (Platform.getCurrent().toString().contains("WIN")) {
             testDataExcelPath = currentDir + "\\src\\test\\java\\resources\\";
         }
+        else {
+        	testDataExcelPath = currentDir + "\\src\\test\\java\\resources\\";
+        }
+        
         try {
             // Open the Excel file
             FileInputStream ExcelFile = new FileInputStream(testDataExcelPath + testDataExcelFileName);
