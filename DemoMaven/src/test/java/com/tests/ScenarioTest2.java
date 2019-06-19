@@ -33,7 +33,7 @@ public class ScenarioTest2 extends TestBase
 	@Test
 	public void Test3() {
 		driver.get("https://news.google.com/");
-		assertEquals(driver.getTitle(),"Google");
+		assertEquals(driver.getTitle(),"Google News");
 		
 	}
 }

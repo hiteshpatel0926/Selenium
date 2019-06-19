@@ -35,8 +35,8 @@ public class LoginTests extends TestBase {
 		loginpage.setPassword(ExcelUtil.getCellData(1,2));
 		loginpage.clickOnLoginButton();
 		
-//		System.out.println(ExcelUtil.getCellData(1,1));
-//		System.out.println(ExcelUtil.getCellData(1,2));
+		System.out.println(ExcelUtil.getCellData(1,1));
+		System.out.println(ExcelUtil.getCellData(1,2));
 
 	}
 

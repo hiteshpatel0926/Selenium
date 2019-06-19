@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="resources.Listener"/>
     <listener class-name="resources.ExtentReporterNG"/>
@@ -20,12 +20,24 @@
       </class> <!-- com.tests.BasicExtentReport -->
     </classes>
   </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.tests.LoginTests">
+        <methods>
+          <include name="TestLogin"/>
+          <include name="TeardownTest"/>
+          <include name="setupTestData"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.LoginTests -->
+    </classes>
+  </test> <!-- Test2(failed) -->
   <test thread-count="5" name="Test4(failed)">
     <classes>
       <class name="com.tests.ScenarioTest2">
         <methods>
-          <include name="Test3"/>
           <include name="TeardownTest"/>
+          <include name="Test2"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- com.tests.ScenarioTest2 -->

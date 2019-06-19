@@ -32,7 +32,7 @@ public class TestBase {
 	public void initialize() throws IOException {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hiteshpa\\Downloads\\SELENIUM\\drivers\\chromedriver.exe");
+				"E:\\WebDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		// To maximize browser
 		driver.manage().window().maximize();
@@ -69,7 +69,7 @@ public class TestBase {
 		StringJoiner sj2 = new StringJoiner(".");
 		String fname = sj2.add(joined).add("png").toString();
 
-		String flpath = "C:\\Users\\hiteshpa\\git\\Selenium\\DemoMaven\\Screenshots";
+		String flpath = "C:\\Users\\Hiteshkumar Patel\\git\\Selenium\\DemoMaven\\Screenshots";
 		StringJoiner sj3 = new StringJoiner("\\");
 		String DestFile = sj3.add(flpath).add(fname).toString();
 

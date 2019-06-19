@@ -2,7 +2,7 @@
 <Configuration status="WARN">
 
 	<Properties>
-		<Property name="basePath">C:\\Users\\hiteshpa\\git\\Selenium\\DemoMaven</Property>
+		<Property name="basePath">C:\\Users\\Hiteshkumar Patel\\git\\Selenium\\DemoMaven</Property>
 	</Properties>
 
 	<Appenders>
