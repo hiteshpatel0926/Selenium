@@ -9,7 +9,7 @@
 	</listeners>
 	<test thread-count="5" name="Test1">
 		<classes>
-			<class name="com.tests.DPExcelSFDCLoginTCName" />
+			<class name="com.tests.Test200" />
 		</classes>
 	</test> 
 	<!-- Test -->

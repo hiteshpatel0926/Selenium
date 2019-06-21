@@ -28,13 +28,12 @@ public class LoginTests extends TestBase {
 		ExcelUtil.setRowNumber(1);
 		ExcelUtil.setColumnNumber(1);
 		
+		
 		loginpage.setEmail(ExcelUtil.getCellData(1,1));
 		loginpage.setPassword(ExcelUtil.getCellData(1,2));
 		loginpage.clickOnLoginButton();
 		
-		System.out.println(ExcelUtil.getCellData(1,1));
-		System.out.println(ExcelUtil.getCellData(1,2));
-		
+				
 		ExcelUtil.setRowNumber(1);
 		ExcelUtil.setColumnNumber(3);
 		ExcelUtil.setCellData("Passed", ExcelUtil.getRowNumber(), ExcelUtil.getColumnNumber());
