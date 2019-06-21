@@ -16,7 +16,7 @@ public class SQLDBTest extends TestBase {
 		
 		//Connection URL Syntax: "jdbc:mysql://ipaddress:portnumber/db_name"
 		
-		String dbUrl = "jdbc:mysql://10.124.132.33:3036/employees";
+		String dbUrl = "jdbc:mysql://192.168.43.220:3036/employees";
 		String username = "root";
 
 		String password="Coke@123";

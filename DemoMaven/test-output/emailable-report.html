@@ -8,71 +8,13 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">3</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">23,283</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">42,438</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">69,385</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Test4</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">77,910</td><td></td><td></td></tr>
-<tr><td><a href="#t4">Test5</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,242</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num attn">1</th><th class="num attn">3</th><th class="num">225,258</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">50,221</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tests.BasicExtentReport</td><td><a href="#m0">TC4</a></td><td rowspan="1">1560961298726</td><td rowspan="1">10017</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.tests.BasicExtentReport</td><td><a href="#m1">TC5</a></td><td rowspan="1">1560961309530</td><td rowspan="1">11</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.tests.BasicExtentReport</td><td><a href="#m2">TC1</a></td><td rowspan="1">1560961298562</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m3">TC2</a></td><td rowspan="1">1560961298674</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m4">TC3</a></td><td rowspan="1">1560961298689</td><td rowspan="1">23</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.tests.LoginTests</td><td><a href="#m5">TestLogin</a></td><td rowspan="1">1560961321483</td><td rowspan="1">33273</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.tests.ScenarioTest1</td><td><a href="#m6">Test1</a></td><td rowspan="1">1560961360366</td><td rowspan="1">63852</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Test4 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tests.ScenarioTest2</td><td><a href="#m7">Test2</a></td><td rowspan="1">1560961430954</td><td rowspan="1">44888</td></tr><tr><th colspan="4">Test4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.tests.ScenarioTest2</td><td><a href="#m8">Test3</a></td><td rowspan="1">1560961476623</td><td rowspan="1">25351</td></tr></tbody>
-<tbody id="t4"><tr><th colspan="4">Test5 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tests.SQLDBTest</td><td><a href="#m9">DbConnectTest</a></td><td rowspan="1">1560961509399</td><td rowspan="1">4450</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.tests.DataProviderSFDCLogin</td><td><a href="#m0">SFDCLogincheck</a></td><td rowspan="3">1561097418032</td><td rowspan="3">22588</td></tr><tr class="passedeven"><td><a href="#m1">SFDCLogincheck</a></td></tr><tr class="passedeven"><td><a href="#m2">SFDCLogincheck</a></td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">com.tests.BasicExtentReport#TC4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.tests.BasicExtentReport.TC4(BasicExtentReport.java:77)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.tests.BasicExtentReport#TC5</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this test with exception
-	at com.tests.BasicExtentReport.TC5(BasicExtentReport.java:83)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.tests.BasicExtentReport#TC1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.tests.BasicExtentReport#TC2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.tests.BasicExtentReport#TC3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m5">com.tests.LoginTests#TestLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test3</h2><h3 id="m6">com.tests.ScenarioTest1#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test4</h2><h3 id="m7">com.tests.ScenarioTest2#Test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.util.NoSuchElementException
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)
-	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:741)
-	at com.pages.Google3rdResultTitle.TitleVerification(Google3rdResultTitle.java:22)
-	at com.tests.ScenarioTest2.Test2(ScenarioTest2.java:28)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.tests.ScenarioTest2#Test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test5</h2><h3 id="m9">com.tests.SQLDBTest#DbConnectTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
-	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:455)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
-	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
-	at com.tests.SQLDBTest.DbConnectTest(SQLDBTest.java:31)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
-	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:562)
-	at com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:514)
-	at com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:404)
-	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1450)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:165)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
-	... 31 more
-Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
-	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:67)
-	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
-	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
-	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:556)
-	... 37 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.tests.DataProviderSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Guru99</td><td>India</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tests.DataProviderSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Krishna</td><td>UK</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tests.DataProviderSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Bhupesh</td><td>USA</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
