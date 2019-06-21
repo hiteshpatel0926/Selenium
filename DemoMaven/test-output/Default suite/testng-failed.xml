@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.DataProviderSFDCLogin">
+      <class name="com.tests.DataProviderSFDCLogin2">
         <methods>
-          <include name="SFDCLogincheck" invocation-numbers="0 1 2"/>
           <include name="TeardownTest"/>
+          <include name="SFDCLogincheck" invocation-numbers="0"/>
           <include name="initialize"/>
         </methods>
-      </class> <!-- com.tests.DataProviderSFDCLogin -->
+      </class> <!-- com.tests.DataProviderSFDCLogin2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

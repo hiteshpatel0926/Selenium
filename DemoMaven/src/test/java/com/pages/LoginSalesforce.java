@@ -26,6 +26,6 @@ public class LoginSalesforce {
 			SFlogin.click();
 			String SFerror=SFloginError.getText();
 			SFerror.compareToIgnoreCase("Please check your username and password. If you still can't log in, contact your Salesforce administrator.");
-						
+			SFerror.contains("Please check your username and password");		
 		}
 }

@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-21T06:10:12Z" name="Default suite" finished-at="2019-06-21T06:11:03Z" duration-ms="50221">
+  <suite started-at="2019-06-21T07:53:16Z" name="Default suite" finished-at="2019-06-21T07:53:42Z" duration-ms="26686">
     <groups>
     </groups>
-    <test started-at="2019-06-21T06:10:12Z" name="Default test" finished-at="2019-06-21T06:11:03Z" duration-ms="50221">
-      <class name="com.tests.DataProviderSFDCLogin">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.DataProviderSFDCLogin@1fe20588]" started-at="2019-06-21T06:10:12Z" name="initialize" finished-at="2019-06-21T06:10:17Z" duration-ms="5025" status="PASS">
+    <test started-at="2019-06-21T07:53:16Z" name="Default test" finished-at="2019-06-21T07:53:42Z" duration-ms="26686">
+      <class name="com.tests.LoginTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.LoginTests@1fe20588]" started-at="2019-06-21T07:53:16Z" name="initialize" finished-at="2019-06-21T07:53:21Z" duration-ms="5231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DataProviderSFDCLogin@1fe20588]" started-at="2019-06-21T06:10:18Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-06-21T06:10:40Z" duration-ms="22588" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Guru99]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.tests.LoginTests@1fe20588]" started-at="2019-06-21T07:53:21Z" name="setupTestData" finished-at="2019-06-21T07:53:22Z" depends-on-methods="com.tests.TestBase.initialize" duration-ms="1409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DataProviderSFDCLogin@1fe20588]" started-at="2019-06-21T06:10:40Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-06-21T06:10:51Z" duration-ms="10920" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Krishna]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UK]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="TestLogin()[pri:0, instance:com.tests.LoginTests@1fe20588]" started-at="2019-06-21T07:53:22Z" name="TestLogin" description="LOGIN" finished-at="2019-06-21T07:53:41Z" duration-ms="19106" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DataProviderSFDCLogin@1fe20588]" started-at="2019-06-21T06:10:51Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-06-21T06:11:02Z" duration-ms="10683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bhupesh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SFDCLogincheck -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.DataProviderSFDCLogin@1fe20588]" started-at="2019-06-21T06:11:02Z" name="TeardownTest" finished-at="2019-06-21T06:11:03Z" duration-ms="934" status="PASS">
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.LoginTests@1fe20588]" started-at="2019-06-21T07:53:41Z" name="TeardownTest" finished-at="2019-06-21T07:53:42Z" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
-      </class> <!-- com.tests.DataProviderSFDCLogin -->
+      </class> <!-- com.tests.LoginTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -9,50 +9,52 @@ import org.testng.ITestResult;
 
 import com.tests.TestBase;
 
+import Utils.excelutils.ExcelUtil;
+
 public class Listener implements ITestListener {
-	
-	TestBase tb=new TestBase();
+
+	TestBase tb = new TestBase();
+
 	public void onTestStart(ITestResult result) {
-		System.out.println(result.getName()+" Test Case Started");
-		
+		System.out.println(result.getName() + " Test Case Started");
+
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println(result.getName()+" Test Case Success");
-		
+		System.out.println(result.getName() + " Test Case Success");
+
 	}
 
 	public void onTestFailure(ITestResult result) {
-		
-		System.out.println(result.getName()+" Test Case failed");
-		
+
+		System.out.println(result.getName() + " Test Case failed");
+
 		try {
 			tb.getscreenshot(result.getName());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		System.out.println(result.getName()+" Test Case Skipped");
-		
+		System.out.println(result.getName() + " Test Case Skipped");
+
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public void onStart(ITestContext context) {
 		Log.info("Test Started");
-		
+
 	}
 
 	public void onFinish(ITestContext context) {
 		Log.info("Test Finished");
-		
+
 	}
 
 }

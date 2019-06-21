@@ -9,27 +9,7 @@
 	</listeners>
 	<test thread-count="5" name="Test1">
 		<classes>
-			<class name="com.tests.BasicExtentReport" />
-		</classes>
-	</test>
-	<test thread-count="5" name="Test2">
-		<classes>
-			<class name="com.tests.LoginTests" />
-		</classes>
-	</test>
-	<test thread-count="5" name="Test3">
-		<classes>
-			<class name="com.tests.ScenarioTest1" />
-		</classes>
-	</test>
-	<test thread-count="5" name="Test4">
-		<classes>
-			<class name="com.tests.ScenarioTest2" />
-		</classes>
-	</test> 
-	<test thread-count="5" name="Test5">
-		<classes>
-			<class name="com.tests.SQLDBTest" />
+			<class name="com.tests.DPExcelSFDCLoginTCName" />
 		</classes>
 	</test> 
 	<!-- Test -->

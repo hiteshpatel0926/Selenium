@@ -55,7 +55,7 @@ public class TestBase {
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
 		
-		// Generating file Name with Data & Time Stamp
+		// Generating file Name with Date & Time Stamp
 
 		Date date = new Date();
 		Timestamp ts = new Timestamp(date.getTime());
