@@ -31,6 +31,7 @@ public class ArrayLst {
         sarray.add("Ravi");
         sarray.add("Jatan");
         sarray.add(2, "New Added");
+              
         System.out.println(sarray);
 	
 	}
