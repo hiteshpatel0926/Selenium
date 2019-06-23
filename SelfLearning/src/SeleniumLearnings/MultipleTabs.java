@@ -1,4 +1,4 @@
-package Learnings;
+package SeleniumLearnings;
 
 import java.util.Iterator;
 import java.util.Set;

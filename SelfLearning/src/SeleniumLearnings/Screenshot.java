@@ -1,4 +1,4 @@
-package Learnings;
+package SeleniumLearnings;
 
 import java.io.File;
 import java.io.IOException;
