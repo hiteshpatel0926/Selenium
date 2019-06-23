@@ -20,7 +20,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.Test;
 
-public class Test200 extends TestBase {
+public class ScenarioTest3 extends TestBase {
 
 	@Test
 	public void ReadExcelStoreHashMap() {

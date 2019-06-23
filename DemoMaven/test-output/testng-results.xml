@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-21T14:22:36Z" name="Default suite" finished-at="2019-06-21T14:22:52Z" duration-ms="16404">
+  <suite started-at="2019-06-23T10:46:05Z" name="Default suite" finished-at="2019-06-23T10:46:57Z" duration-ms="51854">
     <groups>
     </groups>
-    <test started-at="2019-06-21T14:22:36Z" name="Default test" finished-at="2019-06-21T14:22:52Z" duration-ms="16404">
-      <class name="com.tests.Test200">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.Test200@4278a03f]" started-at="2019-06-21T14:22:36Z" name="initialize" finished-at="2019-06-21T14:22:48Z" duration-ms="12148" status="PASS">
+    <test started-at="2019-06-23T10:46:05Z" name="Default test" finished-at="2019-06-23T10:46:57Z" duration-ms="51854">
+      <class name="com.tests.ScenarioTest3">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:05Z" name="initialize" finished-at="2019-06-23T10:46:44Z" duration-ms="39467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="ReadExcelStoreHashMap()[pri:0, instance:com.tests.Test200@4278a03f]" started-at="2019-06-21T14:22:48Z" name="ReadExcelStoreHashMap" description="ReadExcelStoreHashMap" finished-at="2019-06-21T14:22:51Z" duration-ms="3076" status="PASS">
+        <test-method signature="ReadExcelStoreHashMap()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:44Z" name="ReadExcelStoreHashMap" finished-at="2019-06-23T10:46:56Z" duration-ms="11439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadExcelStoreHashMap -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.Test200@4278a03f]" started-at="2019-06-21T14:22:51Z" name="TeardownTest" finished-at="2019-06-21T14:22:52Z" duration-ms="1044" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:56Z" name="TeardownTest" finished-at="2019-06-23T10:46:57Z" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
-      </class> <!-- com.tests.Test200 -->
+      </class> <!-- com.tests.ScenarioTest3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
