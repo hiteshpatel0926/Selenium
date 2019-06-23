@@ -1,4 +1,4 @@
-package oopsconcepts;
+package OOP1;
 
 public class ObjComp1 {
 

@@ -1,4 +1,4 @@
-package FindObjects;
+package SeleniumLearnings;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
