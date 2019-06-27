@@ -39,5 +39,24 @@
 	<classpathentry kind="lib" path="E:/poi-bin-4.1.0-20190412/poi-4.1.0/poi-ooxml-4.1.0.jar"/>
 	<classpathentry kind="lib" path="E:/poi-bin-4.1.0-20190412/poi-4.1.0/poi-ooxml-schemas-4.1.0.jar"/>
 	<classpathentry kind="lib" path="E:/poi-bin-4.1.0-20190412/poi-4.1.0/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hiteshkumar Patel/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar" sourcepath="C:/Users/Hiteshkumar Patel/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="6.14.3"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Hiteshkumar Patel/.m2/repository/org/testng/testng/6.8/testng-6.8.jar" sourcepath="C:/Users/Hiteshkumar Patel/.m2/repository/org/testng/testng/6.8/testng-6.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="6.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
