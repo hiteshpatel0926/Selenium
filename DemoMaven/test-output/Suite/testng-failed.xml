@@ -14,6 +14,32 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- com.tests.ScenarioTest2 -->
+      <class name="com.tests.SQLDBTest">
+        <methods>
+          <include name="DbConnectTest"/>
+          <include name="TeardownTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.SQLDBTest -->
+      <class name="com.tests.BasicExtentReport">
+        <methods>
+          <include name="TC4"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="TC5"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.BasicExtentReport -->
+      <class name="com.tests.ExcelSFDCLogin">
+        <methods>
+          <include name="setupTestData"/>
+          <include name="SFDCLogincheck"/>
+          <include name="TeardownTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.tests.ExcelSFDCLogin -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

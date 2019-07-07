@@ -9,7 +9,15 @@
 	</listeners>
 	<test thread-count="5" name="Test1">
 		<classes>
-			<class name="com.tests.ScenarioTest2" />
+		<class name="com.tests.BasicExtentReport" />
+		<class name="com.tests.DPExcelSFDCLogin" />
+		<class name="com.tests.DPExcelSFDCLoginTCName" />
+		<class name="com.tests.DPSFDCLogin" />
+		<class name="com.tests.ExcelSFDCLogin" />
+		<class name="com.tests.ScenarioTest1" />
+		<class name="com.tests.ScenarioTest2" />
+		<class name="com.tests.ScenarioTest3" />
+		<class name="com.tests.SQLDBTest" />
 		</classes>
 	</test> 
 	<!-- Test -->

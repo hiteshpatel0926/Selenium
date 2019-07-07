@@ -9,12 +9,72 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,775</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">14</td><td class="num attn">1</td><td class="num attn">4</td><td class="num">220,127</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tests.ScenarioTest2</td><td><a href="#m0">Test3</a></td><td rowspan="1">1562499479774</td><td rowspan="1">13445</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tests.BasicExtentReport</td><td><a href="#m0">TC4</a></td><td rowspan="1">1562503685355</td><td rowspan="1">2768</td></tr><tr class="failedodd"><td rowspan="1">com.tests.ExcelSFDCLogin</td><td><a href="#m1">SFDCLogincheck</a></td><td rowspan="1">1562503826578</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.tests.SQLDBTest</td><td><a href="#m2">DbConnectTest</a></td><td rowspan="1">1562503887968</td><td rowspan="1">1492</td></tr><tr class="failedodd"><td rowspan="1">com.tests.ScenarioTest2</td><td><a href="#m3">Test3</a></td><td rowspan="1">1562503873464</td><td rowspan="1">13412</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.tests.BasicExtentReport</td><td><a href="#m4">TC5</a></td><td rowspan="1">1562503688715</td><td rowspan="1">7</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.tests.BasicExtentReport</td><td><a href="#m5">TC1</a></td><td rowspan="1">1562503685293</td><td rowspan="1">22</td></tr><tr class="passedeven"><td><a href="#m6">TC2</a></td><td rowspan="1">1562503685340</td><td rowspan="1">6</td></tr><tr class="passedeven"><td><a href="#m7">TC3</a></td><td rowspan="1">1562503685350</td><td rowspan="1">2</td></tr><tr class="passedodd"><td rowspan="5">com.tests.DPExcelSFDCLogin</td><td><a href="#m8">SFDCLogincheck</a></td><td rowspan="5">1562503731023</td><td rowspan="5">11174</td></tr><tr class="passedodd"><td><a href="#m9">SFDCLogincheck</a></td></tr><tr class="passedodd"><td><a href="#m10">SFDCLogincheck</a></td></tr><tr class="passedodd"><td><a href="#m11">SFDCLogincheck</a></td></tr><tr class="passedodd"><td><a href="#m12">SFDCLogincheck</a></td></tr><tr class="passedeven"><td rowspan="1">com.tests.DPExcelSFDCLoginTCName</td><td><a href="#m13">SFDCLogincheck</a></td><td rowspan="1">1562503763058</td><td rowspan="1">19050</td></tr><tr class="passedodd"><td rowspan="3">com.tests.DPSFDCLogin</td><td><a href="#m14">SFDCLogincheck</a></td><td rowspan="3">1562503804861</td><td rowspan="3">10948</td></tr><tr class="passedodd"><td><a href="#m15">SFDCLogincheck</a></td></tr><tr class="passedodd"><td><a href="#m16">SFDCLogincheck</a></td></tr><tr class="passedeven"><td rowspan="1">com.tests.ScenarioTest1</td><td><a href="#m17">Test1</a></td><td rowspan="1">1562503829450</td><td rowspan="1">43999</td></tr><tr class="passedodd"><td rowspan="1">com.tests.ScenarioTest3</td><td><a href="#m18">ReadExcelStoreHashMap</a></td><td rowspan="1">1562503887772</td><td rowspan="1">185</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">com.tests.ScenarioTest2#Test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Google] but found [Google News]
+<h2>Test1</h2><h3 id="m0">com.tests.BasicExtentReport#TC4</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.tests.BasicExtentReport.TC4(BasicExtentReport.java:77)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tests.ExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [SFDCLogincheck] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tests.SQLDBTest#DbConnectTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.&lt;init&gt;(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.tests.SQLDBTest.DbConnectTest(SQLDBTest.java:31)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 31 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 34 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tests.ScenarioTest2#Test3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Google] but found [Google News]
 	at com.tests.ScenarioTest2.Test3(ScenarioTest2.java:36)
 ... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tests.BasicExtentReport#TC5</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping this test with exception
+	at com.tests.BasicExtentReport.TC5(BasicExtentReport.java:83)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tests.BasicExtentReport#TC1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tests.BasicExtentReport#TC2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tests.BasicExtentReport#TC3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.tests.DPExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_4</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.tests.DPExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_5</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.tests.DPExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_1</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.tests.DPExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_3</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.tests.DPExcelSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_2</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.tests.DPExcelSFDCLoginTCName#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HP_TEST_1</td><td>Gtl@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.tests.DPSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Krishna</td><td>UK</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.tests.DPSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Guru99</td><td>India</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.tests.DPSFDCLogin#SFDCLogincheck</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Bhupesh</td><td>USA</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.tests.ScenarioTest1#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.tests.ScenarioTest3#ReadExcelStoreHashMap</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

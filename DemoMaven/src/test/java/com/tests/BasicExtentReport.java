@@ -53,38 +53,38 @@ public class BasicExtentReport extends TestBase{
     }
      
     @Test
-    public void TC1() {
+    public void ETC1() {
         test = extent.createTest("Test Case 1", "PASSED test case");
         Assert.assertTrue(true);
     }
     
     @Test
-    public void TC2() {
+    public void ETC2() {
         test = extent.createTest("Test Case 2", "PASSED test case");
         Assert.assertTrue(true);
     }
     
     @Test
-    public void TC3() {
+    public void ETC3() {
         test = extent.createTest("Test Case 3", "PASSED test case");
         Assert.assertTrue(true);
     }
      
     @Test
-    public void TC4() {
+    public void ETC4() {
         test = extent.createTest("Test Case 4", "PASSED test case");
         driver.get("https://www.google.com/");
         Assert.assertTrue(false);
     }
      
     @Test
-    public void TC5() {
+    public void ETC5() {
         test = extent.createTest("Test Case 5", "SKIPPED test case");
         throw new SkipException("Skipping this test with exception");
     }
     
     @Test(enabled=false)
-	public void TC6(){
+	public void ETC6(){
 			test = extent.createTest("Test Case 6", "I'm Not Ready, please don't execute me");
 		}
    

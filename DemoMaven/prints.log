@@ -10,3 +10,11 @@
 21:54:35.816 [main] INFO  com.tests.ScenarioTest2 - Clicking on 3rd Result from Google Search Successful
 16:49:43.748 [main] INFO  com.tests.ScenarioTest2 - Google Search Successful
 16:49:44.651 [main] INFO  com.tests.ScenarioTest2 - Clicking on 3rd Result from Google Search Successful
+18:20:42.744 [main] INFO  com.tests.ScenarioTest1 - Signin Button Click Successful
+18:20:46.041 [main] INFO  com.tests.ScenarioTest1 - Login Successful
+18:20:52.939 [main] INFO  com.tests.ScenarioTest1 - Clicking on Woman Tab Successful
+18:20:55.466 [main] INFO  com.tests.ScenarioTest1 - Clicking on Tops inside Woman Tab Successful
+18:20:58.591 [main] INFO  com.tests.ScenarioTest1 - Clicking on Tshirts inside Woman Tab>>Tops Successful
+18:21:02.605 [main] INFO  com.tests.ScenarioTest1 - Clicking on Product Successful
+18:21:12.871 [main] INFO  com.tests.ScenarioTest1 - Product Added to Cart Successful
+18:21:13.449 [main] INFO  com.tests.ScenarioTest1 - Product verification Successful
