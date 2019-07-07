@@ -1,4 +1,6 @@
 package SeleniumLearnings;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -10,7 +12,7 @@ public class TEST {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hiteshpa\\Downloads\\SELENIUM\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\WebDrivers\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
 	    driver.manage().deleteAllCookies();
 	    driver.manage().window().maximize();

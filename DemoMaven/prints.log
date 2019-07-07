@@ -8,3 +8,5 @@
 21:53:44.218 [main] INFO  com.tests.ScenarioTest1 - Product verification Successful
 21:54:22.378 [main] INFO  com.tests.ScenarioTest2 - Google Search Successful
 21:54:35.816 [main] INFO  com.tests.ScenarioTest2 - Clicking on 3rd Result from Google Search Successful
+16:49:43.748 [main] INFO  com.tests.ScenarioTest2 - Google Search Successful
+16:49:44.651 [main] INFO  com.tests.ScenarioTest2 - Clicking on 3rd Result from Google Search Successful

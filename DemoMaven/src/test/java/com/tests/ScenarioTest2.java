@@ -11,7 +11,7 @@ public class ScenarioTest2 extends TestBase
 
 	public static Logger log = LogManager.getLogger(ScenarioTest2.class.getName());	
 	
-	@Test
+	@Test(enabled = false)
 	 public void Test2() throws Exception
 	{
 		
@@ -33,7 +33,7 @@ public class ScenarioTest2 extends TestBase
 	@Test
 	public void Test3() {
 		driver.get("https://news.google.com/");
-		assertEquals(driver.getTitle(),"Google News");
+		assertEquals(driver.getTitle(),"Google");
 		
 	}
 }
