@@ -1,0 +1,6 @@
+#,TestCase Name,Folder Path,SelectYN,Cross Browser,Remarks
+1,FlightBookingDemo, ,Yes,IE,"	"
+2,FlightBookingDemo - 2, ,No,Chrome,"	"
+3,FlipcartDemo, ,No,Chrome,
+4,PracticeDemo, ,No,Chrome,
+5,StoreTestDemo, ,No,Chrome,

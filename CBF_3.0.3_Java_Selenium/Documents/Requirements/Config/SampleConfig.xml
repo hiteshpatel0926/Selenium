@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<config>
+
+ <variable>
+		<name>TestSetFactory</name>
+		<value>
+			<plugin>ExcelTestSetFactory</plugin>
+			<parameters>
+				<testSetFile>${testSetFile}</testSetFile>
+				<testSetSheet>${testSetSheet}</testSetSheet>
+			</parameters>
+		</value>
+	</variable>
+		
+<!--	<variable>
+		<name>TestSetFactory</name>
+		<value>
+			<plugin>CSVTestSetFactory</plugin>
+			<parameters>
+				<testSetFile>${testSetFile}</testSetFile>
+				<testSetSheet>${testSetSheet}</testSetSheet>
+			</parameters>
+		</value>
+ 	</variable>
+-->	
+	<variable>
+		<name>TestCaseFactory</name>
+		<value>
+			<plugin>ExcelTestCaseFactory</plugin>
+			<parameters>
+				<enableIterationSelection>true</enableIterationSelection>
+				<enableStepSelection>true</enableStepSelection>
+				<enableSingleSuiteSelection>false</enableSingleSuiteSelection>
+			</parameters>
+		</value>
+	</variable>
+
+ 	<variable>
+		<name>DataFactory</name>
+		<value>
+			<plugin>ExcelDataFactory</plugin>
+		</value>
+	</variable>
+	
+<!--	<variable>
+		<name>DataFactory</name>
+		<value>
+			<plugin>CSVDataFactory</plugin>
+		</value>
+	</variable>
+ -->	
+	 	<variable>
+		<name>ObjectMap</name>
+		<value>
+			<plugin>ExcelMap</plugin>
+			<parameters>
+				<workbook>single</workbook>
+			</parameters>
+		</value>
+	</variable>
+				
+<!--<variable>
+		<name>ObjectMap</name>
+		<value>
+			<plugin>CSVMap</plugin>
+			<parameters>
+				<workbook>single</workbook>
+			</parameters>
+		</value>
+	</variable>
+ -->
+	<variable>
+		<name>ResultReporter</name>
+		<value>
+			<array>
+				<value>
+					<plugin>ScreenDump</plugin>
+				</value>
+				<!-- <value> <plugin>ExcelReport</plugin> </value> -->
+				<value>
+					<plugin>HtmlEvent</plugin>
+				</value>
+			</array>
+		</value>
+	</variable>
+
+	<variable>
+		<name>AppDriver</name>
+		<value>
+				<plugin>WebAppDriver</plugin>
+				<parameters>
+					  <modules> 
+					           <package>samples</package>
+					           <General>samples.GoogleDriver</General> 
+					           <FlightBooking>samples.FlightBookingDriver</FlightBooking> 
+					           <Flipcart>samples.FlipcartDriver</Flipcart>
+						</modules>
+            <objectmap>
+            </objectmap>
+            <browser>
+              <plugin>${browser}</plugin>
+              <plugin>REMOTE</plugin>
+              <parameters>
+                <browserName>${browser}</browserName>
+              </parameters>
+            </browser>
+        </parameters>
+      </value>
+
+					<!-- <components>
+
+						<contextclass>cbfx.ui.selenium.WebUIDriver</contextclass>
+						<package>app1</package>
+
+					</components>
+ -->
+				</value>
+				<value>
+					<UIDrivers>
+						<plugin>Selenium</plugin>
+						<value>
+							<plugin>${browser}</plugin>
+							<parameters>
+								<browserdriver>D:\</browserdriver>
+							</parameters>
+						</value>
+					</UIDrivers>
+				</value>
+			</array>
+		</value>
+	</variable>
+
+	<variable>
+		<name>HostURL</name>
+		<value>http://10.220.24.33:4444/wd/hub</value>
+	</variable>
+
+	<!-- RecoverCount: it will close and re-launch browser after specified TC 
+		counts get executed. 0: will execute all TC in single browser instance 1: 
+		Will close and restart browser after every TC 2: Will close and restart browser 
+		after every 2 TC and so on... -->
+	<variable>
+		<name>RecoverCount</name>
+		<value>1</value>
+	</variable>
+
+	<variable>
+		<name>InterTestCaseDelay</name>
+		<value>0</value>
+	</variable>
+
+	<variable>
+		<name>SleepTimerSlabs</name>
+		<value>2000,5000,10000,15000</value>
+	</variable>
+
+	<variable>
+		<name>TimeOutInSec</name>
+		<value>20</value>
+	</variable>
+
+</config>

@@ -1,0 +1,12 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+validateGreetingMessage,,N
+validateTiles,,N
+validateSearchFunctionality,row1,N
+validateTrendingTopics,,N
+cokeHelp_Logout,,N

@@ -1,0 +1,8 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+validateInactivityLogout,,Y
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+validateInactivityContinue,,Y
+cokeHelp_Logout,,Y

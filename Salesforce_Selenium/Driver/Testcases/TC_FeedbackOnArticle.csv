@@ -1,0 +1,8 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+validateSearchFunctionality,row1,Y
+navigateToArticleFrontEnd,,Y
+provideFeedbackonArticle,upvote,Y
+provideFeedbackonArticle,downvote,Y
+cokeHelp_Logout,,Y

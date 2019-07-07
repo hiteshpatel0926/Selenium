@@ -1,0 +1,10 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+navigateToTile,IT_software,Y
+submitNewCase,,Y
+navigateToTile,IT_P&M,Y
+validateChatFunctionality,,Y
+navigateToTile,IT_C&A,Y
+submitNewCase,,Y
+cokeHelp_Logout,,Y

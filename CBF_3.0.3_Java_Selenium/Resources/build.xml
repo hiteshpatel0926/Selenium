@@ -1,0 +1,109 @@
+<project basedir="." default="run" name="CBF">
+	<property environment="env" />
+	<property name="src" location="src/samples" />
+	<property name="libs" location="lib" />
+
+	<path id="class.path">
+		<pathelement location="${libs}/apache-commons-lang.jar" />
+		<pathelement location="${libs}/eggdriver.jar" />
+		<pathelement location="${libs}/cbf.jar" />
+		<pathelement location="${libs}/cbfx.jar" />
+		<pathelement location="${libs}/com.mercury.qualitycenter.otaclient-9.2.jar" />
+		<pathelement location="${libs}/com4j-20110320.jar" />
+		<pathelement location="${libs}/commons-cli-2.0.jar" />
+		<pathelement location="${libs}/commons-codec-1.5.jar" />
+		<pathelement location="${libs}/commons-configuration-1.10.jar" />
+		<pathelement location="${libs}/commons-io-2.4.jar" />
+		<pathelement location="${libs}/commons-lang3-3.3.2.jar" />
+		<pathelement location="${libs}/commons-logging-1.1.jar" />
+		<pathelement location="${libs}/dom4j-1.6.1.jar" />
+		<pathelement location="${libs}/eggdriver.jar" />
+		<pathelement location="${libs}/galen.jar" />
+		<pathelement location="${libs}/gson-2.2.2.jar" />
+		<pathelement location="${libs}/httpclient-4.4.1.jar" />
+		<pathelement location="${libs}/httpcore-4.4.1.jar" />
+		<pathelement location="${libs}/imageClient.jar" />
+		<pathelement location="${libs}/java-client-3.3.0.jar" />
+		<pathelement location="${libs}/java-client-4.1.2.jar" />
+		<pathelement location="${libs}/java-client-5.0.0-BETA1.jar" />
+		<pathelement location="${libs}/json-simple-1.1.1.jar" />
+		<pathelement location="${libs}/junit-3.8.1.jar" />
+		<pathelement location="${libs}/jxl.jar" />
+		<pathelement location="${libs}/log4j-1.2.13.jar" />
+		<pathelement location="${libs}/log4j-1.2.17.jar" />
+		<pathelement location="${libs}/modules.jar" />
+		<pathelement location="${libs}/org.apache.commons.httpclient.jar" />
+		<pathelement location="${libs}/org-apache-commons-logging.jar" />
+		<pathelement location="${libs}/org-apache-ws-commons-util.jar" />
+		<pathelement location="${libs}/poi-3.9-20121203.jar" />
+		<pathelement location="${libs}/poi-examples-3.9-20121203.jar" />
+		<pathelement location="${libs}/poi-excelant-3.9-20121203.jar" />
+		<pathelement location="${libs}/poi-ooxml-3.9-20121203.jar" />
+		<pathelement location="${libs}/poi-ooxml-schemas-3.9-20121203.jar" />
+		<pathelement location="${libs}/poi-scratchpad-3.9-20121203.jar" />
+		<pathelement location="${libs}/selenium-server-standalone-2.45.0.jar" />
+		<pathelement location="${libs}/sikuli-script.jar" />
+		<pathelement location="${libs}/slf4j-api-1.7.10jar" />
+		<pathelement location="${libs}/slf4j-simple-1.7.10.jar" />
+		<pathelement location="${libs}/stax-api-1.0.1.jar" />
+		<pathelement location="${libs}/testlink-api-client-2.0.jar" />
+		<pathelement location="${libs}/testlink-java-api-1.9.4-0.jar" />
+		<pathelement location="${libs}/WebUIDriver.jar" />
+		<pathelement location="${libs}/ws-commons-util-1.0.2.jar" />
+		<pathelement location="${libs}/xmlbeans-2.3.0.jar" />
+		<pathelement location="${libs}/xmlrpc-client-3.1.3.jar" />
+		<pathelement location="${libs}/xmlrpc-common-3.1.jar" />
+		<pathelement location="${libs}/gson-2.2.4.jar" />
+		<pathelement location="${libs}/rally-rest-api-2.0.1.jar" />
+		<pathelement location="${libs}/jacob.jar" />
+		<pathelement location="${libs}/junit-3.8.1.jar" />
+		<pathelement location="${libs}/ngwebdriver-0.9.6.jar" />
+		<pathelement location="${libs}/ngwebdriver-0.9.6-sources.jar" />
+		<pathelement location="${libs}/AutoItX4Java.jar" />
+		<pathelement location="${libs}/opencsv-3.2.jar" />
+		<pathelement location="${libs}/cbf.jar" />
+		<pathelement location="${libs}/cbfx.jar" />
+		<pathelement location="bin" />
+	</path>
+
+	<target name="clean" description="clean up">
+		<delete dir="D:\NEW-SVN\CBF-3.0.1\bin" />
+		<mkdir dir="D:\NEW-SVN\CBF-3.0.1\bin" />
+	</target>
+
+	<target name="compile" depends="clean" >
+		<mkdir dir="D:\NEW-SVN\CBF-3.0.1\Logs" />
+		<javac classpathref="class.path" srcdir="${src}" destdir="D:\NEW-SVN\CBF-3.0.1\bin" />
+	</target>
+
+
+
+	<target name="run" depends="Excel" />
+
+	<target name="Excel" depends="compile">
+		<property environment="env" />
+		<java classname="cbfx.cli.Simple" failonerror="true" fork="true">
+			<classpath refid="class.path" />
+			<arg value="-configFilePath" />
+			<arg value="Test\Sample_Selenium\Plan\SampleExcelConfig.xml" />
+			<arg value="-testSetFile" />
+			<arg value="TestSet.xls" />
+			<arg value="-testSetSheet" />
+			<arg value="ExcelTestSet" />
+			<arg value="-projectName" />
+			<arg value="Test" />
+			<arg value="-suiteName" />
+			<arg value="Sample_Selenium" />
+			<arg value="-browser" />
+			<arg value="CHROME" />
+			<arg value="-runTrials" />
+			<arg value="1" />
+			<arg value="-batchTrials" />
+			<arg value="0" />
+			<arg value="-threadCount" />
+			<arg value="0" />
+
+		</java>
+	</target>
+</project>
+

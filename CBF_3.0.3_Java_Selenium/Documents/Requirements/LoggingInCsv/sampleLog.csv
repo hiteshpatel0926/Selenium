@@ -1,0 +1,959 @@
+<logtype>,<loggerName>,<timestamp>,<class>,<context>,<msg>,<param1>,<param2>,…,_,_,_,_,_,_,<stacktrace>,<stacktrace>
+ERROR,_default,8/3/2017 18:29,,"#<TDT::ManageCommand:0x53d5fe8
+ @logger=
+  #<Utils::Logger:0x53d5fd0
+   @context=
+    #<TDT::ManageCommand:0x53d5fe8
+     ...>,
+   @logger=
+    #<Log4r::Logger:0x3e4c108
+     @additive=true,
+     @fullname=""_default"",
+     @level=2,
+     @name=""_default"",
+     @outputters=
+      [#<Log4r::RollingFileOutputter:0x2e936b0
+        @core_file_name=
+         ""tdtlogs"",
+        @create=false,
+        @current_sequence_number=
+         191,
+        @datasize=1035935,
+        @file_extension=
+         "".csv"",
+        @filename=
+         ""logs/tdtlogs000191.csv"",
+        @formatter=
+         #<Log4r::PatternFormatter:0x2ec4ce8
+          @date_method=nil,
+          @date_pattern=
+           ""%Y-%m-%d %H:%M:%S"",
+          @depth=7,
+          @pattern=
+           ""%l,%C,%d,%m"">,
+        @level=3,
+        @log_dir=""logs"",
+        @max_backups=-1,
+        @maxsize=1048576,
+        @mon_count=0,
+        @mon_mutex=
+         #<Mutex:0x2e93620>,
+        @mon_owner=nil,
+        @name=""logfile"",
+        @out=
+         #<File:logs/tdtlogs000191.csv>,
+        @start_time=
+         2017-08-03 15:36:03 +0530,
+        @trunc=false>],
+     @parent=
+      #<Log4r::RootLogger:0x3209910
+       @level=2,
+       @outputters=[]>,
+     @path="""",
+     @trace=false>>,
+ @serverConfig=
+  #<TDT::Config::ServerConfig:0x52d4168
+   @serverProfile=
+    {""folders""=>
+      {""tdtHome""=>
+        ""D:/priyanka/Workbench0.1/Src/server"",
+       ""tempFolder""=>
+        ""./downloads"",
+       ""resourceFolder""=>
+        ""D:/priyanka/Workbench0.1/setup/resources"",
+       ""mongoHome""=>
+        ""D://priyanka//MongoDbNew""},
+     ""webserver""=>
+      {""port""=>8080},
+     ""dbserver""=>
+      {""host""=>""localhost"",
+       ""port""=>""27017"",
+       ""options""=>
+        {""pool_size""=>15,
+         ""connect""=>false,
+         ""timeout""=>15}},
+     ""logconfig""=>
+      {""xml_file""=>
+        ""./logconfig.xml"",
+       ""basepath""=>""./logs""},
+     ""options""=>
+      {""checkEmptyFolderBeforeDelete""=>
+        true,
+       ""enableReferenceCheck""=>
+        true},
+     ""ssl""=>
+      {""enabled""=>false,
+       ""key""=>
+        ""9297cfac3e8493fc68c4a03e6a0ca509bdb57ea36a318b344e83c62e126928a2""}}>>",Executing request,#<Utils::Error: Executing command>,_,_,_,_,_,_,_,_,"[""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:70:in `block in process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:104:in `block in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/business/main.rb:43:in `manage'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:102:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:146:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:82:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]","[#<Utils::Error: Executing command>,
+ ""D:/priyanka/Workbench0.1/Src/server/utils/logger.rb:224:in `raise'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:95:in `rescue in execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:92:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:65:in `block in process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:104:in `block in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/business/main.rb:43:in `manage'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:102:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:146:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:82:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]"
+ERROR,_default,8/3/2017 18:29,,"#<TDT::ManageCommand:0x53d5fe8
+ @logger=
+  #<Utils::Logger:0x53d5fd0
+   @context=
+    #<TDT::ManageCommand:0x53d5fe8
+     ...>,
+   @logger=
+    #<Log4r::Logger:0x3e4c108
+     @additive=true,
+     @fullname=""_default"",
+     @level=2,
+     @name=""_default"",
+     @outputters=
+      [#<Log4r::RollingFileOutputter:0x2e936b0
+        @core_file_name=
+         ""tdtlogs"",
+        @create=false,
+        @current_sequence_number=
+         192,
+        @datasize=0,
+        @file_extension=
+         "".csv"",
+        @filename=
+         ""logs/tdtlogs000192.csv"",
+        @formatter=
+         #<Log4r::PatternFormatter:0x2ec4ce8
+          @date_method=nil,
+          @date_pattern=
+           ""%Y-%m-%d %H:%M:%S"",
+          @depth=7,
+          @pattern=
+           ""%l,%C,%d,%m"">,
+        @level=3,
+        @log_dir=""logs"",
+        @max_backups=-1,
+        @maxsize=1048576,
+        @mon_count=0,
+        @mon_mutex=
+         #<Mutex:0x2e93620>,
+        @mon_owner=nil,
+        @name=""logfile"",
+        @out=
+         #<File:logs/tdtlogs000192.csv>,
+        @start_time=
+         2017-08-03 18:29:43 +0530,
+        @trunc=false>],
+     @parent=
+      #<Log4r::RootLogger:0x3209910
+       @level=2,
+       @outputters=[]>,
+     @path="""",
+     @trace=false>>,
+ @serverConfig=
+  #<TDT::Config::ServerConfig:0x52d4168
+   @serverProfile=
+    {""folders""=>
+      {""tdtHome""=>
+        ""D:/priyanka/Workbench0.1/Src/server"",
+       ""tempFolder""=>
+        ""./downloads"",
+       ""resourceFolder""=>
+        ""D:/priyanka/Workbench0.1/setup/resources"",
+       ""mongoHome""=>
+        ""D://priyanka//MongoDbNew""},
+     ""webserver""=>
+      {""port""=>8080},
+     ""dbserver""=>
+      {""host""=>""localhost"",
+       ""port""=>""27017"",
+       ""options""=>
+        {""pool_size""=>15,
+         ""connect""=>false,
+         ""timeout""=>15}},
+     ""logconfig""=>
+      {""xml_file""=>
+        ""./logconfig.xml"",
+       ""basepath""=>""./logs""},
+     ""options""=>
+      {""checkEmptyFolderBeforeDelete""=>
+        true,
+       ""enableReferenceCheck""=>
+        true},
+     ""ssl""=>
+      {""enabled""=>false,
+       ""key""=>
+        ""9297cfac3e8493fc68c4a03e6a0ca509bdb57ea36a318b344e83c62e126928a2""}}>>",Managing project,#<Utils::Error: Executing request>,_,_,_,_,_,_,_,_,"[""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:107:in `rescue in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:101:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:146:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:82:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]","[#<Utils::Error: Executing request>,
+ ""D:/priyanka/Workbench0.1/Src/server/utils/logger.rb:224:in `raise'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:70:in `block in process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:104:in `block in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/business/main.rb:43:in `manage'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:102:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:146:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:82:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]"
+WARN,_default,8/3/2017 18:29,,"#<TDT::Controller:0x3cf4e90
+ @logger=
+  #<Utils::Logger:0x3cf4e78
+   @context=
+    #<TDT::Controller:0x3cf4e90
+     ...>,
+   @logger=
+    #<Log4r::Logger:0x3e4c108
+     @additive=true,
+     @fullname=""_default"",
+     @level=2,
+     @name=""_default"",
+     @outputters=
+      [#<Log4r::RollingFileOutputter:0x2e936b0
+        @core_file_name=
+         ""tdtlogs"",
+        @create=false,
+        @current_sequence_number=
+         192,
+        @datasize=15568,
+        @file_extension=
+         "".csv"",
+        @filename=
+         ""logs/tdtlogs000192.csv"",
+        @formatter=
+         #<Log4r::PatternFormatter:0x2ec4ce8
+          @date_method=nil,
+          @date_pattern=
+           ""%Y-%m-%d %H:%M:%S"",
+          @depth=7,
+          @pattern=
+           ""%l,%C,%d,%m"">,
+        @level=3,
+        @log_dir=""logs"",
+        @max_backups=-1,
+        @maxsize=1048576,
+        @mon_count=0,
+        @mon_mutex=
+         #<Mutex:0x2e93620>,
+        @mon_owner=nil,
+        @name=""logfile"",
+        @out=
+         #<File:logs/tdtlogs000192.csv>,
+        @start_time=
+         2017-08-03 18:29:43 +0530,
+        @trunc=false>],
+     @parent=
+      #<Log4r::RootLogger:0x3209910
+       @level=2,
+       @outputters=[]>,
+     @path="""",
+     @trace=false>>,
+ @profile=
+  {""folders""=>
+    {""tdtHome""=>
+      ""D:/priyanka/Workbench0.1/Src/server"",
+     ""tempFolder""=>
+      ""./downloads"",
+     ""resourceFolder""=>
+      ""D:/priyanka/Workbench0.1/setup/resources"",
+     ""mongoHome""=>
+      ""D://priyanka//MongoDbNew""},
+   ""webserver""=>
+    {""port""=>8080},
+   ""dbserver""=>
+    {""host""=>""localhost"",
+     ""port""=>""27017"",
+     ""options""=>
+      {""pool_size""=>15,
+       ""connect""=>false,
+       ""timeout""=>15}},
+   ""logconfig""=>
+    {""xml_file""=>
+      ""./logconfig.xml"",
+     ""basepath""=>""./logs""},
+   ""options""=>
+    {""checkEmptyFolderBeforeDelete""=>
+      true,
+     ""enableReferenceCheck""=>
+      true},
+   ""ssl""=>
+    {""enabled""=>false,
+     ""key""=>
+      ""9297cfac3e8493fc68c4a03e6a0ca509bdb57ea36a318b344e83c62e126928a2""}}>",Error,#<Utils::Error: Managing project>,_,_,_,_,_,_,_,_,"[#<Utils::Error: Managing project>,
+ ""D:/priyanka/Workbench0.1/Src/server/utils/logger.rb:224:in `raise'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:107:in `rescue in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:101:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:146:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:82:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]",
+ERROR,_default,8/4/2017 10:58,,"#<Misc::Main:0x3321e28
+ @facade=
+  #<TDT::Business::Mgmt::Facade:0x339bd00
+   @dbFacade=
+    #<TDT::Db::Mgmt::Facade:0x33a0140
+     @logger=
+      #<Utils::Logger:0x33a0128
+       @context=
+        #<TDT::Db::Mgmt::Facade:0x33a0140
+         ...>,
+       @logger=
+        #<Log4r::Logger:0x3a83c18
+         @additive=true,
+         @fullname=""_default"",
+         @level=2,
+         @name=""_default"",
+         @outputters=
+          [#<Log4r::RollingFileOutputter:0x3bad218
+            @core_file_name=
+             ""tdtlogs"",
+            @create=false,
+            @current_sequence_number=
+             192,
+            @datasize=40840,
+            @file_extension=
+             "".csv"",
+            @filename=
+             ""logs/tdtlogs000192.csv"",
+            @formatter=
+             #<Log4r::PatternFormatter:0x3c5bcb0
+              @date_method=
+               nil,
+              @date_pattern=
+               ""%Y-%m-%d %H:%M:%S"",
+              @depth=7,
+              @pattern=
+               ""%l,%C,%d,%m"">,
+            @level=3,
+            @log_dir=""logs"",
+            @max_backups=-1,
+            @maxsize=1048576,
+            @mon_count=0,
+            @mon_mutex=
+             #<Mutex:0x3bac1e0>,
+            @mon_owner=nil,
+            @name=""logfile"",
+            @out=
+             #<File:logs/tdtlogs000192.csv>,
+            @start_time=
+             2017-08-03 18:29:43 +0530,
+            @trunc=false>],
+         @parent=
+          #<Log4r::RootLogger:0x3bbc248
+           @level=2,
+           @outputters=[]>,
+         @path="""",
+         @trace=false>>,
+     @serverConfig=
+      #<TDT::Config::ServerConfig:0x3bade48
+       @serverProfile=
+        {""folders""=>
+          {""tdtHome""=>
+            ""D:/priyanka/Workbench0.1/Src/server"",
+           ""tempFolder""=>
+            ""./downloads"",
+           ""resourceFolder""=>
+            ""D:/priyanka/Workbench0.1/setup/resources"",
+           ""mongoHome""=>
+            ""D://priyanka//MongoDbNew""},
+         ""webserver""=>
+          {""port""=>8080},
+         ""dbserver""=>
+          {""host""=>
+            ""localhost"",
+           ""port""=>""27017"",
+           ""options""=>
+            {""pool_size""=>15,
+             ""connect""=>false,
+             ""timeout""=>15}},
+         ""logconfig""=>
+          {""xml_file""=>
+            ""./logconfig.xml"",
+           ""basepath""=>
+            ""./logs""},
+         ""options""=>
+          {""checkEmptyFolderBeforeDelete""=>
+            true,
+           ""enableReferenceCheck""=>
+            true},
+         ""ssl""=>
+          {""enabled""=>false,
+           ""key""=>
+            ""9297cfac3e8493fc68c4a03e6a0ca509bdb57ea36a318b344e83c62e126928a2""}}>,
+     @session=
+      {:user=>""sprint""}>,
+   @logger=
+    #<Utils::Logger:0x339bce8
+     @context=
+      #<TDT::Business::Mgmt::Facade:0x339bd00
+       ...>,
+     @logger=
+      #<Log4r::Logger:0x3a83c18
+       @additive=true,
+       @fullname=""_default"",
+       @level=2,
+       @name=""_default"",
+       @outputters=
+        [#<Log4r::RollingFileOutputter:0x3bad218
+          @core_file_name=
+           ""tdtlogs"",
+          @create=false,
+          @current_sequence_number=
+           192,
+          @datasize=40840,
+          @file_extension=
+           "".csv"",
+          @filename=
+           ""logs/tdtlogs000192.csv"",
+          @formatter=
+           #<Log4r::PatternFormatter:0x3c5bcb0
+            @date_method=nil,
+            @date_pattern=
+             ""%Y-%m-%d %H:%M:%S"",
+            @depth=7,
+            @pattern=
+             ""%l,%C,%d,%m"">,
+          @level=3,
+          @log_dir=""logs"",
+          @max_backups=-1,
+          @maxsize=1048576,
+          @mon_count=0,
+          @mon_mutex=
+           #<Mutex:0x3bac1e0>,
+          @mon_owner=nil,
+          @name=""logfile"",
+          @out=
+           #<File:logs/tdtlogs000192.csv>,
+          @start_time=
+           2017-08-03 18:29:43 +0530,
+          @trunc=false>],
+       @parent=
+        #<Log4r::RootLogger:0x3bbc248
+         @level=2,
+         @outputters=[]>,
+       @path="""",
+       @trace=false>>,
+   @serverConfig=
+    #<TDT::Config::ServerConfig:0x3bade48
+     @serverProfile=
+      {""folders""=>
+        {""tdtHome""=>
+          ""D:/priyanka/Workbench0.1/Src/server"",
+         ""tempFolder""=>
+          ""./downloads"",
+         ""resourceFolder""=>
+          ""D:/priyanka/Workbench0.1/setup/resources"",
+         ""mongoHome""=>
+          ""D://priyanka//MongoDbNew""},
+       ""webserver""=>
+        {""port""=>8080},
+       ""dbserver""=>
+        {""host""=>""localhost"",
+         ""port""=>""27017"",
+         ""options""=>
+          {""pool_size""=>15,
+           ""connect""=>false,
+           ""timeout""=>15}},
+       ""logconfig""=>
+        {""xml_file""=>
+          ""./logconfig.xml"",
+         ""basepath""=>
+          ""./logs""},
+       ""options""=>
+        {""checkEmptyFolderBeforeDelete""=>
+          true,
+         ""enableReferenceCheck""=>
+          true},
+       ""ssl""=>
+        {""enabled""=>false,
+         ""key""=>
+          ""9297cfac3e8493fc68c4a03e6a0ca509bdb57ea36a318b344e83c62e126928a2""}}>,
+   @session=
+    {:user=>""sprint""}>,
+ @logger=
+  #<Utils::Logger:0x3321e10
+   @context=
+    #<Misc::Main:0x3321e28
+     ...>,
+   @logger=
+    #<Log4r::Logger:0x3a83c18
+     @additive=true,
+     @fullname=""_default"",
+     @level=2,
+     @name=""_default"",
+     @outputters=
+      [#<Log4r::RollingFileOutputter:0x3bad218
+        @core_file_name=
+         ""tdtlogs"",
+        @create=false,
+        @current_sequence_number=
+         192,
+        @datasize=40840,
+        @file_extension=
+         "".csv"",
+        @filename=
+         ""logs/tdtlogs000192.csv"",
+        @formatter=
+         #<Log4r::PatternFormatter:0x3c5bcb0
+          @date_method=nil,
+          @date_pattern=
+           ""%Y-%m-%d %H:%M:%S"",
+          @depth=7,
+          @pattern=
+           ""%l,%C,%d,%m"">,
+        @level=3,
+        @log_dir=""logs"",
+        @max_backups=-1,
+        @maxsize=1048576,
+        @mon_count=0,
+        @mon_mutex=
+         #<Mutex:0x3bac1e0>,
+        @mon_owner=nil,
+        @name=""logfile"",
+        @out=
+         #<File:logs/tdtlogs000192.csv>,
+        @start_time=
+         2017-08-03 18:29:43 +0530,
+        @trunc=false>],
+     @parent=
+      #<Log4r::RootLogger:0x3bbc248
+       @level=2,
+       @outputters=[]>,
+     @path="""",
+     @trace=false>>>",Executing command,#<NoMethodError: undefined method `projectConfig' for #<TDT::Business::Mgmt::Facade:0x339bd00>>,Config.new(@facade).get(args[0]),"[""scriptlessArtifacts""]",_,_,_,_,_,_,"[""D:/priyanka/Workbench0.1/Src/server/api/misc/main.rb:46:in `rescue in execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/misc/main.rb:43:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:93:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:65:in `block in process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:104:in `block in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/business/main.rb:43:in `manage'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:102:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:148:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:84:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]","[#<NoMethodError: undefined method `projectConfig' for #<TDT::Business::Mgmt::Facade:0x339bd00>>,
+ ""D:/priyanka/Workbench0.1/Src/server/api/misc/main.rb:44:in `eval'"",
+ ""(eval):1:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/misc/main.rb:44:in `eval'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/misc/main.rb:44:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:93:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:65:in `block in process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:104:in `block in manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/business/main.rb:43:in `manage'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:102:in `manageProject'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/manage_cmd.rb:63:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/execute.rb:20:in `execute'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:148:in `process'"",
+ ""D:/priyanka/Workbench0.1/Src/server/api/controller.rb:84:in `respond'"",
+ ""D:/priyanka/Workbench0.1/Src/server/tdt.rb:105:in `block in TDT_start'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1611:in `block in compile!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `[]'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (3 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:994:in `route_eval'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:975:in `block (2 levels) in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1015:in `block in process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1013:in `process_route'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:973:in `block in route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `each'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:972:in `route!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1085:in `block in dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1082:in `dispatch!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `block in call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `block in invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `catch'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1067:in `invoke'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:907:in `call!'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:895:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:212:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:182:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:2013:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `block in call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1787:in `synchronize'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:1487:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/auth/basic.rb:25:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/sinatra-1.4.7/lib/sinatra/base.rb:219:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/configuration.rb:225:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:578:in `handle_request'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:415:in `process_client'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/server.rb:275:in `block in run'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `call'"",
+ ""C:/Rubies/Ruby225/lib/ruby/gems/2.2.0/gems/puma-3.6.0/lib/puma/thread_pool.rb:116:in `block in spawn_thread'""]"

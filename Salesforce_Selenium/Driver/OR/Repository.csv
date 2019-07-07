@@ -1,0 +1,198 @@
+elementName,Property,elementType,Screen,Description
+userName,//input[@name='username'],EditBox,Login,userName EditBox on Login screen
+passWord,//input[@name='pw'],EditBox,Login,passWord EditBox on Login screen
+connectionError,//*[@id='main-frame-error'],,,
+Login,//input[@name='Login'],Button,Login,Login Button on Login screen
+LoginAs,"//table[@class='list']//a[contains(@title,'Login') and contains(@title,'#param#')]",link,Login,LoginAs link on Login screen
+userType,"//table[@class='list']//a[contains(@title,'Login') and contains(@title,'#param#')]//parent::td//parent::tr/td[7]//a",Element,Login,
+loginError,//div[@id='error'],Element,Login,loginError Element on Login screen
+globalHeaderSwitcher,"//nav[contains(@class,'appLauncher')]//button",Element,Back-end,globalHeaderSwitcher Element on Back-end screen
+cokeHelp,"//div[contains(@title,'Coca-Cola Help')]",Element,Back-end,cokeHelp Element on Back-end screen
+globalHeaderSwitcher1,//*[@id='globalHeaderCommunitySwitcher'],Element,Back-end,globalHeaderSwitcher1 Element on Back-end screen
+cokeHelp1,//a[@title='Coca-Cola Help'],Element,Back-end,cokeHelp1 Element on Back-end screen
+cokeHelpBackend,"//div[contains(text(),'Coca-Cola Help for Lightning')]//preceding-sibling::div",Element,Back-end,cokeHelp Element on Back-end screen
+cokeLogo_New,//div[@class='themeLogo']//a[@title='Coca-Cola Help'],Element,Home,cokeLogo Element on Home screen
+cokeLogo,//div[@class='image-common-style logo-container'],Element,Home,cokeLogo Element on Home screen
+searchEdit_New,//div[@class='hero']//div[@class='search-box']//input,EditBox,Home,searchEdit EditBox on Home screen
+searchbutton_New,//div[@class='hero']//div[@class='search-box']//button[@title='Search'],Button,Home,searchbutton Button on Home screen
+searchEdit,"//input[contains(@class,'search-field')]",EditBox,Home,searchEdit EditBox on Home screen
+searchbutton,"//button[contains(@class,'search-button')]",Button,Home,searchbutton Button on Home screen
+searchResults,//*[text()='Search Results'],Element,Search Results,searchResults Element on Search Results screen
+searchResultSummary,"//a[contains(text(),'Knowledge')]//parent::h2//parent::div//div[contains(@class,'searchResultsSummary')]",Element,Search Results,searchResultSummary Element on Search Results screen
+searchStringinResults,"//div[contains(@class,'forceSearchResultsList')]//*[contains(text(),'#param#')]",Element,Search Results,searchStringinResults Element on Search Results screen
+continue,"//button[contains(text(),'Continue')]",Button,Home,continue Button on Home screen
+tile,//lightning-formatted-text[text()='#param#']//parent::dd//parent::dl//parent::div//parent::a,link,Guided Navigatin Parent,tile link on Guided Navigatin Parent screen
+breadcrumb,"//li[contains(@class,'breadcrumb')]//a[text()='#param#']",link,Guided Navigation Child,breadcrumb link on Guided Navigation Child screen
+helpCategoryHeader,//span[@class='headlineTitleText']/span[text()='#param#'],Element,Help Section,helpCategoryHeader Element on Help Section screen
+askTheCommunity,//*[text()='Ask the Community'],Element,Help Section,askTheCommunity Element on Help Section screen
+ask,"//button[contains(@class,'questionPost')]//span[text()='Ask']",Button,Ask Question Pop-up,ask Button on Ask Question Pop-up screen
+cancelquestion,"//button[contains(@class,'CancelButton')]//span[text()='Cancel']",Button,Ask Question Pop-up,cancelquestion Button on Ask Question Pop-up screen
+postTo,//span[text()='Post To']//parent::label//following-sibling::div//select,dropdown,Ask Question Pop-up,postTo dropdown on Ask Question Pop-up screen
+question,//span[text()='Question']//parent::label//following-sibling::textarea,textarea,Ask Question Pop-up,question textarea on Ask Question Pop-up screen
+questiondetails,"//*[contains(@data-placeholder,'add details here')]//p",textarea,Ask Question Pop-up,questiondetails textarea on Ask Question Pop-up screen
+showMoreDetails,"//*[contains(@class,'showMoreDetailsLink')]",button,Ask Question Pop-up,showMoreDetails button on Ask Question Pop-up screen
+questionTitle,"//div[contains(@class,'questionTitle')]//span[text()='#param#']",Element,QuestionPage,questionTitle Element on QuestionPage screen
+questionBody,"//div[contains(@class,'questionBody')]//span[text()='#param#']",Element,QuestionPage,questionBody Element on QuestionPage screen
+questionError,//ul[@class='errorsList']//li,Element,Ask Question Pop-up,questionError Element on Ask Question Pop-up screen
+articleError,"//*[contains(@class,'genericError')]",Element,Ask Question Pop-up,
+attachFile,"//span[contains(@class,'utility-attach')]",Element,Ask Question Pop-up,attachFile Element on Ask Question Pop-up screen
+uploadFiles,"//button[contains(@class,'attachButton')]",Element,Ask Question Pop-up,uploadFiles Element on Ask Question Pop-up screen
+fileWarning,"//div[contains(@class,'AttachmentPreview')]//*[contains(@class,'utility-warning')]",Element,Ask Question Pop-up,fileWarning Element on Ask Question Pop-up screen
+viewAttachedFile,//a[@title='View File'],Element,Ask Question Pop-up,viewAttachedFile Element on Ask Question Pop-up screen
+greetingMsg,//*[@data-aura-class='cIH_GreetingMessage']//h3,Element,Home,greetingMsg Element on Home screen
+welcomeMsg,//h3[text()='Welcome to Coca-Cola Help'],Element,Home,greetingMsg Element on Home screen
+navigationTab,//ul[@id='tabBar']//li//a[text()='#param#'],Element,Back-end,navigationTab Element on Back-end screen
+createArticle,//*[@id='createNew_kbOneTabDropdown']//span[text()='Create Article'],Element,Back-end,createArticle Element on Back-end screen
+criticalAlert,//*[@id='createNew_kbOneTabOverlayList']//a[text()='Critical Alert'],Element,Back-end,criticalAlert Element on Back-end screen
+articleTitle,//*[@id='articleEdit:createDocumentForm:title'],EditBox,Article,articleTitle EditBox on Article screen
+articleURL,//*[@id='articleEdit:createDocumentForm:urlName'],EditBox,Article,articleURL EditBox on Article screen
+articleSummary,//*[@id='articleEdit:createDocumentForm:summary'],EditBox,Article,articleSummary EditBox on Article screen
+articleBody,"//*[@id=""articleEdit:createDocumentForm:sectionRepeat:0:fieldRepeat:0:fieldName:textAreaDelegate_00N3F000000miKC_rta_body""]",textarea,Article,articleBody textarea on Article screen
+saveButton,//button[text()='Save'],Button,Article,saveButton Button on Article screen
+publish,//button[text()='Publish...'],Button,Article,publish Button on Article screen
+publishOK,"//div[contains(@class,'modal-footer')]//span[text()='Publish']",Button,Article,publishOK Button on Article screen
+cancelOK,"//div[contains(@class,'modal-footer')]//span[text()='Cancel']",Button,Article,publishOK Button on Article screen
+poupfooterbutton,"//div[contains(@class,'modal__footer') or contains(@class,'modal-footer')]//span[text()='#param#']",Button,Article,publishOK Button on Article screen
+poupfooterbutton1,"//*[contains(@class,'modal__footer') or contains(@class,'modal-footer')]//*[contains(text(),'#param#')]",Button,Article,publishOK Button on Article screen
+saveCriticalAlert,"//div[contains(@class,'modal__footer') or contains(@class,'modal-footer')]//span[text()='Save']",Button,Article,publishOK Button on Article screen
+publishError,"//td[@class='messageCell']//span[contains(@id,'articleEdit:createDocumentForm:messages')]//parent::div",Element,Article,publishError Element on Article screen
+publishedStatus,//*[text()='Publication Status']//parent::div//following-sibling::div//span[text()='Published'],Element,Article,
+articleinformation,"//div[contains(@class,'normal')]//*[text()='#param#']//parent::div//following-sibling::div//span[@class='uiOutputTextArea']",Element,Article,
+articlePublishMsg,//*[@id='actionMessage_kbOneTabText'],Element,Article,articlePublishMsg Element on Article screen
+alertBanner,"//div[contains(@class,'alert')]",Element,Home,alertBanner Element on Home screen
+bannerClose,"//div[contains(@class,'alert')]//button",Element,Home,bannerClose Element on Home screen
+criticalAlertLink,//div[@class='articleText']//a[text()='#param#'],link,Knowledge,criticalAlertLink link on Knowledge screen
+deleteButton,//button[text()='Delete'],Button,Article,deleteButton Button on Article screen
+deleteOK,//div[@id='deleteDlg_SimpleDialog_buttons']//input[@value='OK'],Button,Article,deleteOK Button on Article screen
+questionActionMenu,"//div[contains(@class,'ActionMenu')]",Button,QuestionPage,questionActionMenu Button on QuestionPage screen
+articleActionArrow,//div[@class='articleText']//a[text()='#param#']//parent::p//parent::div//preceding-sibling::div//a[@class='zen-trigger actionarrow'],link,Knowledge,articleActionArrow link on Knowledge screen
+ArticlesLink,//a[@title='Articles'],link,Knowledge,ArticlesLink link on Knowledge screen
+myDraftsLink,//a[@title='My Drafts'],link,Knowledge,myDraftsLink link on Knowledge screen
+editArticle,//div[@class='articleText']//a[text()='#param#']//parent::p//parent::div//preceding-sibling::div//ul[@class='zen-options actionbox']//a[text()='Edit'],link,Knowledge,editArticle link on Knowledge screen
+articleSummaryElement,//div[@class='articleText']//a[text()='#param#']//parent::p//parent::div//p[@class='summary'],Element,Knowledge,articleSummaryElement Element on Knowledge screen
+deleteArticle,//div[@class='articleText']//a[text()='#param#']//parent::p//parent::div//preceding-sibling::div//ul[@class='zen-options actionbox']//a[text()='Delete'],link,Knowledge,deleteArticle link on Knowledge screen
+removeArticle,//input[@id='removePublishedRadio_kbOneTab'],RadioButton,Knowledge,removeArticle RadioButton on Knowledge screen
+keepArticle,//input[@id='keepPublishedRadio_kbOneTab'],RadioButton,Knowledge,keepArticle RadioButton on Knowledge screen
+removeOK,//*[@id='auraElement-articleActions_kbOneTab']/div[10]/div[2]/button[1]/span,Button,Knowledge,removeOK Button on Knowledge screen
+cancelArticle,//button[text()='Cancel'],Button,Knowledge,cancelArticle Button on Knowledge screen
+deleteConfirmOK,//div[@id='deleteArticleConfirmText_nkbOneTab']/parent::div/../../../..//span[text()='OK'],Button,Knowledge,deleteConfirmOK Button on Knowledge screen
+publishAsNew,//input[@id='publishAsNewCheck'],checkbox,Knowledge,publishAsNew checkbox on Knowledge screen
+notificationCheckbox,//span[text()='#param#']//parent::span//preceding-sibling::span//parent::label//preceding-sibling::input,checkbox,My Settings,notificationCheckbox checkbox on My Settings screen
+notificationLabel,//span[text()='#param#']//parent::span//preceding-sibling::span//parent::label,checkbox,My Settings,notificationLabel checkbox on My Settings screen
+profileName,//button[@class='profile-menuTrigger'],Element,Home,profileName Element on Home screen
+profileLink_new,"//button[contains(@class,'profile-menuTrigger')]",,,
+profileLink,"//a[contains(@class,'trigger-link')]",,,
+profileName_backend,//img[@title='User']//parent::span,Element,Home,profileName_backend Element on Home screen
+profileMenu,//a[@title='#param#'],Element,Home,profileMenu Element on Home screen
+profileMenuPage,//lightning-formatted-text[text()='#param#'],Element,Home,profileMenuPage Element on Home screen
+discussionsTab,//a[@title='Discussions'],link,Tile Page,discussionsTab link on Tile Page screen
+questionLink,//article[@data-type='QuestionPost']//span[text()='#param#']//parent::div//parent::article//parent::a[@class='cuf-feedElement-wrap'],link,QuestionPage,questionLink link on QuestionPage screen
+articleLink,"//article[@class='summary']//h3[contains(text(),'iGuest')]//parent::a",link,Community Page,
+deleteQuestions,"//article[@data-type='QuestionPost']//span[text()='#param#']//parent::div//parent::article//a[contains(@class,'ActionTrigger')]",link,QuestionPage,deleteQuestions link on QuestionPage screen
+questionParent,//article[@data-type='QuestionPost']//span[text()='#param#']/parent::div/parent::article,link,QuestionPage,deleteQuestions link on QuestionPage screen
+writeAnAnswerEdit,//*[@data-placeholder='Write an answer...'],EditBox,QuestionPage,writeAnAnswerEdit EditBox on QuestionPage screen
+topRankedcomments,"//div[contains(@class,'topRankedComments')]//article[contains(@class,'commentItem')]",Element,QuestionPage,topRankedcomments Element on QuestionPage screen
+answerButton,//span[text()='Answer']//parent::button,Button,QuestionPage,answerButton Button on QuestionPage screen
+allComments,"//div[contains(@class,'forceChatterFeedback--default')]//article[contains(@class,'commentItem')]",Element,QuestionPage,allComments Element on QuestionPage screen
+action_topRanked,"//div[contains(@class,'topRankedComments')]//article[contains(@class,'commentItem')]//div[contains(@class,'commentActionButton')]",Element,QuestionPage,action_topRanked Element on QuestionPage screen
+removeVerification,"//div[contains(@class,'topRanked')]//span[contains(text(),'Remove Verification')]",Element,QuestionPage,removeVerification Element on QuestionPage screen
+removeAsBest,"//div[contains(@class,'topRanked')]//span[@title='Remove as Best' and @style='display:inline']",Element,QuestionPage,removeAsBest Element on QuestionPage screen
+answer,//div[@class='slds-comment__content']//span[text()='#param#'],Element,QuestionPage,answer Element on QuestionPage screen
+answerActionTopRanked,"//div[contains(@class,'topRanked')]//span[text()='#param#']/../../../parent::div//preceding-sibling::header//button",Button,QuestionPage,answerActionTopRanked Button on QuestionPage screen
+selectAsBest,//div[@class='slds-comment__content']//span[text()='#param#']/parent::p/parent::div//parent::div//parent::div[@class='slds-comment__content']//following-sibling::footer//span[text()='Select as Best'],Element,QuestionPage,selectAsBest Element on QuestionPage screen
+selectedAsBest,"//div[contains(@class,'topRanked')]//span[text()='#param#']/parent::p/parent::div//parent::div//parent::div[@class='slds-comment__content']//following-sibling::footer//li[contains(text(),'Selected as Best')]",Element,QuestionPage,selectedAsBest Element on QuestionPage screen
+companyVerify,"//div[contains(@class,'topRanked')]//span[contains(text(),'Company Verify')]",Element,QuestionPage,companyVerify Element on QuestionPage screen
+companyVerified,"//div[contains(@class,'topRanked')]//span[text()='#param#']/parent::p/parent::div//parent::div//parent::div[@class='slds-comment__content']//following-sibling::footer//li[contains(text(),'Company Verified')]",Element,QuestionPage,companyVerified Element on QuestionPage screen
+myFeed,//div[@role='application tablist']//span[text()='My Feed'],Element,My Profile,myFeed Element on My Profile screen
+bookMarks_Profile,//span[text()='Bookmarks'],,,
+feedSortOption,//span[@class='cuf-sortLabelTriggerWrapper'],Element,My Profile,feedSortOption Element on My Profile screen
+mostRecentActivity,//span[text()='Most Recent Activity']//parent::span//parent::a[@role='menuitemradio'],Element,My Profile,mostRecentActivity Element on My Profile screen
+latestPosts,//span[text()='Latest Posts']//parent::span//parent::a[@role='menuitemradio'],Element,My Profile,latestPosts Element on My Profile screen
+topQuestions,//span[text()='Top Questions']//parent::span//parent::a[@role='menuitemradio'],Element,My Profile,topQuestions Element on My Profile screen
+questionList,//div[@class='forceChatterScroller']//article,Elements,Discussions,questionList Elements on Discussions screen
+postDates,//div[@class='cuf-subPreamble slds-text-body--small']//a,link,My Profile,postDates link on My Profile screen
+newCaseMessage,"//div[contains(@class,'cIH_AccessChat')]//span[@class='uiOutputText']",Element,My Profile,newCaseMessage Element on My Profile screen
+serviceNow,//a[text()='ServiceNow'],link,Tile Page,serviceNow link on Tile Page screen
+chat,//a[text()='Chat'],link,Tile Page,chat link on Tile Page screen
+chatName,//label[text()='Please enter your name:']//following-sibling::input,EditBox,Chat,chatName EditBox on Chat screen
+submitChatName,//input[@value='Submit'],Button,Chat,submitChatName Button on Chat screen
+chatMsg,"//*[contains(text(),'Your support representative will be with you shortly')]",Element,Chat,chatMsg Element on Chat screen
+supportsession,//h1[text()='Support Session Complete'],Element,Chat,
+chatOK,//input[@value='Ok'],Button,Chat,chatOK Button on Chat screen
+SignInserviceNow,//*[text()='Azure KO HR HELP'],Element,Service Now Sign In,SignInserviceNow Element on Service Now Sign In screen
+buttondynamictitle,//button[@title='#param#'],button,Search Results,buttondynamictitle button on Search Results screen
+buttondynamictext,//button[text()='#param#'],button,Search Results,buttondynamictitle button on Search Results screen
+linkdynamictitle,//a[@title='#param#'],link,Search Results,linkdynamictitle link on Search Results screen
+linkdynamictext,//a[text()='#param#'],link,Search Results,linkdynamictext link on Search Results screen
+elementDynamicText,//*[text()='#param#'],Element,General,
+articletimestamp,"//article//*[contains(@class,'timestamp')]",Element,Search Results,articletimestamp Element on Search Results screen
+viewMoreKnowledge,"//a[text()='Knowledge']//parent::h2//parent::div//parent::div[contains(@class,'searchResultsGridHeader')]//a[text()='View More']",Element,Search Results,viewMoreKnowledge Element on Search Results screen
+viewMoreDiscussion,"//a[text()='Discussions']//parent::h2//parent::div//parent::div[contains(@class,'searchResultsGridHeader')]//a[text()='View More']",Element,Search Results,viewMoreDiscussion Element on Search Results screen
+searchResultHeader,//*[text()='#param#']//parent::h2,Element,Search Results,searchResultHeader Element on Search Results screen
+fileContainer_Answer,"//div[contains(@class,'fileAttachmentContainer')]",Element,QuestionPage,fileContainer_Answer Element on QuestionPage screen
+previewFile,//span[@title='Preview file'],Element,QuestionPage,previewFile Element on QuestionPage screen
+removeFile,"//button[contains(@class,'FileRemove')]",Element,QuestionPage,removeFile Element on QuestionPage screen
+homeLink,//a[text()='Home'],link,QuestionPage,homeLink link on QuestionPage screen
+viewAllDynamic,//lightning-formatted-text[@title='#param#']//parent::span//parent::button//parent::h3//parent::div//parent::section//lightning-formatted-text[@title='View All']//parent::a,link,Community Page,viewAllDynamic link on Community Page screen
+removefile_question,"//article//button[contains(@class,'delete uiButton')]",Button,QuestionPage,removefile_question Button on QuestionPage screen
+searchArticleEdit,"//input[contains(@title,'Search Salesforce')]",EditBox,Knowledge,Search Edit Box in Knowledge tab of Back-end Page
+searchArticleButton,//div[@class='searchBar']//a,Button,Knowledge,
+articleHeaderLink,//li[@class='articleListItem']//div[@class='articleText']//a,link,Knowledge,
+articleSummary,//li[@class='articleListItem']//p[@class='summary'],Element,Knowledge,
+likeLink,//span[@class='voteUDInlineVote']//a[text()='Like'],Link,Knowledge,
+dislikeButton,//span[@class='voteUDInlineVote']//a[text()='dislike'],Link,Knowledge,
+voteCount,//span[@class='voteUDInlineUpCount'],link,Knowledge,
+helpOption,//select[@name='helpList'],dropdown,Search Results,
+frame,//iframe,frame,Back-end,
+userotheraccount,//div[@id='otherTileText'],Element,Service Now Sign In,
+signInserviceNow1,//h2[text()='Sign In'],Element,Service Now Sign In,
+popupEdit,//span[text()='#param#']//parent::label//parent::div//input,EditBox,Critical Alert,
+popupTextArea,//span[text()='#param#']//parent::label//parent::div//textarea,textarea,Critical Alert,
+popupTextArea1,//*[text()='#param#']/..//textarea,textarea,Critical Alert,
+popupDropDown,//span[text()='#param#']//parent::label//parent::div//select,textarea,Critical Alert,
+dropdownArrow,"//a[@title='#param#']//parent::li//*[contains(@class,'dropdown-trigger')]//a",Element,Article,
+dropdownMenuOption,"//a[@title='#param1#']//parent::li//*[contains(@class,'dropdown-trigger')]//div[@role='menu']//span[text()='#param2#']",Element,Back-end,
+alertAction,"//a[@title='#param#']//parent::span//parent::th//parent::tr//a[contains(@class,'trigger')]",Element,Article,
+articleLink_Backend,"//table//a[contains(@class,'outputLookupLink')]",Element,Article,
+columnSortOrder,"//span[text()='#param#']//parent::a//parent::div//span[contains(text(),'Sorted')]",Element,Article,
+tableColumn,//th//span[text()='#param#'],Element,Article,
+backendTab,//a[@title='#param#']//parent::li,Element,Article,
+listviewOption,//div[@class='listContent']//span[text()='#param#'],Element,Article,
+flagAsNew,//span[text()='Flag as new version']//parent::span//preceding-sibling::input,Element,Article,
+articleType,//*[text()='#param#']//parent::div//preceding-sibling::div//input,Element,Article,
+categorySelection,"//span[contains(text(),'Categories')]/../../../..//div[@class='uiMenu']//a",Element,Article,
+categoryEdit,//div[@class='uiMenu']//a[@title='Edit'],Element,Article,
+categoryExpand,//span[@title='#param#']//preceding-sibling::button[@title='expand'],Element,,
+categoryCheckbox,//span[@title='#param#']//preceding-sibling::button[@title='expand']//preceding-sibling::div//input,Element,,
+approveReject,//a[text()='#param#']//parent::td//parent::tr//a[text()='Approve/Reject'],,,
+selectedCategory,"//div[contains(@class,'forceKnowledgeBlockSection')]//span[text()='#param#']",,,
+articleField,"//div[contains(@class,'windowViewMode-normal')]//*[text()='#param#']//parent::div//following-sibling::div/span/span",,,
+articleHeaderField,//ul//p[@title='#param#']//following-sibling::p/span,,,
+popupClose,"//a[contains(@class,'close') and contains(@class,'modal')]",,,
+articleBodyEdit,"//div[contains(@class,'modal-body ')]//*[text()='Article Body']/../following-sibling::div//button",,,
+searchNavigation,//*[text()='Search Results']/..//a[@title='#param#'],,,
+searchArticleResult,"//div[@class='listContent']//ul//li//a[contains(@class,'itemTitle')]",,,
+articleHeader,//h1[@title='#param#'],,,
+lastModifiedDate,//p[@title='Last Modified Date'],,,
+selectOptionLink,//span[text()='#param#']//../..//a[@class='select'],,,
+selectOptionMenu,//ul//li//a[@title='#param#'],,,
+shareAnUpdateEdit,//div[@data-placeholder='Share an update...'],,,
+shareFeedButton,//div[@class='slds-grid bottomBar']//span[text()='Share'],,,
+requestFollowup,//input[@name='requestFollowUp'],,,
+relatedArticles,//*[text()='Related Articles'],,,
+footerImage,//div[@data-region-name='footer']//img,,,
+searchType,"//div[contains(@class,'forceSearchInputEntitySelector')]//input",backend,,
+searchEdit_Backend,//input[@placeholder='Search...'],,,
+reportHeaderColumn,"//table[contains(@class,'reportTable')]//tr[@class='headerRow']//div[contains(text(),'#param#')]",,,
+reportsMetricsHeader,//span[@class='reportsMetricsHeader'],,,
+feedbackOption,//*[text()='What type of feedback are you providing?']/../..//select,,,
+feedbackText,//*[text()='What can we do better?']/../..//textarea,,,
+feedbackMsg,"//*[contains(@class,'FeedbackSubmitted')]",,,
+dialogClose,"//*[@role='dialog']//*[contains(@class,'utility-close')]",,,
+feedbackLink,//*[text()='#param#']/../../..//a,,,
+feedbackAction,"//*[text()='#param#']/../../..//a[contains(@class,'trigger')]",,,
+bookmark,//img[@title='Bookmark this Article'],,,
+removeBookmark,//img[@title='Remove Bookmark'],,,
+loginUsing,//h2[text()='Log In Using'],,,
+downForMaintenance,"//*[contains(@id,'StdExceptionTemplate')]//*[contains(text(),'down for maintenance')]",,,
+filterOption_Main,"//div[@role='listbox']//*[contains(@data-value,'FILTERED')]",,,

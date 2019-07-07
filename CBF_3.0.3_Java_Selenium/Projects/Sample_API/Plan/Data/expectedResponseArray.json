@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "first_name": "Sebastian",
+    "last_name": "Eschweiler",
+    "email": "sebastian@capgemini.com",
+    "Address": {
+      "Num": 1,
+      "Street": "Tillerson Road"
+    }
+  },
+  {
+    "id": 2,
+    "first_name": "Steve",
+    "last_name": "Palmer",
+    "email": "steve@capgemini.com",
+    "Address": {
+      "Num": 10,
+      "Street": "Tillerson Road"
+    }
+  },
+  {
+    "id": 3,
+    "first_name": "Ann",
+    "last_name": "Smith",
+    "email": "ann@capgemini.com",
+    "Address": {
+      "Num": 2,
+      "Street": "Tillerson Road"
+    }
+  },
+  {
+    "last_name": "Mirasdar",
+    "first_name": "Darshan",
+    "email": "darshan.mirasdar@capgemini.com",
+    "Address": {
+      "Num": 4,
+      "Street": "M.G. Road"
+    },
+    "id": 5
+  },
+  [
+    {
+      "first_name": "Ramprasad",
+      "last_name": "B"
+    }
+  ],
+  {
+    "first_name": "Ramprasad",
+    "last_name": "B",
+    "new": [
+      {
+        "initialRate": 12.9
+      },
+      {
+        "finalRate": 12.2
+      }
+    ],
+    "NewAddress": {
+      "Address": {
+        "Num": 10,
+        "Street": "Downing Street"
+      }
+    },
+    "id": 6
+  }
+]

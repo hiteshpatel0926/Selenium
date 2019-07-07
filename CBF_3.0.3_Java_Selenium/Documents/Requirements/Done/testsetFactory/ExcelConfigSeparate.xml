@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Utf-8"?>
+<config>
+	<variable>
+		<name>TestSetFactory</name>
+		<value>
+			<plugin>ExcelTestSetFactory</plugin>
+			<parameters>
+				<testSetFile>${testSetFile}</testSetFile>
+				<testSetSheet>${testSetSheet}</testSetSheet>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>TestCaseFactory</name>
+		<value>
+			<plugin>ExcelTestCaseFactory</plugin>
+			<parameters>
+				<enableIterationSelection>true</enableIterationSelection>
+				<enableStepSelection>true</enableStepSelection>
+			</parameters>
+		</value>
+	</variable>
+
+</config>

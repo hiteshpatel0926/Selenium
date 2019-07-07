@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AutomationSuite">
+              <span class="suite-name border-passed">AutomationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AutomationSuite">
+                    <span>D:\Coke Help\CokeHelp_Workspace\Salesforce_Selenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AutomationSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AutomationSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AutomationSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AutomationSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AutomationSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AutomationSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AutomationSuite" class="hide-methods passed suite-AutomationSuite"> (hide)</a> <!-- hide-methods passed suite-AutomationSuite -->
+                      <a href="#" panel-name="suite-AutomationSuite" class="show-methods passed suite-AutomationSuite"> (show)</a> <!-- show-methods passed suite-AutomationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AutomationSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="bookmarkArticle(null)">bookmarkArticle(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})">cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="cokeHelp_Logout(null)">cokeHelp_Logout(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="navigateToArticleFrontEnd(null)">navigateToArticleFrontEnd(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})">navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/ligh...)">openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/ligh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})">validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AutomationSuite" title="main.java.module.CokeHelp" hash-for-method="validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})">validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AutomationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationSuite" class="panel AutomationSuite">
+          <div class="suite-AutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">main.java.module.CokeHelp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookmarkArticle(null)">
+                  </a> <!-- bookmarkArticle(null) -->
+                  <span class="method-name">bookmarkArticle</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})">
+                  </a> <!-- cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com}) -->
+                  <span class="method-name">cokeHelp_Login</span>
+                  <span class="parameters">({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cokeHelp_Logout(null)">
+                  </a> <!-- cokeHelp_Logout(null) -->
+                  <span class="method-name">cokeHelp_Logout</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToArticleFrontEnd(null)">
+                  </a> <!-- navigateToArticleFrontEnd(null) -->
+                  <span class="method-name">navigateToArticleFrontEnd</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})">
+                  </a> <!-- navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile}) -->
+                  <span class="method-name">navigateToProfileMenu</span>
+                  <span class="parameters">({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/ligh...)">
+                  </a> <!-- openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp-kohsit.lightning.force.com/ligh...) -->
+                  <span class="method-name">openURL</span>
+                  <span class="parameters">({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/lightning/setup/ManageUsers/home })</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})">
+                  </a> <!-- validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1}) -->
+                  <span class="method-name">validateBookmarkedArticle</span>
+                  <span class="parameters">({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})">
+                  </a> <!-- validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook}) -->
+                  <span class="method-name">validateSearchFunctionality</span>
+                  <span class="parameters">({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationSuite-class-passed -->
+        </div> <!-- panel AutomationSuite -->
+        <div panel-name="test-xml-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Coke Help\CokeHelp_Workspace\Salesforce_Selenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;AutomationSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TC_BookmarkArticle&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;main.java.module.CokeHelp&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;openURL&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;manageusers&quot;/&gt;
+          &lt;/include&gt; &lt;!-- openURL --&gt;
+          &lt;include name=&quot;cokeHelp_Login&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;valid&quot;/&gt;
+          &lt;/include&gt; &lt;!-- cokeHelp_Login --&gt;
+          &lt;include name=&quot;validateSearchFunctionality&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;row3&quot;/&gt;
+          &lt;/include&gt; &lt;!-- validateSearchFunctionality --&gt;
+          &lt;include name=&quot;navigateToArticleFrontEnd&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;feedback1&quot;/&gt;
+          &lt;/include&gt; &lt;!-- navigateToArticleFrontEnd --&gt;
+          &lt;include name=&quot;bookmarkArticle&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;feedback1&quot;/&gt;
+          &lt;/include&gt; &lt;!-- bookmarkArticle --&gt;
+          &lt;include name=&quot;navigateToProfileMenu&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;myprofile&quot;/&gt;
+          &lt;/include&gt; &lt;!-- navigateToProfileMenu --&gt;
+          &lt;include name=&quot;validateBookmarkedArticle&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;row1&quot;/&gt;
+          &lt;/include&gt; &lt;!-- validateBookmarkedArticle --&gt;
+          &lt;include name=&quot;cokeHelp_Logout&quot;&gt;
+            &lt;parameter name=&quot;DataRowID&quot; value=&quot;&quot;/&gt;
+          &lt;/include&gt; &lt;!-- cokeHelp_Logout --&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- main.java.module.CokeHelp --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_BookmarkArticle --&gt;
+&lt;/suite&gt; &lt;!-- AutomationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_BookmarkArticle (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationSuite');
+function tableData_AutomationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cokeHelp_Login')
+data.setCell(0, 2, 'main.java.module.CokeHelp')
+data.setCell(0, 3, 64188);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openURL')
+data.setCell(1, 2, 'main.java.module.CokeHelp')
+data.setCell(1, 3, 19469);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigateToProfileMenu')
+data.setCell(2, 2, 'main.java.module.CokeHelp')
+data.setCell(2, 3, 14803);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'cokeHelp_Logout')
+data.setCell(3, 2, 'main.java.module.CokeHelp')
+data.setCell(3, 3, 12126);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateSearchFunctionality')
+data.setCell(4, 2, 'main.java.module.CokeHelp')
+data.setCell(4, 3, 9309);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateToArticleFrontEnd')
+data.setCell(5, 2, 'main.java.module.CokeHelp')
+data.setCell(5, 3, 7983);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'bookmarkArticle')
+data.setCell(6, 2, 'main.java.module.CokeHelp')
+data.setCell(6, 3, 5522);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateBookmarkedArticle')
+data.setCell(7, 2, 'main.java.module.CokeHelp')
+data.setCell(7, 3, 5292);
+window.suiteTableData['AutomationSuite']= { tableData: data, tableDiv: 'times-div-AutomationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-AutomationSuite">
+              </div> <!-- times-div-AutomationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Search Result page displayed</span>
+                <span class="reporter-method-output">Passed:Search String Found on Result page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/ligh...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Navigation Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Failed:Element is NOT Present</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Login Successful</span>
+                <span class="reporter-method-output">Passed:Navigation Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cokeHelp_Logout(null)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Navigation Successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Page is Displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToArticleFrontEnd(null)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Element is Present</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bookmarkArticle(null)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Passed:Bookmarked successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">62 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">main.java.module.CokeHelp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runReports</span>
+                <br/>
+                <span class="ignored-method-name">validateCriticalAlertAccess</span>
+                <br/>
+                <span class="ignored-method-name">validateGreetingMessage</span>
+                <br/>
+                <span class="ignored-method-name">validateDiscussionsSearchResults</span>
+                <br/>
+                <span class="ignored-method-name">navigateToTile</span>
+                <br/>
+                <span class="ignored-method-name">sharedCommentOnArticle</span>
+                <br/>
+                <span class="ignored-method-name">submitForApproval</span>
+                <br/>
+                <span class="ignored-method-name">validateSortFunctionalityinMyFeeds</span>
+                <br/>
+                <span class="ignored-method-name">verifySelectAsBestForNonAdmin</span>
+                <br/>
+                <span class="ignored-method-name">submitNewCase</span>
+                <br/>
+                <span class="ignored-method-name">editExistingQuesiton</span>
+                <br/>
+                <span class="ignored-method-name">provideFeedbackonArticle</span>
+                <br/>
+                <span class="ignored-method-name">validateInactivityLogout</span>
+                <br/>
+                <span class="ignored-method-name">navigateToArticle</span>
+                <br/>
+                <span class="ignored-method-name">validateChatFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">navigateToTab</span>
+                <br/>
+                <span class="ignored-method-name">criticalAlertE2EFlow</span>
+                <br/>
+                <span class="ignored-method-name">feedbackValidation</span>
+                <br/>
+                <span class="ignored-method-name">publishArticle</span>
+                <br/>
+                <span class="ignored-method-name">validateInactivityContinue</span>
+                <br/>
+                <span class="ignored-method-name">selectArticleCategory</span>
+                <br/>
+                <span class="ignored-method-name">workplaceHelp</span>
+                <br/>
+                <span class="ignored-method-name">removeAndValidateCriticalAlert</span>
+                <br/>
+                <span class="ignored-method-name">validateArticleAndDiscussion</span>
+                <br/>
+                <span class="ignored-method-name">verifyFooter</span>
+                <br/>
+                <span class="ignored-method-name">createStandardArticle</span>
+                <br/>
+                <span class="ignored-method-name">editStandardArticle</span>
+                <br/>
+                <span class="ignored-method-name">validateArticleEditable</span>
+                <br/>
+                <span class="ignored-method-name">validateHelpOptions</span>
+                <br/>
+                <span class="ignored-method-name">FeebackOnArticle</span>
+                <br/>
+                <span class="ignored-method-name">validateNewCaseMessage</span>
+                <br/>
+                <span class="ignored-method-name">validateTiles</span>
+                <br/>
+                <span class="ignored-method-name">validateTrendingTopics</span>
+                <br/>
+                <span class="ignored-method-name">ITHelp</span>
+                <br/>
+                <span class="ignored-method-name">observeRelatedArticles</span>
+                <br/>
+                <span class="ignored-method-name">approveArticle</span>
+                <br/>
+                <span class="ignored-method-name">selectAsBest_UserAccess</span>
+                <br/>
+                <span class="ignored-method-name">viewMoreinSearchResults</span>
+                <br/>
+                <span class="ignored-method-name">procureToPayHelp</span>
+                <br/>
+                <span class="ignored-method-name">selectCaseOption</span>
+                <br/>
+                <span class="ignored-method-name">deleteFeedback</span>
+                <br/>
+                <span class="ignored-method-name">validateArticleEditable_Frontend</span>
+                <br/>
+                <span class="ignored-method-name">validateChatorCase</span>
+                <br/>
+                <span class="ignored-method-name">createCriticalAlert</span>
+                <br/>
+                <span class="ignored-method-name">attachFileAnswer</span>
+                <br/>
+                <span class="ignored-method-name">updateDataPoints</span>
+                <br/>
+                <span class="ignored-method-name">travelHelp</span>
+                <br/>
+                <span class="ignored-method-name">financeServiceAssist</span>
+                <br/>
+                <span class="ignored-method-name">validateAlertBanner</span>
+                <br/>
+                <span class="ignored-method-name">addArticleNotes</span>
+                <br/>
+                <span class="ignored-method-name">feedbackonCokeHelp</span>
+                <br/>
+                <span class="ignored-method-name">HRHelp</span>
+                <br/>
+                <span class="ignored-method-name">reassignArticle</span>
+                <br/>
+                <span class="ignored-method-name">navigatetoCHHome</span>
+                <br/>
+                <span class="ignored-method-name">selectAsBestAnswerandVerified</span>
+                <br/>
+                <span class="ignored-method-name">existingArticleCheck</span>
+                <br/>
+                <span class="ignored-method-name">editCriticalAlert</span>
+                <br/>
+                <span class="ignored-method-name">postNewAnswer</span>
+                <br/>
+                <span class="ignored-method-name">viewLastModifiedDate</span>
+                <br/>
+                <span class="ignored-method-name">searchArticle</span>
+                <br/>
+                <span class="ignored-method-name">rejectArticle</span>
+                <br/>
+                <span class="ignored-method-name">askTheCommunity</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">main.java.module.CokeHelp</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">getTestName(org.testng.TestRunner@555cc0ba)</span>
+                <span class="method-start">3969 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">3984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openURL({componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/ligh...)</span>
+                <span class="method-start">3985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">23766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">23769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cokeHelp_Login({passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com})</span>
+                <span class="method-start">23769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">88419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">88421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchFunctionality({componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook})</span>
+                <span class="method-start">88421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">97957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">97958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToArticleFrontEnd(null)</span>
+                <span class="method-start">97958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">106184 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">106185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookmarkArticle(null)</span>
+                <span class="method-start">106185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">111945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">111946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToProfileMenu({componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile})</span>
+                <span class="method-start">111946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">127000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">127002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateBookmarkedArticle({articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1})</span>
+                <span class="method-start">127002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">132560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getMethodName</span>
+                <span class="method-start">132561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cokeHelp_Logout(null)</span>
+                <span class="method-start">132562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getMethodName1</span>
+                <span class="method-start">145024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">writeSummary</span>
+                <span class="method-start">145025 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">145042 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

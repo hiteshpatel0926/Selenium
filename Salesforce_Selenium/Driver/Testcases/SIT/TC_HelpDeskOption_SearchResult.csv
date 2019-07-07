@@ -1,0 +1,8 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+validateSearchFunctionality,row1,Y
+selectCaseOption,IT_helpdesk,Y
+validateChatorCase,chat,Y
+validateChatorCase,case,Y
+cokeHelp_Logout,,Y

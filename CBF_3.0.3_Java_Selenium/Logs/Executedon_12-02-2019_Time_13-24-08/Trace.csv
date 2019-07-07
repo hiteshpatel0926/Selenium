@@ -1,0 +1,170 @@
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Loading configuration from ",D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium/Resources/MasterConfig.xml
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ExcelTestCaseFactory,"{ classname = cbfx.factory.test.ExcelTestCaseFactory , parameters = {enableStepSelection=TBD, folderpath=, enableIterationSelection=TBD} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",DesignerTestCaseFactory,"{ classname = cbfx.factory.test.DesignerTestCaseFactory , parameters = {password=sprint123, projectname=TBD, version=TBD, url=http://10.51.25.52:8585/designer/api, username=sprint} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ExcelDataFactory,"{ classname = cbfx.factory.data.ExcelDataFactory , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",CSVDataFactory,"{ classname = cbfx.factory.data.CSVDataFactory , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",DBDataFactory,"{ classname = cbfx.factory.data.DbDataFactory , parameters = {password=root@123, classname=sun.jdbc.odbc.JdbcOdbcDriver, dbname=TestSetDB, userID=root, url=jdbc:odbc:Driver={Microsoft Factory Driver (*.mdb, *.accdb)}} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ExcelTestSetFactory,"{ classname = cbfx.factory.test.ExcelTestSetFactory , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",CSVTestSetFactory,"{ classname = cbfx.factory.test.CSVTestSetFactory , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",JsonTestSetFactory,"{ classname = cbfx.factory.test.JsonTestSetFactory , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",XmlTestSetFactory,"{ classname = cbfx.factory.test.XmlTestSetFactory , parameters = {folderpath=TBD, designerFolder=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",AlmTestSetFactory,"{ classname = cbfx.factory.test.AlmTestSetFactory , parameters = {domain=DEFAULT, project=AutomationCoE, url=http://in-pnq-coe03:8081/qcbin/} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ScreenDump,"{ classname = cbfx.factory.report.ScreenDumpManager , parameters = {folderpath=, pattern=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ExcelReport,"{ classname = cbfx.factory.report.ExcelReporter , parameters = {filepath=, pattern=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ResultEventLogger,"{ classname = cbfx.factory.report.ResultEventLogger , parameters = {filepath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",HtmlEvent,"{ classname = cbfx.factory.report.HtmlEventReporter , parameters = {detailsPath=, pattern=, summaryPath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",EmailAlert,"{ classname = cbfx.factory.report.EmailAlerter , parameters = {detailsPath=, summaryPath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",JenkinsScreenDump,"{ classname = cbfx.factory.report.ScreenDumpManager , parameters = {folderpath=, pattern=_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}.${Browser}} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",JenkinsExcelReport,"{ classname = cbfx.factory.report.ExcelReporter , parameters = {filepath=, pattern=_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}.${Browser}} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",JenkinsHtmlEvent,"{ classname = cbfx.factory.report.HtmlEventReporter , parameters = {detailsPath=, pattern=_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}, summaryPath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",JenkinsResultEventLogger,"{ classname = cbfx.factory.report.ResultEventLogger , parameters = {filepath=, pattern=_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",TestLink,"{ classname = cbfx.factory.report.TestLinkReporter , parameters = {devkey=7262833d005078a8d884181148d3bd5f, url=http://10.212.21.188:80/testlink/lib/api/xmlrpc/v1/xmlrpc.php} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",AlmReporter,"{ classname = cbfx.factory.report.AlmReporter , parameters = {password=pass, login_name=sunil, domain=DEFAULT, project=AutomationCoE, attach_level=testcase, url=http://in-pnq-coe03:8081/qcbin/} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",IE,"{ classname = cbfx.ui.browser.IE , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",CHROME,"{ classname = cbfx.ui.browser.Chrome , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",FIREFOX,"{ classname = cbfx.ui.browser.Firefox , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",REMOTE,"{ classname = cbfx.ui.browser.Remote , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",PhantomJS,"{ classname = cbfx.ui.browser.PhantomJS , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",APPIUM,"{ classname = cbfx.ui.browser.Appium , parameters = {} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",EggPlant,"{ classname = cbfx.ui.selenium.EggUIDriver , parameters = {password=igate, port=5901, suitepath=D:/Workspace/CBF-2.4.0-EggPlant/Test/Sample_EggPlant/Plan/AppDriver/OR/eggplant.suite, url=10.212.21.28} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",ExcelMap,"{ classname = cbfx.ui.objectmap.ExcelObjectMap , parameters = {modulewise=true, folderpath=Plan/AppDriver/OR, filename=uiMap.xls, sheetname=locators} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",CSVMap,"{ classname = cbfx.ui.objectmap.CSVObjectMap , parameters = {modulewise=true, folderpath=Plan/AppDriver/OR, filename=uiMap.csv} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",XmlMap,{ classname = cbfx.ui.objectmap.XmlObjectMap }
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",DesignerMap,{ classname = cbfx.ui.objectmap.DesignerObjectMap }
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",WebAppDriver,"{ classname = cbfx.ui.web.WebAppDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",WebModuleDriver,"{ classname = cbfx.ui.web.WebModuleDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",BaseWebAppDriver,"{ classname = cbfx.ui.web.BaseWebAppDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",APIAppDriver,"{ classname = cbfx.api.APIAppDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",MainFrameAppDriver,"{ classname = cbfx.ui.mainframe.MainFrameAppDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.utils.Configuration,Configuration,"Variable added ",CompositeAppDriver,"{ classname = samples.CompositeAppDriver , parameters = {folderpath=} }"
+
+TRACE, 12 Feb 2019 13:24:09, cbf.harness.ReportingManager,ReportingManager{ [] },Reporter selected:,ScreenDumpManager
+
+TRACE, 12 Feb 2019 13:24:09, cbf.harness.ReportingManager,ReportingManager{ [] },Reporter selected:,HtmlEventReporter
+
+TRACE, 12 Feb 2019 13:24:09, cbf.harness.Harness,class cbf.harness.Harness,loading engine
+
+TRACE, 12 Feb 2019 13:24:09, cbf.harness.ReportingManager,ReportingManager{ [] },"opened reporter: ",ScreenDumpManager
+
+TRACE, 12 Feb 2019 13:24:09, cbf.harness.ReportingManager,ReportingManager{ [] },"opened reporter: ",HtmlEventReporter
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.ui.selenium.WebUIDriver,WebUIDriver{ [] },Chromedriver instance created
+
+ INFO, 12 Feb 2019 13:24:13, cbfx.factory.report.HtmlEventReporter,HtmlEventReporter,In default case.
+
+ INFO, 12 Feb 2019 13:24:13, cbf.engine.TestResultTracker,TestResultTracker,START : runTestSet
+
+ INFO, 12 Feb 2019 13:24:13, cbf.engine.TestResultTracker,TestResultTracker,START : run
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.test.ExcelTestCaseFactory,ExcelTestCaseFactory,getTestCase()
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.test.ExcelTestCaseFactory,ExcelTestCaseFactory,DeserializeTest(Register;D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/TestCases/Register.xls)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,SelectRows(Register-Launch_URL-_DefaultCompRow)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(Register-Launch_URL.xlsx)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,"Data file Launch_URL.xlsx does not exists. ",D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/Register/Launch_URL.xlsx,Plan/Data/Register
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)=D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/RegisterData.xls
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,SelectRows(Register-References-)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(Register-References.xlsx)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,"Data file References.xlsx does not exists. ",D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/Register/References.xlsx,Plan/Data/Register
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)=D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/RegisterData.xls
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.test.ExcelDeserializer,ExcelDeserializer,Step added:{ moduleCode = Register ; offlineRowId = _DefaultCompRow ; componentCode = Launch_URL ; stepName = Summary ; abortTestIfUnexpected = true ; inlineRowId =  ; _selectYN = Y }:#0
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,SelectRows(Register-Register-_DefaultCompRow)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(Register-Register.xlsx)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,"Data file Register.xlsx does not exists. ",D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/Register/Register.xlsx,Plan/Data/Register
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.data.ExcelDataFactory,ExcelDataFactory,TryFilePath(-RegisterData.xls)=D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Projects\OpenCart/Plan/Data/RegisterData.xls
+
+TRACE, 12 Feb 2019 13:24:13, cbfx.factory.test.ExcelDeserializer,ExcelDeserializer,Step added:{ moduleCode = Register ; offlineRowId = _DefaultCompRow ; componentCode = Register ; stepName = Summary ; abortTestIfUnexpected = true ; inlineRowId =  ; _selectYN = Y }:#0
+
+ INFO, 12 Feb 2019 13:24:13, cbf.engine.TestResultTracker,TestResultTracker,START : access$5
+
+ INFO, 12 Feb 2019 13:24:13, cbf.engine.TestResultTracker,TestResultTracker,START : track
+
+ INFO, 12 Feb 2019 13:24:13, cbf.engine.TestResultTracker,TestResultTracker,START : run
+
+TRACE, 12 Feb 2019 13:24:13, cbf.engine.TestRunner,TestRunner,performComponent()
+
+TRACE, 12 Feb 2019 13:24:13, cbf.engine.TestRunner,TestRunner,"appdriver.perform( Register_Launch_URL_{ _rowId = _DefaultCompRow ; Navigate@Chrome = https://www.opencart.com/ } ) "
+
+TRACE, 12 Feb 2019 13:24:21, cbfx.ui.selenium.WebUIDriver,WebUIDriver{ [] },launch,https://www.opencart.com/,true
+
+TRACE, 12 Feb 2019 13:24:25, cbfx.ui.selenium.WebUIDriver,WebUIDriver{ [] },maximizeWindow
+
+TRACE, 12 Feb 2019 13:24:39, cbf.engine.TestResultTracker,TestResultTracker,Report Event: type:DONE:details:{ actual = Launched https://www.opencart.com/ ; expected =  ; name = Launch Application ; screenDump = true ; failureCause = null }
+
+TRACE, 12 Feb 2019 13:24:39, cbfx.factory.report.ScreenDumpManager,ScreenDumpManager,Report log
+
+TRACE, 12 Feb 2019 13:24:39, cbfx.ui.web.BaseWebAppDriver,class cbfx.ui.web.BaseWebAppDriver,DumpScreen : D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium\Logs\Executedon_12-02-2019_Time_13-24-08/ScreenShots/Register_Summary_0_719.png
+
+ INFO, 12 Feb 2019 13:24:39, cbf.engine.TestResultLogger,class cbf.engine.TestResultLogger,DONE,"{ actual = Launched https://www.opencart.com/ , expected =  , name = Launch Application , screenDump = true , failureCause = null }"
+
+TRACE, 12 Feb 2019 13:24:39, ModuleDrivers.RegisterDriver,RegisterDriver(),Invoked method,"public void ModuleDrivers.RegisterDriver.Launch_URL(cbf.utils.DataRow,cbf.utils.DataRow)",Launch_URL
+
+ INFO, 12 Feb 2019 13:24:39, cbf.engine.TestResultTracker,TestResultTracker,FINISH : run STATUS : DONE
+
+ INFO, 12 Feb 2019 13:24:42, cbf.engine.TestResultTracker,TestResultTracker,FINISH : track STATUS : DONE
+
+ INFO, 12 Feb 2019 13:24:43, cbf.engine.TestResultTracker,TestResultTracker,START : track
+
+ INFO, 12 Feb 2019 13:24:43, cbf.engine.TestResultTracker,TestResultTracker,START : run
+
+TRACE, 12 Feb 2019 13:24:43, cbf.engine.TestRunner,TestRunner,performComponent()
+
+TRACE, 12 Feb 2019 13:24:43, cbf.engine.TestRunner,TestRunner,"appdriver.perform( Register_Register_{ Type@Username = San ; _rowId = _DefaultCompRow ; Type@Last_Name = San ; Type@First_Name = Gow } ) "
+

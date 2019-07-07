@@ -1,0 +1,9 @@
+package,present name,new name,remark,Status
+cbf.data,ExcelFactory,ExcelDataFactory,Even better,Completed
+cbf.data,DbFactory,DbDataFactory,Even better,Completed
+cbf.harness,ParameterFactory,ParameterAccess,Old name is correct. This is not a factory.,Completed
+cbf.testaccess,*Factory,same name,Change package name to cbf.testfactory,Completed
+cbf.utils,AlmFactory,AlmAccess,Old name is correct. This is not a factory.,Completed
+cbf.utils,DesignerFactory,DesignerAccess,Old name is correct. This is not a factory.,Completed
+cbf.utils,DTFactory,DTAccess,Old name is correct. This is not a factory.,Completed
+cbf.utils,ExcelFactory,ExcelAccess,Old name is correct. This is not a factory.,Completed

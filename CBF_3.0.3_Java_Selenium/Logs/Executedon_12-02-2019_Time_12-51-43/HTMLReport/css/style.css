@@ -1,0 +1,205 @@
+
+.body{
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 2em; 
+	font-size: 0.8em; 
+	margin: 2em 2.5em;
+	}
+
+.footer{
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #004994;
+	text-align: right; 
+	font-size: 0.95em; 
+	font-weight: bold;
+	}
+.heading{
+	color: #004994; 
+	text-align: center;
+	margin: auto;
+	}
+.tableHeading{
+	background-color: #0059b3; 
+	font-weight: bold; 
+	color: #FFFFFF;
+	}
+.tcTableHeading{
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 2em; 
+	font-size: 0.8em; 
+	background-color: #0059b3; 
+	font-weight: bold; 
+	color: #FFFFFF;
+	}
+	
+.h1{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-size: 2.7em; 
+	margin-bottom: 0.6667em;
+	}
+.h2{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold; 
+	font-size: 2.0em; 
+	margin-bottom: 0;
+	}
+.summaryTable{
+	padding: 3px 3px 3px 70px;
+	width: 50%; 
+	margin-top: 1.8em; 
+	line-height: 1.7em; 
+	border-spacing: 0.1em; 
+	text-align: center;
+	}
+.summaryTable tr{
+	height: Auto;
+}
+.summaryTable td {
+	padding: 3px 3px 3px 3px; 
+	background-color: #e6e6e6;
+	text-align: center; 
+	font-family: Arial; 
+	border-bottom: 2px solid #ddd;
+	}
+.summaryTable th {
+	padding: 3px 3px 3px 3px; 
+	text-align: center;
+	}
+.tcOverviewTable{
+	width: 90%; 
+	margin-top: 1.8em; 
+	line-height: 1.7em; 
+	border-spacing: 0.1em; 
+	text-align: center;
+	margin: auto;
+	}
+.tcOverviewTable tr{
+	height: Auto;
+	color: #2E4053;
+	}
+.tcOverviewTable td { 
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 2em; 
+	font-size: 0.8em; 
+	padding: 3px 3px 3px 3px; 
+	background-color: #e6e6e6;
+	text-align: center; 
+	border-bottom: 2px solid #ddd;
+	}
+.tcOverviewTable th {
+	padding: 3px 3px 3px 3px; 
+	text-align: center;
+	}
+.overviewTable{
+	width: 90%; 
+	margin-top: 1.8em; 
+	line-height: 1.7em; 
+	border-spacing: 0.1em; 
+	text-align: center;
+	margin: auto;
+	}
+.overviewTable tr{
+	height: Auto;
+	color: #2E4053;
+	}
+.overviewTable td { 
+	padding: 3px 3px 3px 3px; 
+	background-color: #e6e6e6;
+	text-align: center; 
+	font-family: Arial; 
+	border-bottom: 2px solid #ddd;
+	}
+.overviewTable th {
+	padding: 3px 3px 3px 3px; 
+	text-align: center;
+	}
+.envTable{
+	margin-top: 1.8em; 
+	line-height: 1.7em; 
+	border-spacing: 0.1em; 
+	text-align: center;
+	margin: auto;
+	}
+.envTable tr{
+	height: Auto;
+	color: #2E4053;
+	}
+.envTable td {
+	padding: 3px 3px 3px 3px; 
+	background-color: #e6e6e6;
+	text-align: center; 
+	font-family: Arial; 
+	border-bottom: 2px solid #ddd;
+	}
+.passed {
+	font-size: 1em; 
+	background-color: #00ff55;
+	}
+.passedText {
+	font-size: 1em; 
+	background-color: #00ff55;
+	font-weight: bold; 
+	color: #229954;
+	}
+.skipped{
+	font-size: 1em; 
+	background-color: #ffcc00;
+	}
+.failed {
+	font-size: 1em; 
+	background-color: #ff4d4d;
+	}
+.failedText {
+	font-size: 1em; 
+	background-color: #ff4d4d;
+	font-weight: bold; 
+	color: #ff4d4d;
+	}
+.skippedText {
+	font-size: 1em; 
+	background-color: #ff4d4d;
+	font-weight: bold; 
+	color: #000080;
+	}
+.totalText{
+	font-size: 1em; 
+	background-color: #ff4d4d;
+	font-weight: bold; 
+	color: #2E4053;
+	}
+.text{
+	font-family: Arial, Helvetica, sans-serif; 
+	line-height: 2em; 
+	font-size: 0.8em; 
+	}
+.style-drop-shadow{
+	height: 12px;
+	border: 0; 
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+	}
+.style-transparen{
+	border: 0; 
+	height: 1px; 
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+.successIndicator{
+	font-family: monospace; 
+	font-size: 1.3em;  
+	font-weight: bold; 
+	color: #44aa44;
+	}
+.skipIndicator{
+	font-family: monospace; 
+	font-size: 1.3em; 
+	font-weight: bold; 
+	color: #ffaa00;
+	}
+.failureIndicator{
+	font-family: monospace; 
+	font-size: 1.3em; 
+	font-weight: bold; 
+	color: #ff4444;
+	}
+
+	

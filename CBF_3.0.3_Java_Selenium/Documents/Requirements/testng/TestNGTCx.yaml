@@ -1,0 +1,77 @@
+#format: v0.1
+description: Verify that a Text Area that changes it's Market localizable text based on the Deal type is being displayed for Punchcards
+tags: []
+before:
+  - module: main
+    component: launch
+  - module: main
+    component: login
+    description: Login
+    args:
+      _rowId:
+      userId:
+      password:
+after:
+  - module: main
+    component: close
+testcases:
+  - description: First test case
+    steps:
+    - module:
+      component:
+      ...
+  - description: Second test case
+    ...
+
+steps:
+  
+    - actorType: GMA
+      steps:
+        - index: 1
+          actions:
+            - description: Initialize Appium Driver
+              macro: gma.android.InitAndroid
+
+            - description: Login to the application
+              macro: gma.android.CommonLogin
+              args:
+                email: $data("android/inputdata").parameter.loginEmail
+                password: $data("android/inputdata").parameter.loginPassword
+            
+            - description: Navigate to see all deals     #Added by Saurabh on date 12/22/2016
+              macro: gma.android.NavigateToHomePageSigned 
+
+            - description: Wait 8 seconds   
+              action: dtest.actions.Delay
+              args:
+                  seconds: 8       
+
+            - description: Swipe till next deal card element appears
+              action: dtest.mobileactions.TouchAndMove
+              args:
+                locator: $data("android/xpath").restaurants.cardOrderBodyTitle
+                direction: left
+
+
+            - description: Wait for standard deal to appear
+              action: dtest.mobileactions.WaitForCondition
+              args:
+                locator: $data("android/xpath").deals.redeemDeal
+                condition: visibilityOfElementLocated 
+
+            - description: Verify standard deal on home screen
+              action: dtest.mobileactions.AssertElementText
+              args:
+                locator: $data("android/xpath").promotionBannerPage.dealsCardHeaderTitle
+                text: $data("android/inputdata").promotionBannerPage.dealsCardHeaderTitle
+                swipe: down    
+
+            # - description: Verify text area on my deals cards
+            #   action: dtest.mobileactions.AssertElementVisible
+            #   args:
+            #     locator: $data("android/xpath").promotionBannerPage.dealsCardDescription
+            #     swipe: none   
+
+# Can't verify the description text as it is may change as per the deal.
+
+            

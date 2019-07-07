@@ -1,0 +1,8 @@
+componentName,dataRowID,YN
+openURL,dev,Y
+cokeHelp_Login,dev,Y
+validateGreetingMessage,,Y
+validateTiles,,Y
+validateSearchFunctionality,row1,Y
+validateTrendingTopics,,Y
+cokeHelp_Logout,,Y

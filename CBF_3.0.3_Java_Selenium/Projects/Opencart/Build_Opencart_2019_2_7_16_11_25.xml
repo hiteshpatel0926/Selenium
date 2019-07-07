@@ -1,0 +1,58 @@
+<project basedir="D:\Automation_CoE\coe_team\CBF_3.0.3_Java_Selenium" default="run" name="cbf">
+	<property environment="env" />
+	<property name="src" location="${basedir}\Projects\Opencart\Plan\AppDriver\ModuleDrivers" />
+	<property name="libs" location="${basedir}\lib\" />
+
+	<path id="class.path">
+		<pathelement location="${libs}\dom4j-1.6.1.jar" />
+		<pathelement location="${libs}\xmlbeans-2.3.0.jar" />
+		<pathelement location="${libs}\poi-3.9-20121203.jar" />
+		<pathelement location="${libs}\poi-examples-3.9-20121203.jar" />
+		<pathelement location="${libs}\poi-ooxml-3.9-20121203.jar" />
+		<pathelement location="${libs}\poi-scratchpad-3.9-20121203.jar" />
+		<pathelement location="${libs}\poi-excelant-3.9-20121203.jar" />
+		<pathelement location="${libs}\poi-ooxml-schemas-3.9-20121203.jar" />
+		<pathelement location="${libs}\org.apache.commons.httpclient.jar" />
+		<pathelement location="${libs}\commons-cli-2.0.jar" />
+		<pathelement location="${libs}\log4j-1.2.17.jar" />
+		<pathelement location="${libs}\selenium-server-standalone-2.45.0.jar" />
+		<pathelement location="${libs}\httpclient-4.4.1.jar" />
+		<pathelement location="${libs}\httpcore-4.4.1.jar" />
+		<pathelement location="${libs}\cbf.jar" />
+		<pathelement location="${libs}\cbfx.jar" />
+		<pathelement location="${basedir}\bin" />
+	</path>
+	
+	<target name="clean"> 
+		<delete dir="${bin}" /> 
+		<mkdir dir="${bin}" /> 
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="${basedir}\Logs" />
+		<javac classpathref="class.path" srcdir="${src}" destdir="${basedir}\bin">
+			<exclude name = "\Backup\**" />
+		</javac>
+	</target>
+
+	<!-- 
+	Give the proper value in the depends key in the below target tag to execute proper tool with proper parameters
+	-->
+
+	<target name="run" depends="Excel" />
+
+	<target name="Excel" depends="compile">
+		<property environment="env" />
+		<java classname="cbf.harness.Main" failonerror="true" fork="true">
+			<classpath refid="class.path" />
+			<arg value="-configfilepath" />
+			<arg value="${basedir}\Projects\Opencart\Plan\ExcelConfig.xml" />
+			<arg value="-testsetfile" />
+			<arg value="TestSet.xls" />
+			<arg value="-testsetsheet" />
+			<arg value="TestSet" />
+			<arg value="-browser" />
+			<arg value="CHROME" />
+		</java>
+	</target>
+</project>

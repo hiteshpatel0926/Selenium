@@ -1,0 +1,5 @@
+package,new name,remark
+cbf.data,cbfx.factory.data,Move all user-extensible factories under cbfx.factory
+cbf.testfactory,cbfx.factory.test,Move all user-extensible factories under cbfx.factory
+cbf.reporting,cbfx.factory.report,Move all user-extensible factories under cbfx.factory
+moduledrivers,sampleapp,Better name

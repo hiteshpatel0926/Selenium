@@ -1,0 +1,5 @@
+// addLog(timestamp, resultId, tcId, tcName, OSname, browserName, "start|finish",  "Error|Failed|Warning|Passed")
+addLog(1234567890, "TestResult@abcdef", "Testcase@123123", "TC1", "Windows", "Chrome", "START", "./details/TC1.html")
+addLog(1234567891, "TestResult@123456", "Testcase@456456", "TC1", "Windows", "Firefox", "START", "./details/TC2.html")
+addLog(1234598897, "TestResult@123456", "Testcase@456456", "TC2", "Windows", "Chrome", "FINISH", "Failed")
+addLog(1234598765, "TestResult@abcdef", "Testcase@123123", "TC1", "Windows", "Firefox", "FINISH", "Passed")

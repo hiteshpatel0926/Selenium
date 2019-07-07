@@ -1,0 +1,12 @@
+S.No.,Test Case Name,stepName,Expected Result,Actual Result,Pass/Fail,Timestamp
+1,TC_BookmarkArticle,Validation of Login screen or Backend Page,Screen should navigate to Login,Navigation Successful,Pass,2018.08.20.18.07.02
+2,TC_BookmarkArticle,Validation for Login,Login Should be Succesful,Login Successful,Pass,2018.08.20.18.07.38
+3,TC_BookmarkArticle,Validation of Coke Home Screen,Screen should navigate to Coke Home Page,Navigation Successful,Pass,2018.08.20.18.08.06
+4,TC_BookmarkArticle,Validation for Search Result Page,Search Result Page Should be displayed,Search Result page displayed,Pass,2018.08.20.18.08.14
+5,TC_BookmarkArticle,Validation for Search String in Results Page,Search String should be present on Result Page,Search String Found on Result page,Pass,2018.08.20.18.08.16
+6,TC_BookmarkArticle,Article Validation,Article Should be present:Agile Scrum Playbook,Article Found,Pass,2018.08.20.18.08.21
+7,TC_BookmarkArticle,Validation for Element with Text:Agile Scrum Playbook,Element should be present,Element is Present,Pass,2018.08.20.18.08.24
+8,TC_BookmarkArticle,Validation for Article Bookmark,Article should be bookmarked,Bookmarked successfully,Pass,2018.08.20.18.08.30
+9,TC_BookmarkArticle,Validation for Profile Menu Page,My Profile should be displayed,Page is Displayed,Pass,2018.08.20.18.08.40
+10,TC_BookmarkArticle,Validation for Element with Text:Agile Scrum Playbook,Element should be present,Element is NOT Present,Fail,2018.08.20.18.08.50
+11,TC_BookmarkArticle,Logout Validation,Screen should navigate to Login,Navigation Successful,Pass,2018.08.20.18.09.03

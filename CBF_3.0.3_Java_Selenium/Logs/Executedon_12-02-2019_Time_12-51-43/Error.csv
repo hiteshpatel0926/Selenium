@@ -1,0 +1,6 @@
+ERROR, 12 Feb 2019 12:51:53, cbf.engine.TestResultLogger,class cbf.engine.TestResultLogger,"Error: Click on Register.eltRegister,Unexpected error while 'clicked Register.eltRegister':'java.lang.IllegalArgumentException: Cannot find elements with a null id attribute.',[java.lang.IllegalArgumentException: Cannot find elements with a null id attribute.,[Ljava.lang.Object;@55493582]"
+
+ERROR, 12 Feb 2019 12:51:53, ModuleDrivers.RegisterDriver,RegisterDriver(),"Error: Invoking component:Register,FrameworkException,{ Type@Username = San , _rowId = _DefaultCompRow , Type@Last_Name = San , Type@First_Name = Gow },"
+
+ERROR, 12 Feb 2019 12:51:53, cbfx.ui.web.BaseWebAppDriver,class cbfx.ui.web.BaseWebAppDriver,"Error: module driver perform,FrameworkException,RegisterDriver(),Register,Register,{ Type@Username = San , _rowId = _DefaultCompRow , Type@Last_Name = San , Type@First_Name = Gow }"
+

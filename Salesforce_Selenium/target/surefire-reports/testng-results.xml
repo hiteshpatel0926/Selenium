@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="62" total="70" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Data Row ID 'feedback1'not given for component : 'navigateToArticleFrontEnd']]>
+    </line>
+    <line>
+      <![CDATA[Data Row ID 'feedback1'not given for component : 'bookmarkArticle']]>
+    </line>
+    <line>
+      <![CDATA[Data Row ID ''not given for component : 'cokeHelp_Logout']]>
+    </line>
+    <line>
+      <![CDATA[Passed:Navigation Successful]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Navigation Successful]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Search Result page displayed]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Search String Found on Result page]]>
+    </line>
+    <line>
+      <![CDATA[Data Row ID 'feedback1'not given for component : 'navigateToArticleFrontEnd']]>
+    </line>
+    <line>
+      <![CDATA[Passed:Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Data Row ID 'feedback1'not given for component : 'bookmarkArticle']]>
+    </line>
+    <line>
+      <![CDATA[Passed:Bookmarked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Passed:Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Failed:Element is NOT Present]]>
+    </line>
+    <line>
+      <![CDATA[Data Row ID ''not given for component : 'cokeHelp_Logout']]>
+    </line>
+    <line>
+      <![CDATA[Passed:Navigation Successful]]>
+    </line>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="141056" started-at="2018-08-20T12:36:42Z" finished-at="2018-08-20T12:39:03Z">
+    <groups>
+    </groups>
+    <test name="TC_BookmarkArticle" duration-ms="141056" started-at="2018-08-20T12:36:42Z" finished-at="2018-08-20T12:39:03Z">
+      <class name="main.java.module.CokeHelp">
+        <test-method status="PASS" signature="init()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="init" is-config="true" duration-ms="3969" started-at="2018-08-20T12:36:38Z" finished-at="2018-08-20T12:36:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data Row ID 'feedback1'not given for component : 'navigateToArticleFrontEnd']]>
+            </line>
+            <line>
+              <![CDATA[Data Row ID 'feedback1'not given for component : 'bookmarkArticle']]>
+            </line>
+            <line>
+              <![CDATA[Data Row ID ''not given for component : 'cokeHelp_Logout']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getTestName(org.testng.ITestContext)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getTestName" is-config="true" duration-ms="4" started-at="2018-08-20T12:36:42Z" finished-at="2018-08-20T12:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@555cc0ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="1" started-at="2018-08-20T12:36:42Z" finished-at="2018-08-20T12:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="openURL(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="openURL" duration-ms="19469" started-at="2018-08-20T12:36:42Z" data-provider="input" finished-at="2018-08-20T12:37:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/lightning/setup/ManageUsers/home }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Navigation Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:37:02Z" finished-at="2018-08-20T12:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="cokeHelp_Login(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="cokeHelp_Login" duration-ms="64188" started-at="2018-08-20T12:37:02Z" data-provider="input" finished-at="2018-08-20T12:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Passed:Navigation Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cokeHelp_Login -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:37:02Z" finished-at="2018-08-20T12:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:07Z" finished-at="2018-08-20T12:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="validateSearchFunctionality(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="validateSearchFunctionality" duration-ms="9309" started-at="2018-08-20T12:38:07Z" data-provider="input" finished-at="2018-08-20T12:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Search Result page displayed]]>
+            </line>
+            <line>
+              <![CDATA[Passed:Search String Found on Result page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionality -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:07Z" finished-at="2018-08-20T12:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:16Z" finished-at="2018-08-20T12:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:16Z" finished-at="2018-08-20T12:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="navigateToArticleFrontEnd(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="navigateToArticleFrontEnd" duration-ms="7983" started-at="2018-08-20T12:38:16Z" data-provider="input" finished-at="2018-08-20T12:38:24Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Element is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToArticleFrontEnd -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:25Z" finished-at="2018-08-20T12:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:25Z" finished-at="2018-08-20T12:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="bookmarkArticle(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="bookmarkArticle" duration-ms="5522" started-at="2018-08-20T12:38:25Z" data-provider="input" finished-at="2018-08-20T12:38:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Bookmarked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookmarkArticle -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:30Z" finished-at="2018-08-20T12:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:30Z" finished-at="2018-08-20T12:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="navigateToProfileMenu(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="navigateToProfileMenu" duration-ms="14803" started-at="2018-08-20T12:38:30Z" data-provider="input" finished-at="2018-08-20T12:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Page is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToProfileMenu -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:45Z" finished-at="2018-08-20T12:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:45Z" finished-at="2018-08-20T12:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="validateBookmarkedArticle(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="validateBookmarkedArticle" duration-ms="5292" started-at="2018-08-20T12:38:45Z" data-provider="input" finished-at="2018-08-20T12:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Failed:Element is NOT Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBookmarkedArticle -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:51Z" finished-at="2018-08-20T12:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="getMethodName()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName" is-config="true" duration-ms="0" started-at="2018-08-20T12:38:51Z" finished-at="2018-08-20T12:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method status="PASS" signature="cokeHelp_Logout(java.util.HashMap)[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="cokeHelp_Logout" duration-ms="12126" started-at="2018-08-20T12:38:51Z" data-provider="input" finished-at="2018-08-20T12:39:03Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passed:Navigation Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cokeHelp_Logout -->
+        <test-method status="PASS" signature="getMethodName1()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="getMethodName1" is-config="true" duration-ms="0" started-at="2018-08-20T12:39:03Z" finished-at="2018-08-20T12:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName1 -->
+        <test-method status="PASS" signature="writeSummary()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="writeSummary" is-config="true" duration-ms="0" started-at="2018-08-20T12:39:03Z" finished-at="2018-08-20T12:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeSummary -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:main.java.module.CokeHelp@137db13f]" name="quitBrowser" is-config="true" duration-ms="592" started-at="2018-08-20T12:39:03Z" finished-at="2018-08-20T12:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- main.java.module.CokeHelp -->
+    </test> <!-- TC_BookmarkArticle -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

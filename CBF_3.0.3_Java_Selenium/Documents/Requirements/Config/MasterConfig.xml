@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<!-- Test Case Factory -->
+	<variable>
+		<name>ExcelTestCaseFactory</name>
+		<value>
+			<classname>cbfx.factory.test.ExcelTestCaseFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+				<enableIterationSelection>TBD</enableIterationSelection>
+				<enableStepSelection>TBD</enableStepSelection>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>DesignerTestCaseFactory</name>
+		<value>
+			<classname>cbfx.factory.test.DesignerTestCaseFactory</classname>
+			<parameters>
+				<url>http://10.51.25.52:8585/designer/api</url>
+				<username>sprint</username>
+				<password>sprint123</password>
+				<projectname>TBD</projectname>
+				<version>TBD</version>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--Data Factory -->
+
+	<variable>
+		<name>ExcelDataFactory</name>
+		<value>
+			<classname>cbfx.factory.data.ExcelDataFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+			</parameters>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>CSVDataFactory</name>
+		<value>
+			<classname>cbfx.factory.data.CSVDataFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+			</parameters>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>DBDataFactory</name>
+		<value>
+			<classname>cbfx.factory.data.DbDataFactory</classname>
+			<parameters>
+				<url>jdbc:odbc:Driver={Microsoft Factory Driver (*.mdb, *.accdb)}
+				</url>
+				<classname>sun.jdbc.odbc.JdbcOdbcDriver</classname>
+				<userID>root</userID>
+				<password>root@123</password>
+				<dbname>TestSetDB</dbname>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--Test set Factory -->
+
+	<variable>
+		<name>ExcelTestSetFactory</name>
+		<value>
+			<classname>cbfx.factory.test.ExcelTestSetFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+			</parameters>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>CSVTestSetFactory</name>
+		<value>
+			<classname>cbfx.factory.test.CSVTestSetFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+			</parameters>
+		</value>
+	</variable>
+	
+	
+	<variable>
+		<name>JsonTestSetFactory</name>
+		<value>
+			<classname>cbfx.factory.test.JsonTestSetFactory</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>XmlTestSetFactory</name>
+		<value>
+			<classname>cbfx.factory.test.XmlTestSetFactory</classname>
+			<parameters>
+				<!-- <folderpath>D:\\Shared\\CBF_Testlink\\XmlTestSets</folderpath> -->
+				<folderpath>TBD</folderpath>
+				<designerFolder>
+				</designerFolder>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>AlmTestSetFactory</name>
+		<value>
+			<classname>cbfx.factory.test.AlmTestSetFactory</classname>
+			<parameters>
+				<url>http://gnrgdcdt00144:8080/qcbin/</url>
+				<domain>TESTAUTO</domain>
+				<project>TESTAUTO</project>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--Reporters -->
+
+	<variable>
+		<name>ScreenDump</name>
+		<value>
+			<classname>cbfx.factory.report.ScreenDumpManager</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+				<pattern>
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>ExcelReport</name>
+		<value>
+			<classname>cbfx.factory.report.ExcelReporter</classname>
+			<parameters>
+				<filepath>
+				</filepath>
+				<pattern>
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>ResultEventLogger</name>
+		<value>
+			<classname>cbfx.factory.report.ResultEventLogger</classname>
+			<parameters>
+				<filepath>
+				</filepath>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>HtmlEvent</name>
+		<value>
+			<classname>cbfx.factory.report.HtmlEventReporter</classname>
+			<parameters>
+				<summaryPath>
+				</summaryPath>
+				<detailsPath>
+				</detailsPath>
+				<pattern>
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>EmailAlert</name>
+		<value>
+			<classname>cbfx.factory.report.EmailAlerter</classname>
+			<parameters>
+				<summaryPath>
+				</summaryPath>
+				<detailsPath>
+				</detailsPath>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--Jenkins Reporters -->
+
+	<variable>
+		<name>JenkinsScreenDump</name>
+		<value>
+			<classname>cbfx.factory.report.ScreenDumpManager</classname>
+			<parameters>
+				<folderpath>
+				</folderpath>
+				<pattern>_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}.${Browser}
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>JenkinsExcelReport</name>
+		<value>
+			<classname>cbfx.factory.report.ExcelReporter</classname>
+			<parameters>
+				<filepath>
+				</filepath>
+				<pattern>_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}.${Browser}
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>JenkinsHtmlEvent</name>
+		<value>
+			<classname>cbfx.factory.report.HtmlEventReporter</classname>
+			<parameters>
+				<summaryPath>
+				</summaryPath>
+				<detailsPath>
+				</detailsPath>
+				<pattern>_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>JenkinsResultEventLogger</name>
+		<value>
+			<classname>cbfx.factory.report.ResultEventLogger</classname>
+			<parameters>
+				<filepath>
+				</filepath>
+				<pattern>
+					_${Node_Label}.${Browser}.${UniqueUtils.uniqueDate()}
+				</pattern>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--TestLink Reporter -->
+
+	<variable>
+		<name>TestLink</name>
+		<value>
+			<classname>cbfx.factory.report.TestLinkReporter</classname>
+			<parameters>
+				<url>http://10.212.21.188:80/testlink/lib/api/xmlrpc/v1/xmlrpc.php
+				</url>
+				<devkey>7262833d005078a8d884181148d3bd5f</devkey>
+			</parameters>
+		</value>
+	</variable>
+
+	<!--ALM Reporter -->
+	<variable>
+		<name>AlmReporter</name>
+		<value>
+			<classname>cbfx.factory.report.AlmReporter</classname>
+			<parameters>
+				<url>http://gnrgdcdt00144:8080/qcbin/</url>
+				<domain>TESTAUTO</domain>
+				<project>TESTAUTO</project>
+				<login_name>826949</login_name>
+				<password>bb@4739</password>
+			</parameters>
+		</value>
+	</variable>
+
+
+	    <!--Browsers -->
+
+	<variable>
+		<name>IE</name>
+		<value>
+			<classname>cbfx.ui.browser.IE</classname>
+			<parameters>
+				<browserdriver>D:\</browserdriver>
+			</parameters>
+		</value>
+	</variable>
+	<variable>
+		<name>CHROME</name>
+		<value>
+			<classname>cbfx.ui.browser.Chrome</classname>
+			<parameters>
+				<browserdriver>D:\</browserdriver>
+			</parameters>
+		</value>
+	</variable>
+	<variable>
+		<name>FIREFOX</name>
+		<value>
+			<classname>cbfx.ui.browser.Firefox</classname>
+			<parameters>
+				<browserdriver>D:\</browserdriver>
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>REMOTE</name>
+		<value>
+			<classname>cbfx.ui.browser.Remote</classname>
+			<parameters>
+				<HostURL>TBD</HostURL>
+				<browserName>TBD</browserName>
+<!--
+        <capabilities>
+				  <browserName>TBD</browserName>
+          <proxy></proxy>
+        </capabilities>
+-->
+			</parameters>
+		</value>
+	</variable>
+
+	<variable>
+		<name>PhantomJS</name>
+		<value>
+			<classname>cbfx.ui.browser.PhantomJS</classname>
+			<parameters>
+				<browserdriver>D:\</browserdriver>
+			</parameters>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>APPIUM</name>
+		<value>
+			<classname>cbfx.ui.browser.Appium</classname>
+			<parameters>
+				<browserdriver></browserdriver>
+			</parameters>
+		</value>
+	</variable>
+
+	<!-- EggDriver -->
+
+	<variable>
+		<name>EggPlant</name>
+		<value>
+			<classname>cbfx.ui.selenium.EggUIDriver</classname>
+			<parameters>
+				<url>10.212.21.28</url>
+				<port>5901</port>
+				<password>igate</password>
+				<suitepath>D:/Workspace/CBF-2.4.0-EggPlant/Test/Sample_EggPlant/Plan/AppDriver/OR/eggplant.suite
+				</suitepath>
+			</parameters>
+		</value>
+	</variable>
+
+	<!-- object maps -->
+
+	<variable>
+		<name>ExcelMap</name>
+		<value>
+			<classname>cbfx.ui.objectmap.ExcelObjectMap</classname>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>CSVMap</name>
+		<value>
+			<classname>cbfx.ui.objectmap.CSVObjectMap</classname>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>ExcelModuleMap</name>
+		<value>
+			<classname>cbfx.ui.objectmap.ExcelModuleMap</classname>
+		</value>
+	</variable>
+
+	<variable>
+		<name>XmlMap</name>
+		<value>
+			<classname>cbfx.ui.objectmap.XmlObjectMap</classname>
+		</value>
+	</variable>
+
+	<variable>
+		<name>DesignerMap</name>
+		<value>
+			<classname>cbfx.ui.objectmap.DesignerObjectMap</classname>
+		</value>
+	</variable>
+	
+	<variable>
+		<name>WebAppDriver</name>
+		<value>
+			<classname>cbfx.ui.web.WebAppDriver</classname>
+			<parameters>
+			</parameters>
+		</value>
+	</variable>
+</plugins>

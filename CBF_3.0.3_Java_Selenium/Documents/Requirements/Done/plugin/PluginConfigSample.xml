@@ -1,0 +1,17 @@
+<config>
+	<variable>
+		<name>TestCaseAccess</name>
+		<!--<value>
+			<type>Excel</type>
+		</value>-->
+		<value>
+			<type>Designer</type>
+			<parameters>
+				<url>http://10.212.21.30:8085/api</url>
+				<dbname>dev1</dbname>
+				<username>tcdemo</username>
+				<password>password</password>
+			</parameters>
+		</value>
+	</variable>
+</config>

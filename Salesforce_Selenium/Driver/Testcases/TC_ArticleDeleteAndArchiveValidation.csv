@@ -1,0 +1,9 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,backend,Y
+navigateToTab,knowledge,Y
+removeAndValidateCriticalAlert,article2,Y
+createStandardArticle,article2,Y
+publishArticle,article2,Y
+removeAndValidateCriticalAlert,article2,Y
+cokeHelp_Logout,,Y

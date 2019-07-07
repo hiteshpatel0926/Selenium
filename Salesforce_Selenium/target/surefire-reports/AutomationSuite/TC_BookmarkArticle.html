@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  TC_BookmarkArticle</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_BookmarkArticle</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 20 18:06:42 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>141 seconds (141056 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='main.java.module.CokeHelp.bookmarkArticle()'><b>bookmarkArticle</b><br>Test class: main.java.module.CokeHelp<br>Parameters: null<br/>
+<a href="#Output-151863667" onClick='toggleBox("Output-151863667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-151863667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-151863667">
+Passed:Bookmarked successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.cokeHelp_Login()'><b>cokeHelp_Login</b><br>Test class: main.java.module.CokeHelp<br>Parameters: {passWord=unlock#3, componentName=cokeHelp_Login, DataRowID=valid, userName=sodedra@coca-cola.com}<br/>
+<a href="#Output-1821537415" onClick='toggleBox("Output-1821537415", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821537415" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821537415">
+Passed:Login Successful<br/>
+Passed:Navigation Successful<br/>
+</div>
+</td>
+<td></td>
+<td>64</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.cokeHelp_Logout()'><b>cokeHelp_Logout</b><br>Test class: main.java.module.CokeHelp<br>Parameters: null<br/>
+<a href="#Output-2048587906" onClick='toggleBox("Output-2048587906", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2048587906" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2048587906">
+Passed:Navigation Successful<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.navigateToArticleFrontEnd()'><b>navigateToArticleFrontEnd</b><br>Test class: main.java.module.CokeHelp<br>Parameters: null<br/>
+<a href="#Output-718985478" onClick='toggleBox("Output-718985478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718985478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718985478">
+Passed:Element is Present<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.navigateToProfileMenu()'><b>navigateToProfileMenu</b><br>Test class: main.java.module.CokeHelp<br>Parameters: {componentName=navigateToProfileMenu, DataRowID=myprofile, menuItem=My Profile}<br/>
+<a href="#Output-674705630" onClick='toggleBox("Output-674705630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-674705630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-674705630">
+Passed:Page is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.openURL()'><b>openURL</b><br>Test class: main.java.module.CokeHelp<br>Parameters: {componentName=openURL, DataRowID=manageusers, URL=https://cokehelp--kohsit.lightning.force.com/lightning/setup/ManageUsers/home }<br/>
+<a href="#Output-747719331" onClick='toggleBox("Output-747719331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747719331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747719331">
+Passed:Navigation Successful<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.validateBookmarkedArticle()'><b>validateBookmarkedArticle</b><br>Test class: main.java.module.CokeHelp<br>Parameters: {articleTitle=Agile Scrum Playbook, componentName=validateBookmarkedArticle, DataRowID=row1}<br/>
+<a href="#Output-312373050" onClick='toggleBox("Output-312373050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-312373050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-312373050">
+Failed:Element is NOT Present<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+<tr>
+<td title='main.java.module.CokeHelp.validateSearchFunctionality()'><b>validateSearchFunctionality</b><br>Test class: main.java.module.CokeHelp<br>Parameters: {componentName=validateSearchFunctionality, DataRowID=row3, searchValue=Agile Scrum Playbook}<br/>
+<a href="#Output-691607801" onClick='toggleBox("Output-691607801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-691607801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691607801">
+Passed:Search Result page displayed<br/>
+Passed:Search String Found on Result page<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>main.java.module.CokeHelp@137db13f</td></tr>
+</table><p>
+</body>
+</html>

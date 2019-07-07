@@ -1,0 +1,11 @@
+componentName,dataRowID,YN
+openURL,manageusers,Y
+cokeHelp_Login,valid,Y
+navigateToTile,IT_C&A,Y
+askTheCommunity,attachment_invalid1,Y
+askTheCommunity,attachment_valid_1,Y
+navigateToTile,IT_C&A,Y
+postNewAnswer,attachment_invalid_1,Y
+navigateToTile,IT_C&A,Y
+postNewAnswer,attachment_valid_1,Y
+cokeHelp_Logout,,Y
