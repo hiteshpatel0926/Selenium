@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-23T10:46:05Z" name="Default suite" finished-at="2019-06-23T10:46:57Z" duration-ms="51854">
+  <suite started-at="2019-07-07T07:17:42Z" name="Default suite" finished-at="2019-07-07T07:19:53Z" duration-ms="131018">
     <groups>
     </groups>
-    <test started-at="2019-06-23T10:46:05Z" name="Default test" finished-at="2019-06-23T10:46:57Z" duration-ms="51854">
-      <class name="com.tests.ScenarioTest3">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:05Z" name="initialize" finished-at="2019-06-23T10:46:44Z" duration-ms="39467" status="PASS">
+    <test started-at="2019-07-07T07:17:42Z" name="Default test" finished-at="2019-07-07T07:19:53Z" duration-ms="131018">
+      <class name="com.tests.DPExcelSFDCLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:17:42Z" name="initialize" finished-at="2019-07-07T07:18:16Z" duration-ms="33959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="ReadExcelStoreHashMap()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:44Z" name="ReadExcelStoreHashMap" finished-at="2019-06-23T10:46:56Z" duration-ms="11439" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:18:27Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T07:18:51Z" duration-ms="23838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReadExcelStoreHashMap -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.ScenarioTest3@4278a03f]" started-at="2019-06-23T10:46:56Z" name="TeardownTest" finished-at="2019-06-23T10:46:57Z" duration-ms="850" status="PASS">
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:18:51Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T07:19:06Z" duration-ms="15731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:19:06Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T07:19:21Z" duration-ms="14786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:19:21Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T07:19:36Z" duration-ms="14533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:19:36Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T07:19:52Z" duration-ms="16818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.DPExcelSFDCLogin@1fe20588]" started-at="2019-07-07T07:19:52Z" name="TeardownTest" finished-at="2019-07-07T07:19:53Z" duration-ms="811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
-      </class> <!-- com.tests.ScenarioTest3 -->
+      </class> <!-- com.tests.DPExcelSFDCLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
