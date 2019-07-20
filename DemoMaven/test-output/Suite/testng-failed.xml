@@ -23,12 +23,12 @@
       </class> <!-- com.tests.SQLDBTest -->
       <class name="com.tests.BasicExtentReport">
         <methods>
-          <include name="TC4"/>
           <include name="startReport"/>
           <include name="tearDown"/>
           <include name="TeardownTest"/>
+          <include name="ETC4"/>
           <include name="getResult"/>
-          <include name="TC5"/>
+          <include name="ETC5"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- com.tests.BasicExtentReport -->

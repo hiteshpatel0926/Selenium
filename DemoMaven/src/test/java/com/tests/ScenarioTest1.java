@@ -13,7 +13,7 @@ public class ScenarioTest1 extends TestBase
 	public static Logger log = LogManager.getLogger(ScenarioTest1.class.getName());	
 	
 	@Test
-	 public void Test1() throws Exception
+	public void Test1() throws Exception
 	{
 		driver.get("http://automationpractice.com/index.php");
 		ApDefaultHomePage signPage = PageFactory.initElements(driver, ApDefaultHomePage.class);

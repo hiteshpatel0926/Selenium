@@ -2,12 +2,12 @@
 <testng-results ignored="18" total="37" passed="14" failed="4" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-07T12:47:52Z" name="Suite" finished-at="2019-07-07T12:51:32Z" duration-ms="220127">
+  <suite started-at="2019-07-07T16:34:54Z" name="Suite" finished-at="2019-07-07T16:39:30Z" duration-ms="276230">
     <groups>
     </groups>
-    <test started-at="2019-07-07T12:47:52Z" name="Test1" finished-at="2019-07-07T12:51:32Z" duration-ms="220127">
+    <test started-at="2019-07-07T16:34:54Z" name="Test1" finished-at="2019-07-07T16:39:30Z" duration-ms="276230">
       <class name="com.tests.ScenarioTest2">
-        <test-method signature="Test3()[pri:0, instance:com.tests.ScenarioTest2@2b76ff4e]" started-at="2019-07-07T12:51:13Z" name="Test3" finished-at="2019-07-07T12:51:26Z" duration-ms="13412" status="FAIL">
+        <test-method signature="Test3()[pri:0, instance:com.tests.ScenarioTest2@2b76ff4e]" started-at="2019-07-07T16:38:40Z" name="Test3" finished-at="2019-07-07T16:39:25Z" duration-ms="45015" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Google] but found [Google News]]]>
@@ -54,13 +54,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- Test3 -->
       </class> <!-- com.tests.ScenarioTest2 -->
       <class name="com.tests.ScenarioTest3">
-        <test-method signature="ReadExcelStoreHashMap()[pri:0, instance:com.tests.ScenarioTest3@7a1234bf]" started-at="2019-07-07T12:51:27Z" name="ReadExcelStoreHashMap" finished-at="2019-07-07T12:51:27Z" duration-ms="185" status="PASS">
+        <test-method signature="ReadExcelStoreHashMap()[pri:0, instance:com.tests.ScenarioTest3@7a1234bf]" started-at="2019-07-07T16:39:26Z" name="ReadExcelStoreHashMap" finished-at="2019-07-07T16:39:26Z" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadExcelStoreHashMap -->
       </class> <!-- com.tests.ScenarioTest3 -->
       <class name="com.tests.DPExcelSFDCLoginTCName">
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLoginTCName@27eedb64]" started-at="2019-07-07T12:49:23Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:49:42Z" duration-ms="19050" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLoginTCName@27eedb64]" started-at="2019-07-07T16:36:53Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:37:00Z" duration-ms="7057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SFDCLogincheck -->
       </class> <!-- com.tests.DPExcelSFDCLoginTCName -->
       <class name="com.tests.DPExcelSFDCLogin">
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T12:48:08Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:48:30Z" duration-ms="21840" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T16:35:30Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:36:13Z" duration-ms="43578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T12:48:30Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:48:40Z" duration-ms="10018" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T16:36:13Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:36:27Z" duration-ms="13668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T12:48:40Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:48:51Z" duration-ms="10132" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T16:36:27Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:36:39Z" duration-ms="12011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T12:48:51Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:49:02Z" duration-ms="11174" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T16:36:39Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:36:47Z" duration-ms="8224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T12:49:02Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:49:22Z" duration-ms="20332" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPExcelSFDCLogin@5ce8d869]" started-at="2019-07-07T16:36:47Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:36:53Z" duration-ms="5766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SFDCLogincheck -->
       </class> <!-- com.tests.DPExcelSFDCLogin -->
       <class name="com.tests.ExcelSFDCLogin">
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.ExcelSFDCLogin@64a40280]" started-at="2019-07-07T12:50:26Z" name="SFDCLogincheck" finished-at="2019-07-07T12:50:26Z" duration-ms="0" status="FAIL">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.ExcelSFDCLogin@64a40280]" started-at="2019-07-07T16:37:23Z" name="SFDCLogincheck" finished-at="2019-07-07T16:37:23Z" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -203,13 +203,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- SFDCLogincheck -->
       </class> <!-- com.tests.ExcelSFDCLogin -->
       <class name="com.tests.ScenarioTest1">
-        <test-method signature="Test1()[pri:0, instance:com.tests.ScenarioTest1@31c7528f]" started-at="2019-07-07T12:50:29Z" name="Test1" finished-at="2019-07-07T12:51:13Z" duration-ms="43999" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:com.tests.ScenarioTest1@31c7528f]" started-at="2019-07-07T16:37:24Z" name="Test1" description="This is First Test" finished-at="2019-07-07T16:38:40Z" duration-ms="76754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
       </class> <!-- com.tests.ScenarioTest1 -->
       <class name="com.tests.SQLDBTest">
-        <test-method signature="DbConnectTest()[pri:0, instance:com.tests.SQLDBTest@2f62ea70]" started-at="2019-07-07T12:51:27Z" name="DbConnectTest" finished-at="2019-07-07T12:51:29Z" duration-ms="1492" status="FAIL">
+        <test-method signature="DbConnectTest()[pri:0, instance:com.tests.SQLDBTest@2f62ea70]" started-at="2019-07-07T16:39:26Z" name="DbConnectTest" finished-at="2019-07-07T16:39:28Z" duration-ms="1792" status="FAIL">
           <exception class="com.mysql.cj.jdbc.exceptions.CommunicationsException">
             <message>
               <![CDATA[Communications link failure
@@ -290,7 +290,7 @@ at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection
         </test-method> <!-- DbConnectTest -->
       </class> <!-- com.tests.SQLDBTest -->
       <class name="com.tests.DPSFDCLogin">
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T12:49:42Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:50:04Z" duration-ms="22745" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T16:37:00Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:37:07Z" duration-ms="6900" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@ at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T12:50:04Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:50:15Z" duration-ms="10948" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T16:37:07Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:37:18Z" duration-ms="10574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,7 +322,7 @@ at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T12:50:15Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T12:50:26Z" duration-ms="10749" status="PASS">
+        <test-method signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:com.tests.DPSFDCLogin@64c63c79]" started-at="2019-07-07T16:37:18Z" name="SFDCLogincheck" data-provider="LoginProvider" finished-at="2019-07-07T16:37:23Z" duration-ms="5487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -340,15 +340,15 @@ at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection
         </test-method> <!-- SFDCLogincheck -->
       </class> <!-- com.tests.DPSFDCLogin -->
       <class name="com.tests.BasicExtentReport">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:47:52Z" name="initialize" finished-at="2019-07-07T12:48:01Z" duration-ms="8787" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:34:54Z" name="initialize" finished-at="2019-07-07T16:35:14Z" duration-ms="19914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.tests.ExcelSFDCLogin@64a40280]" started-at="2019-07-07T12:48:01Z" name="setupTestData" finished-at="2019-07-07T12:48:04Z" depends-on-methods="com.tests.TestBase.initialize" duration-ms="2723" status="PASS">
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.tests.ExcelSFDCLogin@64a40280]" started-at="2019-07-07T16:35:14Z" name="setupTestData" finished-at="2019-07-07T16:35:21Z" depends-on-methods="com.tests.TestBase.initialize" duration-ms="6582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestData -->
-        <test-method is-config="true" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:04Z" name="startReport" finished-at="2019-07-07T12:48:05Z" depends-on-methods="com.tests.ExcelSFDCLogin.setupTestData, com.tests.TestBase.initialize" duration-ms="1076" status="PASS">
+        <test-method is-config="true" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:21Z" name="startReport" finished-at="2019-07-07T16:35:21Z" depends-on-methods="com.tests.ExcelSFDCLogin.setupTestData, com.tests.TestBase.initialize" duration-ms="538" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -360,52 +360,52 @@ at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="TC1()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="TC1" finished-at="2019-07-07T12:48:05Z" duration-ms="22" status="PASS">
+        <test-method signature="ETC1()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:21Z" name="ETC1" finished-at="2019-07-07T16:35:21Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="getResult" finished-at="2019-07-07T12:48:05Z" duration-ms="18" status="PASS">
+        </test-method> <!-- ETC1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:21Z" name="getResult" finished-at="2019-07-07T16:35:22Z" duration-ms="126" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC1 status=SUCCESS method=BasicExtentReport.TC1()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
+                <![CDATA[[TestResult name=ETC1 status=SUCCESS method=BasicExtentReport.ETC1()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="TC2()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="TC2" finished-at="2019-07-07T12:48:05Z" duration-ms="6" status="PASS">
+        <test-method signature="ETC2()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:22Z" name="ETC2" finished-at="2019-07-07T16:35:22Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC2 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="getResult" finished-at="2019-07-07T12:48:05Z" duration-ms="1" status="PASS">
+        </test-method> <!-- ETC2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:22Z" name="getResult" finished-at="2019-07-07T16:35:22Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC2 status=SUCCESS method=BasicExtentReport.TC2()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
+                <![CDATA[[TestResult name=ETC2 status=SUCCESS method=BasicExtentReport.ETC2()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="TC3()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="TC3" finished-at="2019-07-07T12:48:05Z" duration-ms="2" status="PASS">
+        <test-method signature="ETC3()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:22Z" name="ETC3" finished-at="2019-07-07T16:35:22Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC3 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="getResult" finished-at="2019-07-07T12:48:05Z" duration-ms="0" status="PASS">
+        </test-method> <!-- ETC3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:22Z" name="getResult" finished-at="2019-07-07T16:35:22Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC3 status=SUCCESS method=BasicExtentReport.TC3()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
+                <![CDATA[[TestResult name=ETC3 status=SUCCESS method=BasicExtentReport.ETC3()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="TC4()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:05Z" name="TC4" finished-at="2019-07-07T12:48:08Z" duration-ms="2768" status="FAIL">
+        <test-method signature="ETC4()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:22Z" name="ETC4" finished-at="2019-07-07T16:35:29Z" duration-ms="6941" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -416,7 +416,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.tests.BasicExtentReport.TC4(BasicExtentReport.java:77)
+at com.tests.BasicExtentReport.ETC4(BasicExtentReport.java:77)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -447,26 +447,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC4 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:08Z" name="getResult" finished-at="2019-07-07T12:48:08Z" duration-ms="11" status="PASS">
+        </test-method> <!-- ETC4 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:29Z" name="getResult" finished-at="2019-07-07T16:35:29Z" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC4 status=FAILURE method=BasicExtentReport.TC4()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
+                <![CDATA[[TestResult name=ETC4 status=FAILURE method=BasicExtentReport.ETC4()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="TC5()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:08Z" name="TC5" finished-at="2019-07-07T12:48:08Z" duration-ms="7" status="SKIP">
+        <test-method signature="ETC5()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:29Z" name="ETC5" finished-at="2019-07-07T16:35:29Z" duration-ms="0" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test with exception]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping this test with exception
-at com.tests.BasicExtentReport.TC5(BasicExtentReport.java:83)
+at com.tests.BasicExtentReport.ETC5(BasicExtentReport.java:83)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -497,23 +497,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC5 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:48:08Z" name="getResult" finished-at="2019-07-07T12:48:08Z" duration-ms="8" status="PASS">
+        </test-method> <!-- ETC5 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:35:29Z" name="getResult" finished-at="2019-07-07T16:35:29Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC5 status=SKIP method=BasicExtentReport.TC5()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
+                <![CDATA[[TestResult name=ETC5 status=SKIP method=BasicExtentReport.ETC5()[pri:0, instance:com.tests.BasicExtentReport@4b40f651] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:51:30Z" name="tearDown" finished-at="2019-07-07T12:51:31Z" duration-ms="1357" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:39:28Z" name="tearDown" finished-at="2019-07-07T16:39:30Z" duration-ms="1342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T12:51:31Z" name="TeardownTest" finished-at="2019-07-07T12:51:32Z" depends-on-methods="com.tests.BasicExtentReport.tearDown" duration-ms="967" status="PASS">
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:com.tests.BasicExtentReport@4b40f651]" started-at="2019-07-07T16:39:30Z" name="TeardownTest" finished-at="2019-07-07T16:39:30Z" depends-on-methods="com.tests.BasicExtentReport.tearDown" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
