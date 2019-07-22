@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 3.691 s <<< FAILURE! - in TestSuite
+startReport(com.Tests.GenerateExtentReport)  Time elapsed: 3.367 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Tests.GenerateExtentReport.startReport(GenerateExtentReport.java:26)
+

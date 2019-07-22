@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Extent Report Validation(failed)">
+    <classes>
+      <class name="com.Tests.CapturingScreenshot">
+        <methods>
+          <include name="init"/>
+          <include name="getResult"/>
+          <include name="captureScreenshot"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- com.Tests.CapturingScreenshot -->
+      <class name="com.Tests.GenerateExtentReport">
+        <methods>
+          <include name="endreport"/>
+          <include name="getResult"/>
+          <include name="startReport"/>
+          <include name="demoReportFail"/>
+        </methods>
+      </class> <!-- com.Tests.GenerateExtentReport -->
+    </classes>
+  </test> <!-- Extent Report Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
