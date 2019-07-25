@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="QA.resources.Listener"/>
+    <listener class-name="QA.resources.ExtentReporterNG"/>
+    <listener class-name="QA.resources.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="Sample Automation Test(failed)">
+    <classes>
+      <class name="QA.Tests.Test5">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="SFDCLogincheck"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test5 -->
+    </classes>
+  </test> <!-- Sample Automation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

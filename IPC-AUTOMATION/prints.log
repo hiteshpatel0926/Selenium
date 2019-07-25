@@ -1,0 +1,12 @@
+25/07/2019 15:48:25 [main] INFO  QA.Tests.Test1 - Clicking on Tops inside Woman Tab Successful
+25/07/2019 15:48:27 [main] INFO  QA.Tests.Test1 - Clicking on Tshirts inside Woman Tab>>Tops Successful
+25/07/2019 15:48:29 [main] INFO  QA.Tests.Test1 - Clicking on Product Successful
+25/07/2019 15:48:39 [main] INFO  QA.Tests.Test1 - Product Added to Cart Successful
+25/07/2019 15:48:40 [main] INFO  QA.Tests.Test1 - Product verification Successful
+25/07/2019 15:48:40 [main] INFO  QA.Tests.Test2 - EHR PATIENT CREATION SUCCESS
+25/07/2019 15:48:40 [main] ERROR QA.Tests.Test2 - PATIENT DEMOGRAPHIC UPDATE FAILED
+25/07/2019 15:48:42 [main] INFO  QA.Tests.Test3 - Navigation to Google Successful
+25/07/2019 15:48:44 [main] INFO  QA.Tests.Test3 - Google Search Successful
+25/07/2019 15:48:46 [main] INFO  QA.Tests.Test3 - Clicking on 3rd Result from Google Search Successful
+25/07/2019 15:48:46 [main] INFO  QA.Tests.Test3 - Title Verification of 3rd Result from Google Search Successful
+25/07/2019 15:48:52 [main] INFO  QA.Tests.Test3 - Title Verification FAIL
