@@ -15,7 +15,7 @@
 			<class name="QA.Tests.Test1" />
 			<class name="QA.Tests.Test2" />
  			<class name="QA.Tests.Test3" /> 
-			<class name="QA.Tests.Test5" /> 
+			<class name="QA.Tests.Test4" /> 
 		</classes>
 
 	</test> <!-- Test -->

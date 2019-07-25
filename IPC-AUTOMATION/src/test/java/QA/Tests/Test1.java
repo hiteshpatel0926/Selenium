@@ -125,7 +125,7 @@ public class Test1 extends TestBase
 		test.pass("Product Added to Cart Successful");
 		AddToCart.verification();
 		log.info("Product verification Successful");
-		test.fail("Product verification Successful");
+		test.info("Product verification Successful");
 		
 	}
 	

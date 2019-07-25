@@ -8,14 +8,22 @@
   </listeners>
   <test thread-count="5" name="Sample Automation Test(failed)">
     <classes>
-      <class name="QA.Tests.Test5">
+      <class name="QA.Tests.Test3">
         <methods>
           <include name="TeardownTest"/>
           <include name="getResult"/>
-          <include name="SFDCLogincheck"/>
+          <include name="GoogleNews_TitleVerify"/>
           <include name="initialize"/>
         </methods>
-      </class> <!-- QA.Tests.Test5 -->
+      </class> <!-- QA.Tests.Test3 -->
+      <class name="QA.Tests.Test2">
+        <methods>
+          <include name="PATINET_DEMO_UPDATE"/>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test2 -->
     </classes>
   </test> <!-- Sample Automation Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
