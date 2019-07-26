@@ -12,10 +12,12 @@
 	<test name="Sample Automation Test">
 
 		<classes>
-			<class name="QA.Tests.Test1" />
-			<class name="QA.Tests.Test2" />
- 			<class name="QA.Tests.Test3" /> 
-			<class name="QA.Tests.Test4" /> 
+<!-- 			<class name="QA.Tests.Test1" /> -->
+<!-- 			<class name="QA.Tests.Test2" /> -->
+<!--  			<class name="QA.Tests.Test3" />  -->
+<!-- 			<class name="QA.Tests.Test4" />  -->
+				
+				<class name="QA.Tests.Navigation" />
 		</classes>
 
 	</test> <!-- Test -->
