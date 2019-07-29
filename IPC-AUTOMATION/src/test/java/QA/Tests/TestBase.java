@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -110,6 +111,17 @@ public class TestBase {
 		FileUtils.copyFile(source, destination);
 
 		return dest;
+	}
+	
+	public String randomestring()
+	{
+		String generatedstring=RandomStringUtils.randomAlphabetic(8);
+		return(generatedstring);
+	}
+	
+	public static String randomeNum() {
+		String generatedString2 = RandomStringUtils.randomNumeric(4);
+		return (generatedString2);
 	}
 
 }

@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QA.Tests.Test4">
+      <class name="QA.Tests.Test8">
         <methods>
           <include name="TeardownTest"/>
-          <include name="SFDCLogincheck" invocation-numbers="0"/>
           <include name="getResult"/>
           <include name="initialize"/>
+          <include name="AddCustomer"/>
         </methods>
-      </class> <!-- QA.Tests.Test4 -->
+      </class> <!-- QA.Tests.Test8 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

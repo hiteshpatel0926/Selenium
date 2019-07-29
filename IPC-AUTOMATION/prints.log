@@ -1,28 +1,44 @@
-25/07/2019 17:40:17 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:20 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:23 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:25 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:27 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:42:52 [main] INFO  QA.Tests.Test1 - URL Success
-25/07/2019 17:42:54 [main] INFO  QA.Tests.Test1 - Signin Button Click Successful
-25/07/2019 17:42:54 [main] INFO  QA.Tests.Test1 - USERNAME Fetch Success
-25/07/2019 17:42:55 [main] INFO  QA.Tests.Test1 - PASSWORD Fetch Success
-25/07/2019 17:42:56 [main] INFO  QA.Tests.Test1 - Login Successful
-25/07/2019 17:42:59 [main] INFO  QA.Tests.Test1 - Clicking on Woman Tab Successful
-25/07/2019 17:43:01 [main] INFO  QA.Tests.Test1 - Clicking on Tops inside Woman Tab Successful
-25/07/2019 17:43:03 [main] INFO  QA.Tests.Test1 - Clicking on Tshirts inside Woman Tab>>Tops Successful
-25/07/2019 17:43:06 [main] INFO  QA.Tests.Test1 - Clicking on Product Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test1 - Product Added to Cart Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test1 - Product verification Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test2 - EHR PATIENT CREATION SUCCESS
-25/07/2019 17:43:16 [main] ERROR QA.Tests.Test2 - PATIENT DEMOGRAPHIC UPDATE FAILED
-25/07/2019 17:43:18 [main] INFO  QA.Tests.Test3 - Navigation to Google Successful
-25/07/2019 17:43:20 [main] INFO  QA.Tests.Test3 - Google Search Successful
-25/07/2019 17:43:22 [main] INFO  QA.Tests.Test3 - Clicking on 3rd Result from Google Search Successful
-25/07/2019 17:43:22 [main] INFO  QA.Tests.Test3 - Title Verification of 3rd Result from Google Search Successful
-25/07/2019 17:43:28 [main] INFO  QA.Tests.Test3 - Title Verification FAIL
-25/07/2019 17:43:38 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:39 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:43 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:46 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:52 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 12:48:57 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:49:01 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:49:15 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 12:49:15 [main] INFO  QA.Tests.Test7 - test case passed....
+29/07/2019 12:49:18 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:49:33 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 12:49:33 [main] INFO  QA.Tests.Test7 - test case passed....
+29/07/2019 12:58:42 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:58:48 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:59:03 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 12:59:03 [main] INFO  QA.Tests.Test7 - test case passed....
+29/07/2019 12:59:08 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 12:59:24 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 12:59:24 [main] INFO  QA.Tests.Test7 - test case passed....
+29/07/2019 13:04:05 [main] INFO  QA.Tests.Test1 - URL Success
+29/07/2019 13:04:07 [main] INFO  QA.Tests.Test1 - Signin Button Click Successful
+29/07/2019 13:04:07 [main] INFO  QA.Tests.Test1 - USERNAME Fetch Success
+29/07/2019 13:04:07 [main] INFO  QA.Tests.Test1 - PASSWORD Fetch Success
+29/07/2019 13:04:09 [main] INFO  QA.Tests.Test1 - Login Successful
+29/07/2019 13:04:12 [main] INFO  QA.Tests.Test1 - Clicking on Woman Tab Successful
+29/07/2019 13:04:14 [main] INFO  QA.Tests.Test1 - Clicking on Tops inside Woman Tab Successful
+29/07/2019 13:04:16 [main] INFO  QA.Tests.Test1 - Clicking on Tshirts inside Woman Tab>>Tops Successful
+29/07/2019 13:04:18 [main] INFO  QA.Tests.Test1 - Clicking on Product Successful
+29/07/2019 13:04:29 [main] INFO  QA.Tests.Test1 - Product Added to Cart Successful
+29/07/2019 13:04:29 [main] INFO  QA.Tests.Test1 - Product verification Successful
+29/07/2019 13:04:29 [main] INFO  QA.Tests.Test2 - EHR PATIENT CREATION SUCCESS
+29/07/2019 13:04:29 [main] ERROR QA.Tests.Test2 - PATIENT DEMOGRAPHIC UPDATE FAILED
+29/07/2019 13:04:32 [main] INFO  QA.Tests.Test3 - Navigation to Google Successful
+29/07/2019 13:04:35 [main] INFO  QA.Tests.Test3 - Google Search Successful
+29/07/2019 13:05:21 [main] INFO  QA.Tests.Test3 - Clicking on 3rd Result from Google Search Successful
+29/07/2019 13:05:21 [main] INFO  QA.Tests.Test3 - Title Verification of 3rd Result from Google Search Successful
+29/07/2019 13:05:29 [main] INFO  QA.Tests.Test3 - Title Verification FAIL
+29/07/2019 13:05:43 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 13:05:45 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 13:05:48 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 13:05:50 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 13:05:52 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 13:06:27 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 13:06:31 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 13:06:44 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 13:06:44 [main] INFO  QA.Tests.Test7 - test case passed....
+29/07/2019 13:06:48 [main] INFO  QA.Tests.Test7 - G99Login test passed
+29/07/2019 13:07:01 [main] INFO  QA.Tests.Test7 - validation started....
+29/07/2019 13:07:01 [main] INFO  QA.Tests.Test7 - test case passed....

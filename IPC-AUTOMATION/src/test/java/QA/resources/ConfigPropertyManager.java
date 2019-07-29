@@ -15,6 +15,9 @@ public class ConfigPropertyManager {
     private static String PWord;
     private static String Browser;
     private static String ScreenshotPath;
+    private static String G99URL;
+    private static String G99UName;
+    private static String G99PWord;
     //Create a Singleton instance. We need only one instance of Property Manager.
     public static ConfigPropertyManager getInstance () {
         if (instance == null) {
@@ -45,6 +48,9 @@ public class ConfigPropertyManager {
         PWord = prop.getProperty("PWord");
         Browser = prop.getProperty("Browser");
         ScreenshotPath = prop.getProperty("ScreenshotPath");
+        G99URL = prop.getProperty("G99URL");
+        G99UName= prop.getProperty("G99UName");
+        G99PWord= prop.getProperty("G99PWord");
     }
  
     public String getURL () {
@@ -66,5 +72,16 @@ public class ConfigPropertyManager {
     public String getScreenshotPath() {
     	return ScreenshotPath;
     }
+    
+    public String G99URL() {
+    	return G99URL;
+    }
+    public String G99UName() {
+    	return G99UName;
+    }
+    public String G99PWord() {
+    	return G99PWord;
+    }
+    
 }
 

@@ -1,13 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="11" passed="5">
+<testng-results skipped="0" failed="3" ignored="14" total="37" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42870" started-at="2019-07-25T12:06:25Z" finished-at="2019-07-25T12:07:08Z">
+  <suite name="Suite" duration-ms="192228" started-at="2019-07-29T07:33:51Z" finished-at="2019-07-29T07:37:03Z">
     <groups>
     </groups>
-    <test name="Sample Automation Test" duration-ms="42870" started-at="2019-07-25T12:06:25Z" finished-at="2019-07-25T12:07:08Z">
+    <test name="Sample Automation Test" duration-ms="192228" started-at="2019-07-29T07:33:51Z" finished-at="2019-07-29T07:37:03Z">
+      <class name="QA.Tests.Test3">
+        <test-method status="PASS" signature="NAVIGATE_TO_GOOGLE()[pri:11, instance:QA.Tests.Test3@3d7b1f1c]" name="NAVIGATE_TO_GOOGLE" duration-ms="2792" started-at="2019-07-29T07:34:32Z" description="Google Search" finished-at="2019-07-29T07:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAVIGATE_TO_GOOGLE -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test3@3d7b1f1c]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-29T07:34:35Z" finished-at="2019-07-29T07:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NAVIGATE_TO_GOOGLE status=SUCCESS method=Test3.NAVIGATE_TO_GOOGLE()[pri:11, instance:QA.Tests.Test3@3d7b1f1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CLICK_ON_3rdRESULT()[pri:12, instance:QA.Tests.Test3@3d7b1f1c]" name="CLICK_ON_3rdRESULT" duration-ms="46094" started-at="2019-07-29T07:34:35Z" description="Click on 3rd Result of Search" finished-at="2019-07-29T07:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLICK_ON_3rdRESULT -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test3@3d7b1f1c]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:21Z" finished-at="2019-07-29T07:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CLICK_ON_3rdRESULT status=SUCCESS method=Test3.CLICK_ON_3rdRESULT()[pri:12, instance:QA.Tests.Test3@3d7b1f1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="RESULT_TITLE_VERIFY()[pri:13, instance:QA.Tests.Test3@3d7b1f1c]" name="RESULT_TITLE_VERIFY" duration-ms="53" started-at="2019-07-29T07:35:21Z" description="3rd RESULT TITLE VERIFY" finished-at="2019-07-29T07:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RESULT_TITLE_VERIFY -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test3@3d7b1f1c]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:21Z" finished-at="2019-07-29T07:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RESULT_TITLE_VERIFY status=SUCCESS method=Test3.RESULT_TITLE_VERIFY()[pri:13, instance:QA.Tests.Test3@3d7b1f1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="GoogleNews_TitleVerify()[pri:14, instance:QA.Tests.Test3@3d7b1f1c]" name="GoogleNews_TitleVerify" duration-ms="8317" started-at="2019-07-29T07:35:21Z" description="Google NEWS Title Verify" finished-at="2019-07-29T07:35:29Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at QA.Tests.Test3.GoogleNews_TitleVerify(Test3.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleNews_TitleVerify -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test3@3d7b1f1c]" name="getResult" is-config="true" duration-ms="480" started-at="2019-07-29T07:35:30Z" finished-at="2019-07-29T07:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GoogleNews_TitleVerify status=FAILURE method=Test3.GoogleNews_TitleVerify()[pri:14, instance:QA.Tests.Test3@3d7b1f1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test3 -->
       <class name="QA.Tests.Test4">
-        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="SFDCLogincheck" duration-ms="11047" started-at="2019-07-25T12:06:34Z" data-provider="LoginProvider" finished-at="2019-07-25T12:06:45Z">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85]" name="SFDCLogincheck" duration-ms="8393" started-at="2019-07-29T07:35:34Z" description="SFDC INVALID ID/PASS LOGIN CHECK" data-provider="LoginProvider" finished-at="2019-07-29T07:35:43Z">
           <params>
             <param index="0">
               <value>
@@ -23,18 +128,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="getResult" is-config="true" duration-ms="5" started-at="2019-07-25T12:06:45Z" finished-at="2019-07-25T12:06:45Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@51ce6f85]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:43Z" finished-at="2019-07-29T07:35:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0] output={null}]]]>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="SFDCLogincheck" duration-ms="5095" started-at="2019-07-25T12:06:45Z" data-provider="LoginProvider" finished-at="2019-07-25T12:06:50Z">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85]" name="SFDCLogincheck" duration-ms="2859" started-at="2019-07-29T07:35:43Z" description="SFDC INVALID ID/PASS LOGIN CHECK" data-provider="LoginProvider" finished-at="2019-07-29T07:35:45Z">
           <params>
             <param index="0">
               <value>
@@ -50,18 +155,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-25T12:06:50Z" finished-at="2019-07-25T12:06:50Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@51ce6f85]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:45Z" finished-at="2019-07-29T07:35:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0] output={null}]]]>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="SFDCLogincheck" duration-ms="5426" started-at="2019-07-25T12:06:50Z" data-provider="LoginProvider" finished-at="2019-07-25T12:06:56Z">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85]" name="SFDCLogincheck" duration-ms="2073" started-at="2019-07-29T07:35:45Z" description="SFDC INVALID ID/PASS LOGIN CHECK" data-provider="LoginProvider" finished-at="2019-07-29T07:35:48Z">
           <params>
             <param index="0">
               <value>
@@ -77,18 +182,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-25T12:06:56Z" finished-at="2019-07-25T12:06:56Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@51ce6f85]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-29T07:35:48Z" finished-at="2019-07-29T07:35:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0] output={null}]]]>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="SFDCLogincheck" duration-ms="4066" started-at="2019-07-25T12:06:56Z" data-provider="LoginProvider" finished-at="2019-07-25T12:07:00Z">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85]" name="SFDCLogincheck" duration-ms="2766" started-at="2019-07-29T07:35:48Z" description="SFDC INVALID ID/PASS LOGIN CHECK" data-provider="LoginProvider" finished-at="2019-07-29T07:35:50Z">
           <params>
             <param index="0">
               <value>
@@ -104,18 +209,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-25T12:07:00Z" finished-at="2019-07-25T12:07:00Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@51ce6f85]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-29T07:35:50Z" finished-at="2019-07-29T07:35:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0] output={null}]]]>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="SFDCLogincheck" duration-ms="5096" started-at="2019-07-25T12:07:00Z" data-provider="LoginProvider" finished-at="2019-07-25T12:07:05Z">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85]" name="SFDCLogincheck" duration-ms="2102" started-at="2019-07-29T07:35:50Z" description="SFDC INVALID ID/PASS LOGIN CHECK" data-provider="LoginProvider" finished-at="2019-07-29T07:35:52Z">
           <params>
             <param index="0">
               <value>
@@ -131,11 +236,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SFDCLogincheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@7d5508e0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-25T12:07:05Z" finished-at="2019-07-25T12:07:05Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test4@51ce6f85]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:52Z" finished-at="2019-07-29T07:35:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:0, instance:QA.Tests.Test4@7d5508e0] output={null}]]]>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test4.SFDCLogincheck(java.lang.String, java.lang.String)[pri:15, instance:QA.Tests.Test4@51ce6f85] output={null}]]]>
               </value>
             </param>
           </params>
@@ -144,15 +249,364 @@
         </test-method> <!-- getResult -->
       </class> <!-- QA.Tests.Test4 -->
       <class name="QA.Tests.Test1">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:QA.Tests.Test1@7f7af971]" name="initialize" is-config="true" duration-ms="6094" started-at="2019-07-25T12:06:25Z" finished-at="2019-07-25T12:06:31Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:QA.Tests.Test1@77e7246b]" name="initialize" is-config="true" duration-ms="7247" started-at="2019-07-29T07:33:51Z" finished-at="2019-07-29T07:33:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:QA.Tests.Test1@7f7af971]" name="TeardownTest" is-config="true" duration-ms="2666" started-at="2019-07-25T12:07:05Z" finished-at="2019-07-25T12:07:08Z">
+        <test-method status="PASS" signature="NAVIGATE_TO_URL_CLICK_SIGN()[pri:1, instance:QA.Tests.Test1@77e7246b]" name="NAVIGATE_TO_URL_CLICK_SIGN" duration-ms="8806" started-at="2019-07-29T07:33:58Z" description="Navigate to URL" finished-at="2019-07-29T07:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NAVIGATE_TO_URL_CLICK_SIGN -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="25" started-at="2019-07-29T07:34:07Z" finished-at="2019-07-29T07:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NAVIGATE_TO_URL_CLICK_SIGN status=SUCCESS method=Test1.NAVIGATE_TO_URL_CLICK_SIGN()[pri:1, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ENTER_UNAME_PWRD_LOGIN()[pri:2, instance:QA.Tests.Test1@77e7246b]" name="ENTER_UNAME_PWRD_LOGIN" duration-ms="2195" started-at="2019-07-29T07:34:07Z" description="LOGIN" finished-at="2019-07-29T07:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ENTER_UNAME_PWRD_LOGIN -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-29T07:34:09Z" finished-at="2019-07-29T07:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ENTER_UNAME_PWRD_LOGIN status=SUCCESS method=Test1.ENTER_UNAME_PWRD_LOGIN()[pri:2, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CLICK_ON_WOMAN_TAB()[pri:3, instance:QA.Tests.Test1@77e7246b]" name="CLICK_ON_WOMAN_TAB" duration-ms="3050" started-at="2019-07-29T07:34:09Z" description="CLICK ON WOMAN TAB" finished-at="2019-07-29T07:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLICK_ON_WOMAN_TAB -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-29T07:34:12Z" finished-at="2019-07-29T07:34:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CLICK_ON_WOMAN_TAB status=SUCCESS method=Test1.CLICK_ON_WOMAN_TAB()[pri:3, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CLICK_ON_WOMAN_TAB_TOPS()[pri:4, instance:QA.Tests.Test1@77e7246b]" name="CLICK_ON_WOMAN_TAB_TOPS" duration-ms="1644" started-at="2019-07-29T07:34:12Z" description="NAVIGATE TO TOPS" finished-at="2019-07-29T07:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLICK_ON_WOMAN_TAB_TOPS -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-29T07:34:14Z" finished-at="2019-07-29T07:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CLICK_ON_WOMAN_TAB_TOPS status=SUCCESS method=Test1.CLICK_ON_WOMAN_TAB_TOPS()[pri:4, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CLICK_ON_WOMAN_TSHIRTS()[pri:5, instance:QA.Tests.Test1@77e7246b]" name="CLICK_ON_WOMAN_TSHIRTS" duration-ms="1634" started-at="2019-07-29T07:34:14Z" description="CLICK ON TSHIRTS" finished-at="2019-07-29T07:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLICK_ON_WOMAN_TSHIRTS -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-29T07:34:16Z" finished-at="2019-07-29T07:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CLICK_ON_WOMAN_TSHIRTS status=SUCCESS method=Test1.CLICK_ON_WOMAN_TSHIRTS()[pri:5, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CLICK_ON_PRODUCT()[pri:6, instance:QA.Tests.Test1@77e7246b]" name="CLICK_ON_PRODUCT" duration-ms="2722" started-at="2019-07-29T07:34:16Z" description="CLICK ON PRODUCT TEST" finished-at="2019-07-29T07:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLICK_ON_PRODUCT -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="2" started-at="2019-07-29T07:34:19Z" finished-at="2019-07-29T07:34:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CLICK_ON_PRODUCT status=SUCCESS method=Test1.CLICK_ON_PRODUCT()[pri:6, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PRODUCT_ADD_TO_CART()[pri:7, instance:QA.Tests.Test1@77e7246b]" name="PRODUCT_ADD_TO_CART" duration-ms="10319" started-at="2019-07-29T07:34:19Z" description="ADD TO CART" finished-at="2019-07-29T07:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PRODUCT_ADD_TO_CART -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test1@77e7246b]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:34:29Z" finished-at="2019-07-29T07:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PRODUCT_ADD_TO_CART status=SUCCESS method=Test1.PRODUCT_ADD_TO_CART()[pri:7, instance:QA.Tests.Test1@77e7246b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:QA.Tests.Test1@77e7246b]" name="TeardownTest" is-config="true" duration-ms="1795" started-at="2019-07-29T07:37:01Z" finished-at="2019-07-29T07:37:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- QA.Tests.Test1 -->
+      <class name="QA.Tests.Test2">
+        <test-method status="PASS" signature="PATINET_DEMO_CREATION()[pri:9, instance:QA.Tests.Test2@5918c260]" name="PATINET_DEMO_CREATION" duration-ms="9" started-at="2019-07-29T07:34:29Z" description="PATIENT DEMOGRAPHIC" finished-at="2019-07-29T07:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PATINET_DEMO_CREATION -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test2@5918c260]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:34:29Z" finished-at="2019-07-29T07:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PATINET_DEMO_CREATION status=SUCCESS method=Test2.PATINET_DEMO_CREATION()[pri:9, instance:QA.Tests.Test2@5918c260] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="PATINET_DEMO_UPDATE()[pri:10, instance:QA.Tests.Test2@5918c260]" name="PATINET_DEMO_UPDATE" duration-ms="2570" started-at="2019-07-29T07:34:29Z" description="PATIENT DEMOGRAPHIC UPDATE" finished-at="2019-07-29T07:34:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at QA.Tests.Test2.PATINET_DEMO_UPDATE(Test2.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PATINET_DEMO_UPDATE -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test2@5918c260]" name="getResult" is-config="true" duration-ms="419" started-at="2019-07-29T07:34:32Z" finished-at="2019-07-29T07:34:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PATINET_DEMO_UPDATE status=FAILURE method=Test2.PATINET_DEMO_UPDATE()[pri:10, instance:QA.Tests.Test2@5918c260] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test2 -->
+      <class name="QA.Tests.Test7">
+        <test-method status="PASS" signature="G99login()[pri:18, instance:QA.Tests.Test7@65b66b08]" name="G99login" duration-ms="8942" started-at="2019-07-29T07:36:19Z" description="G99LoginPage" finished-at="2019-07-29T07:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G99login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test7@65b66b08]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:36:28Z" finished-at="2019-07-29T07:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=G99login status=SUCCESS method=Test7.G99login()[pri:18, instance:QA.Tests.Test7@65b66b08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test7 -->
+      <class name="QA.Tests.Test8">
+        <test-method status="PASS" signature="AddCustomer()[pri:19, instance:QA.Tests.Test8@4726927c]" name="AddCustomer" duration-ms="16883" started-at="2019-07-29T07:36:28Z" description="AddCustomer" finished-at="2019-07-29T07:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test8@4726927c]" name="getResult" is-config="true" duration-ms="0" started-at="2019-07-29T07:36:44Z" finished-at="2019-07-29T07:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCustomer status=SUCCESS method=Test8.AddCustomer()[pri:19, instance:QA.Tests.Test8@4726927c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddCustomer()[pri:19, instance:QA.Tests.Test8@4726927c]" name="AddCustomer" duration-ms="16609" started-at="2019-07-29T07:36:44Z" description="AddCustomer" finished-at="2019-07-29T07:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test8@4726927c]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:37:01Z" finished-at="2019-07-29T07:37:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCustomer status=SUCCESS method=Test8.AddCustomer()[pri:19, instance:QA.Tests.Test8@4726927c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test8 -->
+      <class name="QA.Tests.Test5">
+        <test-method status="PASS" signature="SFDCLogincheck(java.lang.String, java.lang.String)[pri:16, instance:QA.Tests.Test5@1f44ddab]" name="SFDCLogincheck" duration-ms="2904" started-at="2019-07-29T07:35:53Z" description="SFDC LOGIN CHECK with DP" data-provider="LoginProvider" finished-at="2019-07-29T07:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_TEST_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gtl@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SFDCLogincheck -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test5@1f44ddab]" name="getResult" is-config="true" duration-ms="1" started-at="2019-07-29T07:35:55Z" finished-at="2019-07-29T07:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SFDCLogincheck status=SUCCESS method=Test5.SFDCLogincheck(java.lang.String, java.lang.String)[pri:16, instance:QA.Tests.Test5@1f44ddab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test5 -->
+      <class name="QA.Tests.Test6">
+        <test-method status="FAIL" signature="FinalProductCheck()[pri:17, instance:QA.Tests.Test6@5017e1]" name="FinalProductCheck" duration-ms="22582" started-at="2019-07-29T07:35:55Z" description="NavigationToProductATCpage" finished-at="2019-07-29T07:36:18Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='login']"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IPCQ16', ip: '10.0.30.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\hiteshp\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 338c99c4bd9fec9029a80f220f46718f
+*** Element info: {Using=xpath, value=//a[@class='login']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='login']"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IPCQ16', ip: '10.0.30.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\hiteshp\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 338c99c4bd9fec9029a80f220f46718f
+*** Element info: {Using=xpath, value=//a[@class='login']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy32.click(Unknown Source)
+at PageObjects.ApDefaultHomePage.clickOnSingin(ApDefaultHomePage.java:25)
+at PageObjects.Navigation.NavigationToProductATCpage(Navigation.java:26)
+at QA.Tests.Test6.FinalProductCheck(Test6.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalProductCheck -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test6@5017e1]" name="getResult" is-config="true" duration-ms="498" started-at="2019-07-29T07:36:18Z" finished-at="2019-07-29T07:36:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FinalProductCheck status=FAILURE method=Test6.FinalProductCheck()[pri:17, instance:QA.Tests.Test6@5017e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- QA.Tests.Test6 -->
     </test> <!-- Sample Automation Test -->
   </suite> <!-- Suite -->
 </testng-results>
