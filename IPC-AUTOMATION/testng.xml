@@ -5,19 +5,21 @@
 
 		<listener class-name="QA.resources.Listener" />
 		<listener class-name="QA.resources.ExtentReporterNG" />
-		<listener class-name="QA.resources.TestAllureListener"/>
-				
+		<listener class-name="QA.resources.TestAllureListener" />
+
 	</listeners>
 
 	<test name="Sample Automation Test">
 
 		<classes>
-<!-- 			<class name="QA.Tests.Test1" /> -->
-<!-- 			<class name="QA.Tests.Test2" /> -->
-<!--  			<class name="QA.Tests.Test3" />  -->
-<!-- 			<class name="QA.Tests.Test4" />  -->
-				
-				<class name="QA.Tests.Navigation" />
+			<class name="QA.Tests.Test1" />
+			<class name="QA.Tests.Test2" />
+			<class name="QA.Tests.Test3" />
+			<class name="QA.Tests.Test4" />
+			<class name="QA.Tests.Test5" />
+			<class name="QA.Tests.Test6" />
+			<class name="QA.Tests.Test7" />
+			<class name="QA.Tests.Test8" />
 		</classes>
 
 	</test> <!-- Test -->

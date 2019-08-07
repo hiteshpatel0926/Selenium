@@ -2,35 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82890" started-at="2019-07-26T10:11:37Z" finished-at="2019-07-26T10:13:00Z">
+  <suite name="Default suite" duration-ms="80983" started-at="2019-07-30T09:15:11Z" finished-at="2019-07-30T09:16:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82890" started-at="2019-07-26T10:11:37Z" finished-at="2019-07-26T10:13:00Z">
-      <class name="QA.Tests.Test6">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:QA.Tests.Test6@1849db1a]" name="initialize" is-config="true" duration-ms="6088" started-at="2019-07-26T10:11:37Z" finished-at="2019-07-26T10:11:43Z">
+    <test name="Default test" duration-ms="80983" started-at="2019-07-30T09:15:11Z" finished-at="2019-07-30T09:16:32Z">
+      <class name="QA.Tests.Test10">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:QA.Tests.Test10@2cec704c]" name="initialize" is-config="true" duration-ms="22701" started-at="2019-07-30T09:15:11Z" finished-at="2019-07-30T09:15:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="FinalProductCheck()[pri:0, instance:QA.Tests.Test6@1849db1a]" name="FinalProductCheck" duration-ms="75306" started-at="2019-07-26T10:11:43Z" finished-at="2019-07-26T10:12:58Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:QA.Tests.Test10@2cec704c]" name="navigation" is-config="true" duration-ms="13592" started-at="2019-07-30T09:15:34Z" finished-at="2019-07-30T09:15:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FinalProductCheck -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test6@1849db1a]" name="getResult" is-config="true" duration-ms="22" started-at="2019-07-26T10:12:58Z" finished-at="2019-07-26T10:12:58Z">
+        </test-method> <!-- navigation -->
+        <test-method status="PASS" signature="AddCustomer()[pri:20, instance:QA.Tests.Test10@2cec704c]" name="AddCustomer" duration-ms="42569" started-at="2019-07-30T09:15:47Z" description="AddCustomer" finished-at="2019-07-30T09:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:QA.Tests.Test10@2cec704c]" name="getResult" is-config="true" duration-ms="9" started-at="2019-07-30T09:16:30Z" finished-at="2019-07-30T09:16:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=FinalProductCheck status=SUCCESS method=Test6.FinalProductCheck()[pri:0, instance:QA.Tests.Test6@1849db1a] output={null}]]]>
+                <![CDATA[[TestResult name=AddCustomer status=SUCCESS method=Test10.AddCustomer()[pri:20, instance:QA.Tests.Test10@2cec704c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:QA.Tests.Test6@1849db1a]" name="TeardownTest" is-config="true" duration-ms="1224" started-at="2019-07-26T10:12:59Z" finished-at="2019-07-26T10:13:00Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:QA.Tests.Test10@2cec704c]" name="TeardownTest" is-config="true" duration-ms="1605" started-at="2019-07-30T09:16:30Z" finished-at="2019-07-30T09:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
-      </class> <!-- QA.Tests.Test6 -->
+      </class> <!-- QA.Tests.Test10 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

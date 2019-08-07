@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="QA.resources.Listener"/>
+    <listener class-name="QA.resources.ExtentReporterNG"/>
+    <listener class-name="QA.resources.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Sample Automation Test(failed)">
+    <classes>
+      <class name="QA.Tests.Test3">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="GoogleNews_TitleVerify"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test3 -->
+      <class name="QA.Tests.Test6">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="FinalProductCheck"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test6 -->
+      <class name="QA.Tests.Test2">
+        <methods>
+          <include name="PATINET_DEMO_UPDATE"/>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test2 -->
+    </classes>
+  </test> <!-- Sample Automation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

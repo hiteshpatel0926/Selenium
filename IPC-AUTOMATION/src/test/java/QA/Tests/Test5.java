@@ -1,6 +1,5 @@
 package QA.Tests;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -40,9 +39,10 @@ public class Test5 extends TestBase{
 	 		
 	}
 
-	@Test(dataProvider = "LoginProvider")
+	@Test(dataProvider = "LoginProvider",priority = 16, description = "SFDC LOGIN CHECK with DP")
 	public void SFDCLogincheck(String un, String ps) {
 		
+		test=extent.createTest("SFDCLogincheck with TestCase Name");
 		driver.get("https://Login.salesforce.com");
 		LoginSalesforce sfdcloginpage = PageFactory.initElements(driver, LoginSalesforce.class);
 		sfdcloginpage.SFDC(un, ps);

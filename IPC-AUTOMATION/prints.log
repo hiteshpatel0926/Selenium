@@ -1,28 +1,6 @@
-25/07/2019 17:40:17 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:20 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:23 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:25 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:40:27 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:42:52 [main] INFO  QA.Tests.Test1 - URL Success
-25/07/2019 17:42:54 [main] INFO  QA.Tests.Test1 - Signin Button Click Successful
-25/07/2019 17:42:54 [main] INFO  QA.Tests.Test1 - USERNAME Fetch Success
-25/07/2019 17:42:55 [main] INFO  QA.Tests.Test1 - PASSWORD Fetch Success
-25/07/2019 17:42:56 [main] INFO  QA.Tests.Test1 - Login Successful
-25/07/2019 17:42:59 [main] INFO  QA.Tests.Test1 - Clicking on Woman Tab Successful
-25/07/2019 17:43:01 [main] INFO  QA.Tests.Test1 - Clicking on Tops inside Woman Tab Successful
-25/07/2019 17:43:03 [main] INFO  QA.Tests.Test1 - Clicking on Tshirts inside Woman Tab>>Tops Successful
-25/07/2019 17:43:06 [main] INFO  QA.Tests.Test1 - Clicking on Product Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test1 - Product Added to Cart Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test1 - Product verification Successful
-25/07/2019 17:43:16 [main] INFO  QA.Tests.Test2 - EHR PATIENT CREATION SUCCESS
-25/07/2019 17:43:16 [main] ERROR QA.Tests.Test2 - PATIENT DEMOGRAPHIC UPDATE FAILED
-25/07/2019 17:43:18 [main] INFO  QA.Tests.Test3 - Navigation to Google Successful
-25/07/2019 17:43:20 [main] INFO  QA.Tests.Test3 - Google Search Successful
-25/07/2019 17:43:22 [main] INFO  QA.Tests.Test3 - Clicking on 3rd Result from Google Search Successful
-25/07/2019 17:43:22 [main] INFO  QA.Tests.Test3 - Title Verification of 3rd Result from Google Search Successful
-25/07/2019 17:43:28 [main] INFO  QA.Tests.Test3 - Title Verification FAIL
-25/07/2019 17:43:38 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:39 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:43 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:46 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
-25/07/2019 17:43:52 [main] INFO  QA.Tests.Test4 - SFDC LOGIN with INVALID ID/PASS
+29/07/2019 14:55:19 [main] INFO  QA.Tests.Test7 - test case passed....
+30/07/2019 14:45:47 [main] INFO  QA.Tests.Test7 - G99Login test passed
+30/07/2019 14:46:15 [main] INFO  QA.Tests.Test7 - validation started....
+30/07/2019 14:46:15 [main] INFO  QA.Tests.Test7 - test case passed....
+30/07/2019 14:46:30 [main] INFO  QA.Tests.Test7 - validation started....
+30/07/2019 14:46:30 [main] INFO  QA.Tests.Test7 - test case passed....
