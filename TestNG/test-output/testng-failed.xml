@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="QA.resources.Listener"/>
+    <listener class-name="QA.resources.ExtentReporterNG"/>
+    <listener class-name="QA.resources.TestAllureListener"/>
+    <listener class-name="QA.resources.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="QA.Tests.Test1">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="BaseClassMethod1"/>
+          <include name="getResult"/>
+          <include name="Test1MethodBT1"/>
+          <include name="BaseClassMethod3"/>
+          <include name="Test1Method2"/>
+          <include name="Test1Method1"/>
+          <include name="Test1MethodAT1"/>
+        </methods>
+      </class> <!-- QA.Tests.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
