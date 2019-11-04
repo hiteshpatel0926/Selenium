@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -16,6 +18,13 @@ import QA.resources.ConfigPropertyManager;
 public class Test10 extends TestBase {
 
 	public static Logger log = LogManager.getLogger(Test7.class.getName());
+	
+
+	@BeforeClass
+	public void BeforeclassTest10() {
+		System.out.println("This is Before Class Test10");
+		Chromeinitialize();
+	}
 	
 	@BeforeMethod
 	public void navigation()
@@ -93,4 +102,11 @@ public class Test10 extends TestBase {
 		}
 	}
 
+	@AfterClass
+	public void afterclassTest10() {
+		System.out.println("This is After Class Test10");
+		driver.quit();	
+		}
+	
+	
 }

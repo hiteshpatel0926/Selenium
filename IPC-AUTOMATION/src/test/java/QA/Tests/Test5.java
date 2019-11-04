@@ -1,6 +1,8 @@
 package QA.Tests;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -13,6 +15,14 @@ public class Test5 extends TestBase{
 	private String sTestCaseName;
 	private int iTestCaseRow;
 
+	
+	@BeforeClass
+	public void BeforeclassTest1() {
+		System.out.println("This is Before Class Test1");
+		Chromeinitialize();
+	}
+	
+	
 	@DataProvider(name = "LoginProvider")
 	public Object[][] getDataFromDataprovider() throws Exception {
 		
@@ -48,4 +58,10 @@ public class Test5 extends TestBase{
 		sfdcloginpage.SFDC(un, ps);
 
 	}
+	
+	@AfterClass
+	public void afterclassTest5() {
+		System.out.println("This is After Class Test5");
+		driver.quit();	
+		}
 }

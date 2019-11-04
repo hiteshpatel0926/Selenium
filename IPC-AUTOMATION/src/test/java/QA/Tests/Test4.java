@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -19,7 +21,17 @@ import io.qameta.allure.Story;
 
 public class Test4 extends TestBase{
 
+	
+	
 	public static Logger log = LogManager.getLogger(Test4.class.getName());	
+	
+	@BeforeClass
+	public void BeforeclassTest4() {
+		System.out.println("This is Before Class Test4");
+		Chromeinitialize();
+	}
+	
+	
 	@DataProvider(name = "LoginProvider")
 	public Object[][] getDataFromDataprovider() throws Exception {
 		
@@ -42,4 +54,10 @@ public class Test4 extends TestBase{
 		test.pass("SFDC LOGIN with INVALID ID/PASS");
 
 	}
+	
+	@AfterClass
+	public void afterclassTest4() {
+		System.out.println("This is After Class Test4");
+		driver.quit();	
+		}
 }

@@ -8,14 +8,30 @@
   </listeners>
   <test thread-count="5" verbose="0" name="Sample Automation Test(failed)">
     <classes>
-      <class name="QA.Tests.Test3">
+      <class name="QA.Tests.Test8">
         <methods>
           <include name="TeardownTest"/>
           <include name="getResult"/>
-          <include name="GoogleNews_TitleVerify"/>
+          <include name="initialize"/>
+          <include name="AddCustomer"/>
+        </methods>
+      </class> <!-- QA.Tests.Test8 -->
+      <class name="QA.Tests.Test9">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+          <include name="AddCustomer"/>
+        </methods>
+      </class> <!-- QA.Tests.Test9 -->
+      <class name="QA.Tests.Test5">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="SFDCLogincheck" invocation-numbers="0"/>
           <include name="initialize"/>
         </methods>
-      </class> <!-- QA.Tests.Test3 -->
+      </class> <!-- QA.Tests.Test5 -->
       <class name="QA.Tests.Test6">
         <methods>
           <include name="TeardownTest"/>
@@ -24,6 +40,17 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- QA.Tests.Test6 -->
+      <class name="QA.Tests.Test3">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="CLICK_ON_3rdRESULT"/>
+          <include name="getResult"/>
+          <include name="GoogleNews_TitleVerify"/>
+          <include name="RESULT_TITLE_VERIFY"/>
+          <include name="initialize"/>
+          <include name="NAVIGATE_TO_GOOGLE"/>
+        </methods>
+      </class> <!-- QA.Tests.Test3 -->
       <class name="QA.Tests.Test2">
         <methods>
           <include name="PATINET_DEMO_UPDATE"/>
@@ -32,6 +59,36 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- QA.Tests.Test2 -->
+      <class name="QA.Tests.Test1">
+        <methods>
+          <include name="CLICK_ON_PRODUCT"/>
+          <include name="CLICK_ON_WOMAN_TAB"/>
+          <include name="CLICK_ON_WOMAN_TSHIRTS"/>
+          <include name="NAVIGATE_TO_URL_CLICK_SIGN"/>
+          <include name="TeardownTest"/>
+          <include name="CLICK_ON_WOMAN_TAB_TOPS"/>
+          <include name="getResult"/>
+          <include name="PRODUCT_ADD_TO_CART"/>
+          <include name="initialize"/>
+          <include name="ENTER_UNAME_PWRD_LOGIN"/>
+        </methods>
+      </class> <!-- QA.Tests.Test1 -->
+      <class name="QA.Tests.Test7">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+          <include name="G99login"/>
+        </methods>
+      </class> <!-- QA.Tests.Test7 -->
+      <class name="QA.Tests.Test4">
+        <methods>
+          <include name="TeardownTest"/>
+          <include name="SFDCLogincheck" invocation-numbers="0"/>
+          <include name="getResult"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- QA.Tests.Test4 -->
     </classes>
   </test> <!-- Sample Automation Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

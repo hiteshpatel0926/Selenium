@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test name="Default test(failed)">
     <classes>
-      <class name="QA.Tests.Test9">
+      <class name="QA.Tests.Test1">
         <methods>
+          <include name="BeforeclassTest1"/>
+          <include name="CLICK_ON_PRODUCT"/>
+          <include name="CLICK_ON_WOMAN_TAB"/>
+          <include name="CLICK_ON_WOMAN_TSHIRTS"/>
+          <include name="NAVIGATE_TO_URL_CLICK_SIGN"/>
           <include name="TeardownTest"/>
+          <include name="CLICK_ON_WOMAN_TAB_TOPS"/>
+          <include name="afterclassTest1"/>
           <include name="getResult"/>
+          <include name="PRODUCT_ADD_TO_CART"/>
           <include name="initialize"/>
-          <include name="AddCustomer"/>
+          <include name="ENTER_UNAME_PWRD_LOGIN"/>
         </methods>
-      </class> <!-- QA.Tests.Test9 -->
+      </class> <!-- QA.Tests.Test1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

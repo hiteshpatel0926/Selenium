@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import PageObjects.G99AddCustomerPage;
@@ -16,6 +18,12 @@ public class Test9 extends TestBase {
 
 	public static Logger log = LogManager.getLogger(Test7.class.getName());
 
+	@BeforeClass
+	public void BeforeclassTest9() {
+		System.out.println("This is Before Class Test9");
+		Chromeinitialize();
+	}
+	
 	@Test(priority = 20, description = "AddCustomer")
 	public void AddCustomer() throws InterruptedException, IOException {
 
@@ -85,4 +93,11 @@ public class Test9 extends TestBase {
 		}
 	}
 
+	
+	@AfterClass
+	public void afterclassTest9() {
+		System.out.println("This is After Class Test9");
+		driver.quit();	
+		}
+	
 }

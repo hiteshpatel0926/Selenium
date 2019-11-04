@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -40,21 +41,12 @@ public class TestBase {
 	public static final String testDataExcelFileName = "testdata.xlsx";
 	static String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 
-	
 	@BeforeTest
-	public void initialize() throws IOException {
+	public void initialize() throws IOException, InterruptedException {
 
-		if (ConfigPropertyManager.getInstance().getBrowser().equals("Chrome")) {
-			String driverpath = System.getProperty("user.dir") + "\\BrowserDrivers\\chromedriver.exe";
-			System.setProperty("webdriver.chrome.driver", driverpath);
-			driver = new ChromeDriver();
-			// To maximize browser
-			driver.manage().window().maximize();
-			// Implicit wait
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			// To open WebApplication
-			// driver.get("http://automationpractice.com/index.php");
-		}
+		/*
+		 * This is for reporting initialization
+		 */
 
 		htmlReporter = new ExtentHtmlReporter(
 				System.getProperty("user.dir") + "/test-output/MyOwnReport_" + timeStamp + ".html");
@@ -91,16 +83,36 @@ public class TestBase {
 					MarkupHelper.createLabel(result.getName() + " Test Case SKIPPED", ExtentColor.ORANGE));
 			test.skip(result.getThrowable());
 		}
+
 	}
 
 	@AfterTest
-	// Test cleanup
+
 	public void TeardownTest() {
 		extent.flush();
-		TestBase.driver.quit();
+		
 
 	}
 
+	public static void Chromeinitialize() {
+
+		String driverpathChrome = System.getProperty("user.dir") + "\\BrowserDrivers\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", driverpathChrome);
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+
+	public static void IEinitialize() {
+
+		String driverpathIE = System.getProperty("user.dir") + "\\BrowserDrivers\\IEDriverServer.exe";
+		System.setProperty("webdriver.ie.driver", driverpathIE);
+		driver = new InternetExplorerDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	}
+	
+	
 	public static String Screencapture(WebDriver driver, String screenShotName) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
@@ -112,13 +124,12 @@ public class TestBase {
 
 		return dest;
 	}
-	
-	public String randomestring()
-	{
-		String generatedstring=RandomStringUtils.randomAlphabetic(8);
-		return(generatedstring);
+
+	public String randomestring() {
+		String generatedstring = RandomStringUtils.randomAlphabetic(8);
+		return (generatedstring);
 	}
-	
+
 	public static String randomeNum() {
 		String generatedString2 = RandomStringUtils.randomNumeric(4);
 		return (generatedString2);

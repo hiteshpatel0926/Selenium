@@ -6,6 +6,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import PageObjects.ApClickonProduct;
@@ -25,6 +27,12 @@ public class Test1 extends TestBase {
 
 	public static Logger log = LogManager.getLogger(Test1.class.getName());
 
+	@BeforeClass
+	public void BeforeclassTest1() {
+		System.out.println("This is Before Class Test1");
+		Chromeinitialize();
+	}
+	
 	@Test(priority = 1, description = "Navigate to URL")
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Test Case Description: Navigate to URL")
@@ -124,5 +132,11 @@ public class Test1 extends TestBase {
 		test.info("Product verification Successful");
 
 	}
+	
+	@AfterClass
+	public void afterclassTest1() {
+		System.out.println("This is After Class Test1");
+		driver.quit();	
+		}
 
 }

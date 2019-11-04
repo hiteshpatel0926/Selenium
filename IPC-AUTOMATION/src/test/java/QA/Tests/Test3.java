@@ -6,6 +6,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import PageObjects.*;
 import io.qameta.allure.Description;
@@ -17,6 +19,12 @@ public class Test3 extends TestBase {
 
 	
 	public static Logger log = LogManager.getLogger(Test3.class.getName());
+	
+	@BeforeClass
+	public void BeforeclassTest3() {
+		System.out.println("This is Before Class Test3");
+		Chromeinitialize();
+	}
 
 	@Test(priority = 11, description = "Google Search")
 	@Severity(SeverityLevel.NORMAL)
@@ -77,4 +85,10 @@ public class Test3 extends TestBase {
 		}
 		
 	}
+	
+	@AfterClass
+	public void afterclassTest3() {
+		System.out.println("This is After Class Test3");
+		driver.quit();	
+		}
 }

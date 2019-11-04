@@ -3,6 +3,8 @@ package QA.Tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -17,6 +19,12 @@ import io.qameta.allure.Story;
 public class Test2 extends TestBase{
 	
 	public static Logger log = LogManager.getLogger(Test2.class.getName());	
+	
+	@BeforeClass
+	public void BeforeclassTest2() {
+		System.out.println("This is Before Class Test2");
+		Chromeinitialize();
+	}
 	
 	@Test(priority = 9, description = "PATIENT DEMOGRAPHIC")
 	@Severity(SeverityLevel.CRITICAL)
@@ -40,9 +48,13 @@ public class Test2 extends TestBase{
 		test.fail("PATIENT DEMOGRAPHIC UPDATE FAILED");
 		driver.get("https://www.google.com");
 		Assert.assertTrue(false);
-		
-		
 	}
+	
+	@AfterClass
+	public void afterclassTest2() {
+		System.out.println("This is After Class Test2");
+		driver.quit();	
+		}
 
 
 }

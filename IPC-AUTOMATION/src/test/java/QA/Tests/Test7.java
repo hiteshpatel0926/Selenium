@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import PageObjects.G99HomePage;
@@ -13,6 +15,14 @@ import QA.resources.ConfigPropertyManager;
 
 public class Test7 extends TestBase{
 	public static Logger log = LogManager.getLogger(Test7.class.getName());
+	
+	@BeforeClass
+	public void BeforeclassTest7() {
+		System.out.println("This is Before Class Test7");
+		Chromeinitialize();
+	}
+	
+	
 	
 	@Test(priority = 18, description = "G99LoginPage")
 	public void G99login() {
@@ -45,5 +55,12 @@ public class Test7 extends TestBase{
 			test.pass("G99ClickonAddCustomer test passed");
 			
 	}
+	
+	@AfterClass
+	public void afterclassTest7() {
+		System.out.println("This is After Class Test7");
+		driver.quit();	
+		}
+	
 	
 }
