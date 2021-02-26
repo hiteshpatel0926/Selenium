@@ -18,7 +18,7 @@ public class ReverseString {
 		String R=makereverse(S,len);
 		
 		
-		String input = "Hello World...You are the BEST"; 
+		String input = "SSSS"; 
 		  
         StringBuilder input1 = new StringBuilder(); 
   
