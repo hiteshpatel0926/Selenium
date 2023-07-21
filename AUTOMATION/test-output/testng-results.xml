@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-26T06:26:30 GMT-04:00" name="Default suite" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="387">
+  <suite started-at="2023-07-21T05:55:23 GMT-04:00" name="Suite" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="404">
     <groups>
     </groups>
-    <test started-at="2023-06-26T06:26:30 GMT-04:00" name="Default test" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="387">
+    <test started-at="2023-07-21T05:55:23 GMT-04:00" name="Test" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="404">
       <class name="SQA.AUTOMATION.ExtentReport">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="startReport" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:23 GMT-04:00" name="startReport" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="demoReportFail()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="demoReportFail" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="16" status="FAIL">
+        <test-method signature="demoReportFail()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:24 GMT-04:00" name="demoReportFail" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="12" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoReportFail -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="getResult" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:24 GMT-04:00" name="getResult" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,11 +66,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="demoReportPass()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="demoReportPass" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="1" status="PASS">
+        <test-method signature="demoReportPass()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:24 GMT-04:00" name="demoReportPass" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoReportPass -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="getResult" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:24 GMT-04:00" name="getResult" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endreport()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-06-26T06:26:30 GMT-04:00" name="endreport" finished-at="2023-06-26T06:26:30 GMT-04:00" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="endreport()[pri:0, instance:SQA.AUTOMATION.ExtentReport@477b4cdf]" started-at="2023-07-21T05:55:24 GMT-04:00" name="endreport" finished-at="2023-07-21T05:55:24 GMT-04:00" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endreport -->
       </class> <!-- SQA.AUTOMATION.ExtentReport -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
