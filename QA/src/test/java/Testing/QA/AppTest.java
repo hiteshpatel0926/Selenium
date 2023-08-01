@@ -1,8 +1,10 @@
 package Testing.QA;
 
 import static org.junit.Assert.assertTrue;
+
+import org.testng.annotations.Test;
+
 import static org.junit.Assert.assertFalse;
-import org.junit.Test;
 
 /**
  * Unit test for simple App.
