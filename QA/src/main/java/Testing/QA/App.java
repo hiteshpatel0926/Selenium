@@ -15,7 +15,7 @@ public class App
         int A=10;
         String B ="HITESH";
         float C = (float) 1.2;
-        double D = 9.9999;
+        double D = 7.777;
         boolean E = true;
         
         System.out.println(A+B+C+D+E);
