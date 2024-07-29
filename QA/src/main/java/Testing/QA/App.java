@@ -21,6 +21,18 @@ public class App
         System.out.println(A+B+C+D+E);
         
         
+        int[] array1 = new int[5];
+        
+        int[] array2 = {1,2,3,4,5};
+        
+        for(int i =0;i<array2.length;i++)
+        {
+        	System.out.println(array2[i]);
+        }
+        
+        
+        
+        
         WebDriver driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
